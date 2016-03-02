@@ -5,122 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic' rel='stylesheet' type='text/css'>
-    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 	<title>Zac Heisey | Front End Developer in Baltimore, MD</title>
 </head>
 
 <body>
-  <!-- Intro Section -->
-  <a name="about"></a> <!-- Anchor Link -->
-  <div class="intro-section">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-4">
-    		  <h1>Zac Heisey</h1>
-    		  <h3>Front End Developer</h3>
-        </div>
-        <div class="col-md-8 navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+  <!-- Background Section (Wraps Intro, Buttons, and Content sections)-->
+  <div class="background-section">
+    <!-- Intro Section -->
+    <div class="intro-section">
+      <h1>I'm Zac.</h1>
+      <h2>I like to build<br>
+          things for<br>
+          the web.</h2>
+    </div>
+
+    <!-- Buttons Section -->
+    <div class="buttons">
+      <div class="container">
+        <a class="btn btn-default" id="btn-about" href="#" role="button">About Me</a><br>
+        <a class="btn btn-default" id="btn-contact" href="#" role="button">Get In Touch</a>
       </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="initial-content">
+      <h2><span class="slash">//</span> Zac Heisey</h2>
+      <h2><span class="slash">//</span> Front End Developer</h2>
+      <h2><span class="slash">//</span> Baltimore, MD</h2>
+    </div>
+    <div class="about-me">
+      <p>I'm an aspiring front end developer living in Baltimore, MD. I appreciate clean code, good coffee, and craft beer. I'm also passionate about information architecture and UI/UX design.</p>
+      <p>Feel free to check out my work or view my resume below. Thanks!</p>
+      <a class="btn btn-default" id="btn-portfolio" href="/portfolio.html" role="button">My Work</a>
+      <a class="btn btn-default" id="btn-resume" href="/resume.pdf" role="button">My Resume</a>
+    </div>
+    <div class="get-in-touch">
+      <p>There are a few ways you can contact me. Email is usually best, but I'm also pretty active on the social platforms listed below. I look forward to hearing from you soon!</p>
+      <a href="mailto:zheisey@gmail.com" target="_blank"><i class="fa fa-envelope fa-4x" style="color:#6DBDB6;margin-right:10px"></i></a>
+      <a href="https://twitter.com/zac_heisey" target="_blank"><i class="fa fa-twitter-square fa-4x" style="color:#6DBDB6;margin-right:10px"></i></a>
+      <a href="https://github.com/zac-heisey" target="_blank"><i class="fa fa-github-square fa-4x" style="color:#6DBDB6;margin-right:10px"></i></a>
+      <a href="https://www.linkedin.com/in/zacheisey" target="_blank"><i class="fa fa-linkedin-square fa-4x" style="color:#6DBDB6"></i></a>
     </div>
   </div>
 
-	<!-- Main Section -->
-	<div class="main-section">
+	<!-- Footer Section -->
+	<div class="footer-section">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<img class="img-responsive" src="/images/zac_heisey_cartoon_200x200.png" height="200" height="200" />
-				</div>
-				<div class="col-md-6">
-					<p>Hi! I'm Zac.</p>
-					<p>I'm an aspiring front end developer living in Baltimore, MD. I appreciate clean code, good coffee, and craft beer. Prior to focusing on front end development, I worked for 8+ years as a digital marketing specialist at multiple agencies.</p>
-					<p>I have solid HTML & CSS skills, a working knowledge of JavaScript & jQuery, and in-depth
-          experience using Bootstrap framework. I'm also passionate about information architecture
-          and UI/UX design. I'm dedicated to improving my client-side coding skills, building my portfolio, and becoming a valuable asset to a cutting-edge creative agency.</p>
-				</div>
-				<div class="col-md-3">
-					<img class="code-icons img-responsive" src="/images/html-css-js.png" width="200" height="117" />
-				</div>
-			</div>
-		<a name="projects"></a> <!-- Anchor Link -->
-		<div class="projects">
-			<h1>My Projects</h1>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="hovereffect">
-        	   <img class="img-responsive" src="/images/marketlean.png" alt="marketlean">
-              <div class="overlay">
-                <h2>MarketLean</h2>
-                  <p>Custom WordPress Template | Bootstrap Framework</li>
-                  <p><a href="http://www.marketlean.co" target="_blank">MarketLean.co</a></p>
-            	</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-  				<div class="hovereffect">
-            <img class="img-responsive" src="/images/lotsofprettypictures.png" alt="lots of pretty pictures">
-              <div class="overlay">
-                <h2>Lots of Pretty Pictures</h2>
-                  <p>Custom WordPress Template | Bootstrap Framework</p>
-  								<p><a href="http://www.lotsofprettypictures.com" target="_blank">LotsOfPrettyPictures.com</a></p>
-              </div>
-  				</div>
-  			</div>
-			</div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="hovereffect">
-            <img class="img-responsive" src="/images/rise_physical_therapy.png" alt="rise physical therapy">
-              <div class="overlay">
-                <h2>RISE Physical Therapy</h2>
-                  <p>Existing WordPress Template Edits</p>
-                  <p><a href="http://www.risephysicaltherapy.com" target="_blank">RisePhysicalTherapy.com</a></p>
-              </div>
-          </div>
-        </div>
-      </div>
-		</div>
-
+			<p>© Zac Heisey 2016 | <a href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a></p>
 		</div>
 	</div>
 
-	<!-- Contact Section -->
-	<a name="contact"></a> <!-- Anchor Link -->
-	  <div class="contact-section">
-      	<div class="container">
-        	<div class="row">
-         		<div class="col-md-6">
-        			<h1>Contact Me</h1>
-          			<p>123 Smith Street</p>
-          			<p>City, State Zip Code</p>
-          			<p>(123) 456-7890</p>
-          			<a href="https://www.twitter.com/zac_heisey"><img class="social-icon" src="/images/twitter_icon.png" /></a>
-          			<a href="https://www.linkedin.com/in/zacheisey"><img class="social-icon" src="/images/linkedin_icon.png" /></a>
-          			<a href="mailto:zheisey@gmail.com"><img class="social-icon" src="/images/email_icon.png" /></a>
-          		</div>
-         	</div>
-       </div>
-    </div>
-
-	<!-- Footer Section -->
-		<div class="footer-section">
-			<div class="container">
-			<p>© Zac Heisey 2015</p>
-			</div>
-		</div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
-
 </html>
