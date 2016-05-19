@@ -92,7 +92,7 @@ body, h3 {
   margin-left: 5%;
 }
 
-#btn-portfolio,
+#btn-certs,
 #btn-resume {
   margin-left: 0;
   margin-right: 5px;
@@ -129,7 +129,7 @@ body, h3 {
 @media only screen and (min-width: 600px) {
 
   .intro-section {
-	   width: 265px;
+	   width: 275px;
   }
 
   .intro-section h1 {
@@ -148,6 +148,10 @@ body, h3 {
 
   .btn-default {
     margin-left: 80%;
+  }
+
+  #btn-certs {
+    margin-left: 0;
   }
 
 } /* End 768px Media Queries */

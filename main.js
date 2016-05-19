@@ -1,7 +1,7 @@
-// Toggle > Initial Content & About Me
 $('.about-me').hide();
 $('.get-in-touch').hide();
 
+// Toggle > Initial Content & About Me
 $('#btn-about').click(function() {
   $('.initial-content, .about-me').toggle("slide", {direction: "right"}, 800);
 });
