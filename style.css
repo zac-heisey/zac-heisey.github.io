@@ -92,7 +92,7 @@ body, h3 {
   margin-left: 5%;
 }
 
-#btn-certs,
+#btn-portfolio,
 #btn-resume {
   margin-left: 0;
   margin-right: 5px;
@@ -150,7 +150,7 @@ body, h3 {
     margin-left: 80%;
   }
 
-  #btn-certs {
+  #btn-portfolio {
     margin-left: 0;
   }
 
