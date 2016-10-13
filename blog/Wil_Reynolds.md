@@ -6,7 +6,7 @@ Those initial months on the job were a whirlwind. I had to learn the foundations
 
 During that time, my SEO education relied heavily on articles, tutorials, and resources created by industry gurus - folks like Wil, Rand Fishkin, Larry Kim, Neil Patel, Ginny Marvin, Danny Sullivan, and many others.
 
-Aside from all of the amazing strategies and tactics I’ve learned from these people over the years, there is one core philosophy that’s always resonated with me. It’s Wil Reynolds’ **Real Company Shit (RCS)**, and it changed the way I approached my job as a digital marketer. If you aren’t familiar with Will, or the idea of RCS, it basically boils down to doing things that add _real_ value to a company and help move an organization forward. It means making moves that will benefit a company long term, rather than taking shortcuts and implementing flashy strategies that may yield quick, but ultimately temporary, results.
+Aside from all of the amazing strategies and tactics I’ve learned from these people over the years, there is one core philosophy that’s always resonated with me. It’s Wil Reynolds’ **Real Company Shit (RCS)**, and it changed the way I approached my job as a digital marketer. If you aren’t familiar with the idea of RCS, it basically boils down to doing things that add _real_ value to a company and help move an organization forward. It means focusing on ideas that will benefit a company long term, rather than taking shortcuts and implementing flashy strategies that may yield quick, but ultimately temporary, results.
 
 Wil gives a great breakdown of RCS [here](http://www.seerinteractive.com/services/seo/rcs/).
 
