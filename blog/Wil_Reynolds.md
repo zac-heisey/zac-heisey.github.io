@@ -1,37 +1,35 @@
-# Working by the 'Real Company Sh*t' Principle
-
-I've been a fan of Wil Reynolds since my first days as an intern at a newly formed SEO agency. It was 2007, I was fresh out of college, and I had no ideas what "search engine marketing" was. All I knew was that it sounded technical and important when I told my friends and family what I did.
-
-Those initial months on the job were a whirlwind. I had to learn the foundations of a new and constantly evolving industry on the fly, while simultaneously trying to convince clients that I knew what I was talking about. It was rough, but I learned a ton.
-
-During that time, my SEO education relied heavily on articles, tutorials, and resources created by industry gurus - folks like Wil, Rand Fishkin, Larry Kim, Neil Patel, Ginny Marvin, Danny Sullivan, and many others.
-
-Aside from all of the amazing strategies and tactics I’ve learned from these people over the years, there is one core philosophy that’s always resonated with me. It’s Wil Reynolds’ **Real Company Shit (RCS)**, and it changed the way I approached my job as a digital marketer. If you aren’t familiar with the idea of RCS, it basically boils down to doing things that add _real_ value to a company and help move an organization forward. It means focusing on ideas that will benefit a company long term, rather than taking shortcuts and implementing flashy strategies that may yield quick, but ultimately temporary, results.
-
-Wil gives a great breakdown of RCS [here](http://www.seerinteractive.com/services/seo/rcs/).
-
-Perhaps the biggest takeaway for me comes around the 1:40 mark. Wil asks, “Why try to trick Google with what works today, if our clients are trusting us with their brands to build them for the long haul?” Folks who’ve been in the digital marketing industry for awhile - especially those focused on SEO - know what a struggle it’s been to legitimize our work. Fly-by-nighters who specialize in [“black hat”](http://www.wordstream.com/black-hat-seo) techniques in order to get quick wins by gaming the search engines have done a huge disservice to our industry. They've devalued the long term work that _real_ digital marketers are trying to do for their clients, stripping it down to nothing more than link buys, low-quality blogging, and spammy outreach tactics.
-
-Of course, talking about doing RCS and actually convincing a client or your boss that it's worth investing is are two different things. It can be tough to get buy-in for RCS, especially if the decision maker doesn't understand the value in having the digital marketing team lead those types of initiatives. That's why education is so critical to getting RCS done. Not only is there still _tons_ of dated or straight-up false information around SEO out there that needs to be quashed, but we also need to redefine how success is measured when it comes to digital marketing as a whole.
-
-For, that means a fundamental shift in the things I chose to focus on day-to-day in my work. It means defining what RCS is and what it isn't.
-
-RCS isn't keyword rankings. It isn't PageRank. It isn't backlink profiles or follower counts or anchor text ratios.
-
------------
-
 # It's 2016: Are We Doing Real Company Sh*t Yet?
 
 Hopefully by now, every SEO and digital marketing professional has seen Wil Reynolds' MozCon 2012 presentation on '**Real Company Shit (RCS)**' (If not, I've included it below. Stop reading and watch it. All of it.). Roughly 4 years later, I still find myself wondering if our industry has matured enough to finally accept the RCS principles that Wil talks about. Based on my own experience, I'd say we're about half way there.
 
-Embed MozCon presentation here: https://www.youtube.com/watch?v=Q-Y8xe4e9KY
+[EMBED MOZCON PREZ HERE] https://www.youtube.com/watch?v=Q-Y8xe4e9KY
 
 When I got into digital marketing in 2007, SEO as an established practice was still relatively young. As a result, it was pretty much open season in terms of things you could do to get a site to rank well. We built private blog networks. We stuffed keywords in alt tags. We wrote white text on white backgrounds. We bought links from places like [Digital Point](https://www.digitalpoint.com/). We paid pennies on the dollar for poorly written content and thousands of fake social followers - all in the name of improving our search engine rankings as quickly as possible. While it worked pretty well back then (and sometimes still works today), all of this stuff (according to Wil) is '**fake company shit (FCS)**.'
 
-So where are we today? On one hand, I do think we're making strides towards RCS as _the_ way to do digital marketing. Thanks to a multitude of [algorithm updates](https://moz.com/google-algorithm-change) rolled out by Google over the last few years, there's been a shift towards creating quality content that's actually written for people - not search search engines. In fact, content creation (and content marketing) has become essential to an effective digital marketing strategy. More encouraging than that, the metrics we're using to determine success are skewing heavily towards lead quality, sales, conversion rates, and website traffic (i.e. RCS), rather than rankings and links (i.e. FCS).
+So where are we today? On one hand, I do think we're making strides towards RCS as _the_ way to do digital marketing. Thanks to a multitude of [algorithm updates](https://moz.com/google-algorithm-change) rolled out by Google over the last few years, there's been a shift towards creating quality content that's actually written for _people_ - not search search engines. In fact, content creation (and content marketing) has become essential to an effective digital marketing strategy. More encouraging than that, the metrics we're using to determine success are [skewing heavily](http://contentmarketinginstitute.com/wp-content/uploads/2015/09/2016_B2B_Report_Final.pdf) towards lead quality, sales, conversion rates, and website traffic (i.e. RCS), rather than PageRank and link juice (i.e. FCS).
 
-Insert CMI screenshot here (link to http://contentmarketinginstitute.com/wp-content/uploads/2015/09/2016_B2B_Report_Final.pdf)
+[WTF IS JUICE IMAGE HERE]
 
-Companies like XXX(link) and XXX(link) are implementing innovative online strategies that get their brands noticed, while also earning them a bunch of organic links and social media followers [NEED TO INCLUDE A FEW EXAMPLES/CASE STUDIES HERE].
+Companies like [Dove](http://www.best-marketing.eu/dove-ad-makeover-case-study/), [Redbull](http://linkhumans.com/case-study/red-bull), and [Patagonia](http://digiday.com/brands/inside-patagonias-content-machine/) are using RCS to build their brands online, and it's earning them a ton of traffic, links, social followers, and ultimately, more business. They're engaging their customer base by producing top-notch content that people naturally want to link to and share. You think the marketing teams for these brands are mulling over PageRank and backlink profiles? Nah, don't think so.
 
-On the other hand...DP still selling links, spun articles are still a thing, you can still buy 1,000 twitter followers for $20, etc. etc. Even legit companies are giving sketchy advice rooted in FCS > reference article: https://www.singlegrain.com/blog-posts/search-engine-optimization/rank-using-black-hat-seo-tactics-white-hat-way/
+On the other hand, however, we still have this type of crap happening:
+
+[COMMENTS SCREENSHOT HERE]
+
+This is a portion of the comments from a blog post written earlier this year that talked about scalable link building tactics. Really guys!? PBNs? Buying links from some dude in the Philippines? The biggest issue is that the post was written by pretty well-known SEO, and featured on his company's blog - a company that sells SEO tools!
+
+[COME ON MAN GIF HERE]
+
+On top of that, you can still [buy links on Digital Point](https://www.digitalpoint.com/search/30787838/?q=links+for+sale&o=date), [article spinning](http://www.superspunarticle.com/) is still a thing, you can still get [1,000 twitter followers for $5](http://fastfollowme.com/buy-twitter-followers-40).
+
+How can we fix this? How can we convince our clients and our bosses that investing in RCS is the way to go, especially when there are still "experts" out there giving shitty advice and still getting results (that last part's on you, Google)? I think it comes down to two things:
+
+## 1) Doing a Better Job of Educating Decision Makers
+This part can be really difficult. Mr. Client or Ms. CEO see their competitors doing spammy stuff and getting rankings, links, etc., yet you're over here telling them they have to do it the hard way. Trust me, I feel your pain. But the more we can educate folks about the value of doing RCS - and more importantly - why digital marketers should be leading those types of initiatives, the better off our industry as a whole is going to be.
+
+## 2) Doing a Better Job of Communicating the Value of Our Work
+Digital marketers and SEOs, whatever you do, please - FOR THE LOVE OF GOD - stop telling decisions makers about search volume and PageRank and Quality Scores and Klout Scores and all that other bullshit they don't care about. Instead, try talking to them about revenue, brand awareness, and publicity. I mean, these are the things we're _supposed_ to be affecting through all of our hard work, right?
+
+I'll leave you with this short video of Wil giving us a nice overview of what RCS means in the context of his own company, [SEER Interactive](http://www.seerinteractive.com/).
+
+[RCS SEER VIDEO HERE] https://www.youtube.com/watch?v=u2Z8w8bATy8
