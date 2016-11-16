@@ -96,6 +96,7 @@ body, h3 {
   margin-left: 5%;
 }
 
+#btn-cerifications,
 #btn-resume {
   margin-left: 0;
   margin-right: 5px;
@@ -151,6 +152,10 @@ body, h3 {
 
   .btn-default {
     margin-left: 80%;
+  }
+
+  #btn-cerifications {
+    margin-left: 0;
   }
 
 } /* End 768px Media Queries */
