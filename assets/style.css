@@ -26,7 +26,7 @@ body, h3 {
 
 .background-section {
   height: 100vh;
-  background: url('assets/images/zac_b&w_cover_img.jpg') no-repeat fixed;
+  background: url('/assets/images/zac_b&w_cover_img.jpg') no-repeat fixed;
   background-size: contain;
 }
 
