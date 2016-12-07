@@ -96,9 +96,10 @@
   text-shadow: 2px 2px $main-color;
 }
 
-.about-me,
 .initial-content,
-.get-in-touch {
+.about-me,
+.get-in-touch,
+.certifications {
   position: fixed;
   color: $body-font-color;
   float: right;
@@ -117,7 +118,21 @@
 }
 
 #btn-certifications,
-#btn-resume {
+#btn-resume,
+#btn-visit {
   margin-left: 0;
   margin-right: 5px;
+}
+
+/* Get In Touch Icons */
+
+.fa {
+  color: $main-color;
+  margin-bottom: 10px;
+}
+
+.fa-envelope,
+.fa-twitter-square,
+.fa-medium {
+  margin-right: 10px;
 }
