@@ -1,0 +1,27 @@
+// Footer Styles
+
+/* Main Footer Section */
+
+.footer-section {
+  position: fixed;
+  bottom: 0;
+	height: auto;
+  width: 100%;
+	background-color: $main-background-color;
+	background-size: cover;
+	color: #fff;
+}
+
+.footer-section p {
+	margin-top: 10px;
+}
+
+.footer-section a {
+  color: $grey-color;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+  text-decoration: none;
+}

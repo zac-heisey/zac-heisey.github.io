@@ -1,5 +1,10 @@
-# It's 2016: Are We Doing Real Company Sh*t Yet?
-
+---
+layout: post
+title:  "It's 2016: Are We Doing Real Company Sh*t Yet?"
+date:   2016-10-17 21:25:22 -0400
+categories: blog
+permalink: /:categories/:title/
+---
 Hopefully by now, every SEO and digital marketing professional has seen Wil Reynolds' MozCon 2012 presentation on '**Real Company Shit (RCS)**' (If not, I've included it below. Stop reading and watch it. All of it.). Roughly 4 years later, I still find myself wondering if our industry has matured enough to finally accept the RCS principles that Wil talks about. Based on my own experience, I'd say we're about half way there.
 
 [EMBED MOZCON PREZ HERE] https://www.youtube.com/watch?v=Q-Y8xe4e9KY

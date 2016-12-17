@@ -1,0 +1,19 @@
+// Base Styles
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+// Base Font Styles
+
+h1, h2 {
+  font-family: $heading-font-family;
+  color: $heading-font-color;
+  margin-top: 10px;
+  text-shadow: 2px 2px $grey-color;
+}
+
+body, h3 {
+  font-family: $body-font-family;
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zac Heisey | Nonprofit PPC Marketing</title>
+    <description>I'm a PPC &amp; Paid Search Specialist living in Baltimore, MD. I help nonprofits build &amp; optimize paid advertising campaigns on AdWords using Google Ad Grants.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Dec 2016 15:03:14 -0500</pubDate>
+    <lastBuildDate>Sat, 17 Dec 2016 15:03:14 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>The Dimensions Tab: AdWords' Hidden Treasure</title>
+        <description>&lt;p&gt;There are dozens of places in your AdWords account from which you can pull meaningful, actionable insights. The options available for you to slice and dice your paid search data are numerous - so much so that it can be difficult to know where to look first.&lt;/p&gt;
+
+&lt;p&gt;One of the first places I look when I take over a new AdWords account, or I’m trying to optimize a campaign for an existing client, is the &lt;strong&gt;Dimensions tab&lt;/strong&gt;. This section of your AdWords account can provide some crazy useful information about your PPC performance that you can’t really access in other parts of your account.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF DIMENSIONS TAB HERE]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Below I’ll walk you through some of the different types of data (aka “Views”) you can access in the Dimensions tab, why it’s awesome, and how you can use this information to increase your PPC performance and reach your marketing goals.&lt;/p&gt;
+
+&lt;h2 id=&quot;time&quot;&gt;Time&lt;/h2&gt;
+&lt;p&gt;The Time view is perfect if you’re trying to learn exactly when people are (and are not) engaging with your ads. The Time view actually consists of several “sub-views,” which show performance based on the date, day of the week, quarter, or even down to the hour of the day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF TIME VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My go-to view here is &lt;em&gt;Day of the Week&lt;/em&gt;, as it gives me a starting point to understand user behavior based on time (which I can then explore deeper in the &lt;em&gt;Hour of Day&lt;/em&gt; view.)&lt;/p&gt;
+
+&lt;p&gt;It also helps me pinpoint on which days I should increase/decrease bids and budgets and which I should pause altogether.&lt;/p&gt;
+
+&lt;h2 id=&quot;urls&quot;&gt;URLs&lt;/h2&gt;
+&lt;p&gt;You’ll notice there are two URL-related view options under the Dimensions tab: &lt;em&gt;Destination URL&lt;/em&gt; and &lt;em&gt;Final URL&lt;/em&gt;. Both of these views give you the same information: which of your landing page URLs are is performing best in terms of clicks, impressions, CTR, conversions, etc.&lt;/p&gt;
+
+&lt;p&gt;It’s a good idea to cross-reference this data with on-page stats for these pages in your Google Analytics account, paying close attention to bounce rate, pages per session, average session duration, etc.&lt;/p&gt;
+
+&lt;p&gt;The reason there are two views providing basically the same data is that Google has been working to replace Destination URLs with Final URLs as part of an &lt;a href=&quot;https://support.google.com/adwords/answer/6049217?hl=en&amp;amp;authuser=0&quot;&gt;upgrade process&lt;/a&gt; intended to make ad creation and tracking updated much easier for AdWords users.&lt;/p&gt;
+
+&lt;p&gt;Moving forward, you’ll see less and less data in the &lt;em&gt;Destination URL&lt;/em&gt; view as Google works to phase it out, so stick with the &lt;em&gt;Final URL&lt;/em&gt; view for review and reporting.&lt;/p&gt;
+
+&lt;h2 id=&quot;keywords&quot;&gt;Keywords&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Search terms&lt;/li&gt;
+  &lt;li&gt;Paid &amp;amp; Organic &amp;gt; https://support.google.com/adwords/answer/3097241?hl=en&amp;amp;authuser=0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;geographic-info&quot;&gt;Geographic Info&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Geographic &amp;gt; https://www.en.advertisercommunity.com/t5/AdWords-Tracking-and-Reporting/quot-Geographic-quot-vs-quot-User-Locations-quot/td-p/117924#&lt;/li&gt;
+  &lt;li&gt;User Location&lt;/li&gt;
+  &lt;li&gt;Distance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;high-level-info&quot;&gt;High-level Info&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Campaign / Ad Group details&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;call-details&quot;&gt;Call Details&lt;/h2&gt;
+&lt;p&gt;asfddfdsfsd sdfdsfsdf sdfsdfsdfsd.&lt;/p&gt;
+
+&lt;p&gt;The Dimensions tab sections outlined above are the ones that I find myself using most often. There are some additional sections in the tab (Labels, Top Movers, Free Clicks, etc.) that I don’t use very much, but still might have value depending on your marketing goals and AdWords account setup.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Dec 2016 07:38:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/adwords-dimensions-tab-insights/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/adwords-dimensions-tab-insights/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>It's 2016: Are We Doing Real Company Sh*t Yet?</title>
+        <description>&lt;p&gt;Hopefully by now, every SEO and digital marketing professional has seen Wil Reynolds’ MozCon 2012 presentation on ‘&lt;strong&gt;Real Company Shit (RCS)&lt;/strong&gt;’ (If not, I’ve included it below. Stop reading and watch it. All of it.). Roughly 4 years later, I still find myself wondering if our industry has matured enough to finally accept the RCS principles that Wil talks about. Based on my own experience, I’d say we’re about half way there.&lt;/p&gt;
+
+&lt;p&gt;[EMBED MOZCON PREZ HERE] https://www.youtube.com/watch?v=Q-Y8xe4e9KY&lt;/p&gt;
+
+&lt;p&gt;When I got into digital marketing in 2007, SEO as an established practice was still relatively young. As a result, it was pretty much open season in terms of things you could do to get a site to rank well. We built private blog networks. We stuffed keywords in alt tags. We wrote white text on white backgrounds. We bought links from places like &lt;a href=&quot;https://www.digitalpoint.com/&quot;&gt;Digital Point&lt;/a&gt;. We paid pennies on the dollar for poorly written content and thousands of fake social followers - all in the name of improving our search engine rankings as quickly as possible. While it worked pretty well back then (and sometimes still works today), all of this stuff (according to Wil) is ‘&lt;strong&gt;fake company shit (FCS)&lt;/strong&gt;.’&lt;/p&gt;
+
+&lt;p&gt;So where are we today? On one hand, I do think we’re making strides towards RCS as &lt;em&gt;the&lt;/em&gt; way to do digital marketing. Thanks to a multitude of &lt;a href=&quot;https://moz.com/google-algorithm-change&quot;&gt;algorithm updates&lt;/a&gt; rolled out by Google over the last few years, there’s been a shift towards creating quality content that’s actually written for &lt;em&gt;people&lt;/em&gt; - not search search engines. In fact, content creation (and content marketing) has become essential to an effective digital marketing strategy. More encouraging than that, the metrics we’re using to determine success are &lt;a href=&quot;http://contentmarketinginstitute.com/wp-content/uploads/2015/09/2016_B2B_Report_Final.pdf&quot;&gt;skewing heavily&lt;/a&gt; towards lead quality, sales, conversion rates, and website traffic (i.e. RCS), rather than PageRank and link juice (i.e. FCS).&lt;/p&gt;
+
+&lt;p&gt;[WTF IS JUICE IMAGE HERE]&lt;/p&gt;
+
+&lt;p&gt;Companies like &lt;a href=&quot;http://www.best-marketing.eu/dove-ad-makeover-case-study/&quot;&gt;Dove&lt;/a&gt;, &lt;a href=&quot;http://linkhumans.com/case-study/red-bull&quot;&gt;Redbull&lt;/a&gt;, and &lt;a href=&quot;http://digiday.com/brands/inside-patagonias-content-machine/&quot;&gt;Patagonia&lt;/a&gt; are using RCS to build their brands online, and it’s earning them a ton of traffic, links, social followers, and ultimately, more business. They’re engaging their customer base by producing top-notch content that people naturally want to link to and share. You think the marketing teams for these brands are mulling over PageRank and backlink profiles? Nah, don’t think so.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, however, we still have this type of crap happening:&lt;/p&gt;
+
+&lt;p&gt;[COMMENTS SCREENSHOT HERE]&lt;/p&gt;
+
+&lt;p&gt;This is a portion of the comments from a blog post written earlier this year that talked about scalable link building tactics. Really guys!? PBNs? Buying links from some dude in the Philippines? The biggest issue is that the post was written by pretty well-known SEO, and featured on his company’s blog - a company that sells SEO tools!&lt;/p&gt;
+
+&lt;p&gt;[COME ON MAN GIF HERE]&lt;/p&gt;
+
+&lt;p&gt;On top of that, you can still &lt;a href=&quot;https://www.digitalpoint.com/search/30787838/?q=links+for+sale&amp;amp;o=date&quot;&gt;buy links on Digital Point&lt;/a&gt;, &lt;a href=&quot;http://www.superspunarticle.com/&quot;&gt;article spinning&lt;/a&gt; is still a thing, you can still get &lt;a href=&quot;http://fastfollowme.com/buy-twitter-followers-40&quot;&gt;1,000 twitter followers for $5&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;How can we fix this? How can we convince our clients and our bosses that investing in RCS is the way to go, especially when there are still “experts” out there giving shitty advice and still getting results (that last part’s on you, Google)? I think it comes down to two things:&lt;/p&gt;
+
+&lt;h2 id=&quot;doing-a-better-job-of-educating-decision-makers&quot;&gt;1) Doing a Better Job of Educating Decision Makers&lt;/h2&gt;
+&lt;p&gt;This part can be really difficult. Mr. Client or Ms. CEO see their competitors doing spammy stuff and getting rankings, links, etc., yet you’re over here telling them they have to do it the hard way. Trust me, I feel your pain. But the more we can educate folks about the value of doing RCS - and more importantly - why digital marketers should be leading those types of initiatives, the better off our industry as a whole is going to be.&lt;/p&gt;
+
+&lt;h2 id=&quot;doing-a-better-job-of-communicating-the-value-of-our-work&quot;&gt;2) Doing a Better Job of Communicating the Value of Our Work&lt;/h2&gt;
+&lt;p&gt;Digital marketers and SEOs, whatever you do, please - FOR THE LOVE OF GOD - stop telling decisions makers about search volume and PageRank and Quality Scores and Klout Scores and all that other bullshit they don’t care about. Instead, try talking to them about revenue, brand awareness, and publicity. I mean, these are the things we’re &lt;em&gt;supposed&lt;/em&gt; to be affecting through all of our hard work, right?&lt;/p&gt;
+
+&lt;p&gt;I’ll leave you with this short video of Wil giving us a nice overview of what RCS means in the context of his own company, &lt;a href=&quot;http://www.seerinteractive.com/&quot;&gt;SEER Interactive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[RCS SEER VIDEO HERE] https://www.youtube.com/watch?v=u2Z8w8bATy8&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Oct 2016 21:25:22 -0400</pubDate>
+        <link>http://localhost:4000/blog/its-2016-are-we-doing-real-company-shit-yet/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/its-2016-are-we-doing-real-company-shit-yet/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
