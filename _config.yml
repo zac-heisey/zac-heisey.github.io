@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zac Heisey | PPC & Paid Search Marketing for Nonprofits
+title: Zac Heisey | Nonprofit PPC Marketing
 email: zheisey@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm a PPC & Paid Search Specialist living in Baltimore, MD.
