@@ -1,4 +1,4 @@
-$('.about-me').hide();
+// $('.about-me').hide();
 $('.get-in-touch').hide();
 $('.certifications').hide();
 
