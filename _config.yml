@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zac Heisey | Nonprofit PPC Marketing
+title: Zac Heisey | Digital Marketing Consulting for Nonprofits
 email: zheisey@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a PPC & Paid Search Specialist living in Baltimore, MD.
-  I help nonprofits build & optimize paid advertising campaigns
-  on AdWords using Google Ad Grants.
+  I'm a Digital Marketing Specialist living in Baltimore, MD.
+  I help nonprofits build & optimize online campaigns and
+  establish a strong digital presence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zac_heisey
