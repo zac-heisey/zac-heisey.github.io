@@ -1,14 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zac Heisey | Nonprofit PPC Marketing</title>
-    <description>I'm a PPC &amp; Paid Search Specialist living in Baltimore, MD. I help nonprofits build &amp; optimize paid advertising campaigns on AdWords using Google Ad Grants.
+    <title>Zac Heisey | Digital Marketing Consulting for Nonprofits</title>
+    <description>I'm a Digital Marketing Specialist living in Baltimore, MD. I help nonprofits build &amp; optimize online campaigns and establish a strong digital presence.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Dec 2016 15:05:26 -0500</pubDate>
-    <lastBuildDate>Sat, 17 Dec 2016 15:05:26 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Jan 2017 13:17:36 -0500</pubDate>
+    <lastBuildDate>Tue, 17 Jan 2017 13:17:36 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Rockhaven Ministry Notes</title>
+        <description>&lt;p&gt;&lt;strong&gt;Website:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Currently on WordPress &amp;gt; Are they looking to redesign site? If so, why?&lt;/li&gt;
+  &lt;li&gt;Homepage design and content could be adjusted to better communicate Rockhaven’s mission&lt;/li&gt;
+  &lt;li&gt;Main nav bar needs to be redesigned so that it doesn’t distract from the content of the page&lt;/li&gt;
+  &lt;li&gt;What are the main goals of the website? Drive donations? Attract more volunteers? Whatever it is, the layout, design, and CTAs should reflect those goals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;SEO/Marketing:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Technical SEO needs a lot of help:
+    &lt;ul&gt;
+      &lt;li&gt;Need to implement Google Analytics
+        &lt;ul&gt;
+          &lt;li&gt;Need to utilize Yoast SEO plugin (already installed?) to optimize title tags, meta descriptions, etc.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are some terms that people might use to discover your organization online?
+    &lt;ul&gt;
+      &lt;li&gt;refugee assistance&lt;/li&gt;
+      &lt;li&gt;help refugees&lt;/li&gt;
+      &lt;li&gt;refugees in &lt;em&gt;__&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Dedicated budget for online marketing efforts?&lt;/li&gt;
+  &lt;li&gt;What is the capacity to create quality content on an ongoing basis?&lt;/li&gt;
+  &lt;li&gt;Consider applying for Google Ad Grants&lt;/li&gt;
+  &lt;li&gt;Potential partnerships that could be used to leverage online presence?&lt;/li&gt;
+  &lt;li&gt;Are there specific fundraising efforts, annual events, etc. that could benefit from concentrated, short-term marketing efforts?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Social Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;FB &amp;amp; Twitter engagement are low and outdated &amp;gt; Need to pick this up significantly&lt;/li&gt;
+  &lt;li&gt;Which channels should they focus on? FB and Twitter are likely the best options&lt;/li&gt;
+  &lt;li&gt;Consider running paid social media ads on FB &amp;amp; Twitter&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Jan 2017 08:00:00 -0500</pubDate>
+        <link>/catchafire/rockhaven-ministry-notes/</link>
+        <guid isPermaLink="true">/catchafire/rockhaven-ministry-notes/</guid>
+        
+        
+        <category>catchafire</category>
+        
+      </item>
     
       <item>
         <title>The Dimensions Tab: AdWords' Hidden Treasure</title>
@@ -21,7 +72,7 @@
 &lt;p&gt;Below I’ll walk you through some of the different types of data (aka “Views”) you can access in the Dimensions tab, why it’s awesome, and how you can use this information to increase your PPC performance and reach your marketing goals.&lt;/p&gt;
 
 &lt;h2 id=&quot;time&quot;&gt;Time&lt;/h2&gt;
-&lt;p&gt;The Time view is perfect if you’re trying to learn exactly when people are (and are not) engaging with your ads. The Time view actually consists of several “sub-views,” which show performance based on the date, day of the week, quarter, or even down to the hour of the day.&lt;/p&gt;
+&lt;p&gt;The Time view is perfect if you’re trying to understand exactly when people are (and are not) engaging with your ads. The Time view actually consists of several “sub-views,” which show performance based on the date, day of the week, quarter, or even down to the hour of the day.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF TIME VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
 
@@ -36,34 +87,46 @@
 
 &lt;p&gt;The reason there are two views providing basically the same data is that Google has been working to replace Destination URLs with Final URLs as part of an &lt;a href=&quot;https://support.google.com/adwords/answer/6049217?hl=en&amp;amp;authuser=0&quot;&gt;upgrade process&lt;/a&gt; intended to make ad creation and tracking updated much easier for AdWords users.&lt;/p&gt;
 
-&lt;p&gt;Moving forward, you’ll see less and less data in the &lt;em&gt;Destination URL&lt;/em&gt; view as Google works to phase it out, so stick with the &lt;em&gt;Final URL&lt;/em&gt; view for review and reporting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF FINAL URL VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving forward, you’ll start seeing less and less data in the &lt;em&gt;Destination URL&lt;/em&gt; view as Google works to phase it out, so stick with the &lt;em&gt;Final URL&lt;/em&gt; view for review and reporting.&lt;/p&gt;
 
 &lt;h2 id=&quot;keywords&quot;&gt;Keywords&lt;/h2&gt;
+&lt;p&gt;Keywords are at the center of search engine marketing and represent the driving force behind most AdWords campaigns. Unless you’re using Exact match keywords exclusively in your campaigns, or your negative keywords lists are more exhaustive than &lt;a href=&quot;https://www.youtube.com/watch?v=WhfK98f5S00&quot;&gt;Bubba’s shrimp preparation list&lt;/a&gt;, periodically checking the &lt;em&gt;Search terms&lt;/em&gt; view is a good idea.&lt;/p&gt;
+
+&lt;p&gt;Rather than viewing the aggregate performance data for the keywords you’re explicitly bidding on, the &lt;em&gt;Search terms&lt;/em&gt; view shows you the &lt;strong&gt;specific search terms that users typed into Google which led to impressions and/or clicks for your ads&lt;/strong&gt;. For example, if you’re bidding on the Phrase match keyword “blue socks,” the &lt;em&gt;Search terms&lt;/em&gt; view will show individual data for all user search queries that triggered impressions/clicks for that keyword. So you might see performance data for search terms like “buy blue socks,” “blue socks for sale,” “shop blue socks online,” “blue socks sizes,” etc. This data can serve as a valuable resource when it comes to keyword expansion or building out your negative keyword lists.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF SEARCH TERMS VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The other keyword-centric view in the Dimensions tab is the &lt;em&gt;Paid &amp;amp; Organic&lt;/em&gt; view, which allows you to compare organic and paid performance for the same queries, as well as check out the impact on performance when your website shows in &lt;em&gt;both&lt;/em&gt; the paid and organic listings for a given search query. Understanding this information is important for a few reasons: first, it helps you see exactly how your organic and paid search efforts are working together. Second, it can reveal new keyword targeting opportunities in AdWords, as well as optimization and content creation opportunities on the organic front. Finally, reviewing the data in the &lt;em&gt;Paid &amp;amp; Organic&lt;/em&gt; view allows you to utilize your online marketing budget more efficiently across your organic and paid search efforts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF PAID &amp;amp; ORGANIC VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to get data populating in the &lt;em&gt;Paid &amp;amp; Organic&lt;/em&gt; view, you’ll need to have a &lt;a href=&quot;https://www.google.com/webmasters/tools/home&quot;&gt;Search Console&lt;/a&gt; account set up for your website, and have that account linked to your AdWords account. You can learn how to do that, and read more about the &lt;em&gt;Paid &amp;amp; Organic&lt;/em&gt; view &lt;a href=&quot;https://support.google.com/adwords/answer/3097241?hl=en&amp;amp;authuser=0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;location-info&quot;&gt;Location Info&lt;/h2&gt;
+&lt;p&gt;There are three different views in the Dimenions tab that focus on location information pertaining to your campaigns: &lt;em&gt;Geographic&lt;/em&gt;, &lt;em&gt;User Location&lt;/em&gt;, and &lt;em&gt;Distance&lt;/em&gt;. I’ll break down each one below.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Search terms&lt;/li&gt;
-  &lt;li&gt;Paid &amp;amp; Organic &amp;gt; https://support.google.com/adwords/answer/3097241?hl=en&amp;amp;authuser=0&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Geographic&lt;/strong&gt;: According to Google, this view “shows your customers’ physical locations, or locations that they had shown interest in through searches or content they had viewed.” You’ll want to reference this view if your campaign’s location target settings are set to the default: &lt;em&gt;People in, searching for, or who show interest in my targeted location&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User Location&lt;/strong&gt;: The &lt;em&gt;User Location&lt;/em&gt; view “shows only your customers’ physical locations, regardless of any locations they may have shown interest in.” If your campaign’s location target is set to &lt;em&gt;People in my targeted location&lt;/em&gt;, this view will be especially useful for you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Distance&lt;/strong&gt;: Lastly, the &lt;em&gt;Distance&lt;/em&gt; view shows performance data organized by distance from the address listed in your &lt;a href=&quot;https://support.google.com/adwords/answer/2404182?hl=en&quot;&gt;Location Extension&lt;/a&gt;. This information can be helpful in determine bid adjustments based on radius targeting.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;geographic-info&quot;&gt;Geographic Info&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Geographic &amp;gt; https://www.en.advertisercommunity.com/t5/AdWords-Tracking-and-Reporting/quot-Geographic-quot-vs-quot-User-Locations-quot/td-p/117924#&lt;/li&gt;
-  &lt;li&gt;User Location&lt;/li&gt;
-  &lt;li&gt;Distance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;high-level-info&quot;&gt;High-level Info&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Campaign / Ad Group details&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF USER LOCATION VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;call-details&quot;&gt;Call Details&lt;/h2&gt;
-&lt;p&gt;asfddfdsfsd sdfdsfsdf sdfsdfsdfsd.&lt;/p&gt;
+&lt;p&gt;Lastly, we have the &lt;em&gt;Call Details&lt;/em&gt; view. In order to use this view, you’ll need to have &lt;a href=&quot;https://support.google.com/adwords/answer/2453991?hl=en&quot;&gt;Call Extensions&lt;/a&gt; enabled. The &lt;em&gt;Call Details&lt;/em&gt; view provides some useful insights into phone calls generated by your AdWords ads via Call Extensions. Call start and end times, whether the call was received or missed, the duration of the call in seconds, the caller’s area code, the call type (“mobile click-to-call” or “manually dialed”), and call source (“ad” or “website”) is all captured in this view. Definitely a great resource if your organization considers phone calls a valuable KPI.&lt;/p&gt;
 
-&lt;p&gt;The Dimensions tab sections outlined above are the ones that I find myself using most often. There are some additional sections in the tab (Labels, Top Movers, Free Clicks, etc.) that I don’t use very much, but still might have value depending on your marketing goals and AdWords account setup.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[INCLUDE SCREENSHOT OF CALL DETAILS VIEW HERE]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Dimensions tab sections outlined above are the ones that I find myself using most often. There are some additional sections in the tab (Labels, Top Movers, Free Clicks, Campaign / Ad Group details, etc.) that I don’t use very much, but still might have value depending on your marketing goals and AdWords account setup.&lt;/p&gt;
+
+&lt;p&gt;Spend some time exploring the Dimensions tab in your AdWords account. My guess is you’ll find some useful, actionable info in there that you otherwise would have missed.&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Dec 2016 07:38:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/adwords-dimensions-tab-insights/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/adwords-dimensions-tab-insights/</guid>
+        <link>/blog/adwords-dimensions-tab-insights/</link>
+        <guid isPermaLink="true">/blog/adwords-dimensions-tab-insights/</guid>
         
         
         <category>blog</category>
@@ -107,8 +170,8 @@
 &lt;p&gt;[RCS SEER VIDEO HERE] https://www.youtube.com/watch?v=u2Z8w8bATy8&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Oct 2016 21:25:22 -0400</pubDate>
-        <link>http://localhost:4000/blog/its-2016-are-we-doing-real-company-shit-yet/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/its-2016-are-we-doing-real-company-shit-yet/</guid>
+        <link>/blog/its-2016-are-we-doing-real-company-shit-yet/</link>
+        <guid isPermaLink="true">/blog/its-2016-are-we-doing-real-company-shit-yet/</guid>
         
         
         <category>blog</category>
