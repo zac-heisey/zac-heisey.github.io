@@ -1,6 +1,7 @@
 # Here is test markdown file
 
 **Website:**
+
 - Homepage design and content could be adjusted to better communicate Rockhaven's mission
   > Send links to free WP themes
 
@@ -10,6 +11,7 @@
 
 
 **SEO/Marketing:**
+
 - Technical SEO needs a lot of help:
   - Need to implement Google Analytics
     > Send info & link
@@ -41,5 +43,6 @@
 
 
 **Social Media:**
+
 - FB & Twitter engagement are low and outdated > Need to pick this up significantly
   > Get them on Buffer to help with consistency
