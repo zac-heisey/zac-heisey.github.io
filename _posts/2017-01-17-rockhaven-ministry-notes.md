@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rockhaven Ministry Notes"
-date:   2016-10-17 21:25:22 -0400
+date:   2017-01-17 21:25:22 -0400
 categories: catchafire
 permalink: /:categories/:title/
 ---
