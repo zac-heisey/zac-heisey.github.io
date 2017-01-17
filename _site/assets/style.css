@@ -143,3 +143,10 @@ body, h3 {
 .footer-section a:hover {
   color: #fff;
   text-decoration: none; }
+
+/* Client + Catchafire Notes Styles */
+#notes-content {
+  margin-bottom: 100px; }
+
+#notes-title {
+  color: #6DBDB6; }
