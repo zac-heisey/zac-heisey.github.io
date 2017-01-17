@@ -144,9 +144,13 @@ body, h3 {
   color: #fff;
   text-decoration: none; }
 
-/* Client + Catchafire Notes Styles */
+/* Notes Styles */
 #notes-content {
   margin-bottom: 100px; }
 
 #notes-title {
   color: #6DBDB6; }
+
+/* Post Styles */
+.post, .post-header {
+  margin-left: 1em; }
