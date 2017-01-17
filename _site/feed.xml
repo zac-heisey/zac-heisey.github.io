@@ -4,10 +4,10 @@
     <title>Zac Heisey | Digital Marketing Consulting for Nonprofits</title>
     <description>I'm a Digital Marketing Specialist living in Baltimore, MD. I help nonprofits build &amp; optimize online campaigns and establish a strong digital presence.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Jan 2017 13:17:36 -0500</pubDate>
-    <lastBuildDate>Tue, 17 Jan 2017 13:17:36 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Jan 2017 13:30:38 -0500</pubDate>
+    <lastBuildDate>Tue, 17 Jan 2017 13:30:38 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -53,8 +53,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 17 Jan 2017 08:00:00 -0500</pubDate>
-        <link>/catchafire/rockhaven-ministry-notes/</link>
-        <guid isPermaLink="true">/catchafire/rockhaven-ministry-notes/</guid>
+        <link>http://localhost:4000/catchafire/rockhaven-ministry-notes/</link>
+        <guid isPermaLink="true">http://localhost:4000/catchafire/rockhaven-ministry-notes/</guid>
         
         
         <category>catchafire</category>
@@ -125,8 +125,8 @@
 &lt;p&gt;Spend some time exploring the Dimensions tab in your AdWords account. My guess is you’ll find some useful, actionable info in there that you otherwise would have missed.&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Dec 2016 07:38:00 -0500</pubDate>
-        <link>/blog/adwords-dimensions-tab-insights/</link>
-        <guid isPermaLink="true">/blog/adwords-dimensions-tab-insights/</guid>
+        <link>http://localhost:4000/blog/adwords-dimensions-tab-insights/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/adwords-dimensions-tab-insights/</guid>
         
         
         <category>blog</category>
@@ -170,8 +170,8 @@
 &lt;p&gt;[RCS SEER VIDEO HERE] https://www.youtube.com/watch?v=u2Z8w8bATy8&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Oct 2016 21:25:22 -0400</pubDate>
-        <link>/blog/its-2016-are-we-doing-real-company-shit-yet/</link>
-        <guid isPermaLink="true">/blog/its-2016-are-we-doing-real-company-shit-yet/</guid>
+        <link>http://localhost:4000/blog/its-2016-are-we-doing-real-company-shit-yet/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/its-2016-are-we-doing-real-company-shit-yet/</guid>
         
         
         <category>blog</category>

@@ -15,7 +15,7 @@ permalink: /:categories/:title/
 **SEO/Marketing:**
 - Technical SEO needs a lot of help:
   - Need to implement Google Analytics
-	- Need to utilize Yoast SEO plugin (already installed?) to optimize title tags, meta descriptions, etc.
+  - Need to utilize Yoast SEO plugin (already installed?) to optimize title tags, meta descriptions, etc.
 - What are some terms that people might use to discover your organization online?
 	- refugee assistance
 	- help refugees
