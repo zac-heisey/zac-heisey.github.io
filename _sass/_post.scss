@@ -1,6 +1,6 @@
 // Post Styles
 
-/* Client + Catchafire Notes Styles */
+/* Notes Styles */
 
 #notes-content {
   margin-bottom: 100px;
@@ -8,4 +8,11 @@
 
 #notes-title {
   color: $main-color;
+}
+
+
+/* Post Styles */
+
+.post, .post-header {
+  margin-left: 1em;
 }
