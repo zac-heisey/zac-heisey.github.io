@@ -7,7 +7,7 @@ permalink: /:categories/:title/
 ---
 ### Website - [rockhavennetwork](http://www.rockhavennetwork.org/):
 - Current design and content is outdated, and should be given a fresh look.
-- Main navigation needs to be redesigned so that it doesn't distract from the content of the page,
+- Main navigation needs to be redesigned so that it doesn't distract from the content of the page.
 - What are the main goals of the website? Drive donations? Attract more volunteers? Whatever it is, the layout, design, and Calls to Action (CTAs) should reflect those goals:
   - _Capture user info (name, email, phone, etc.) using one of the following WordPress plugins:_
     - **[Contact Form 7](https://wordpress.org/plugins/contact-form-7/) (which I believe you already have installed)**
