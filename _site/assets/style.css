@@ -86,7 +86,7 @@ body, h3 {
 .initial-content,
 .about-me,
 .get-in-touch,
-.certifications {
+.projects {
   position: fixed;
   color: #5F5F5F;
   float: right;
@@ -98,13 +98,13 @@ body, h3 {
     .initial-content,
     .about-me,
     .get-in-touch,
-    .certifications {
+    .projects {
       width: 20%;
       margin-top: 6.945%;
       margin-right: 5%;
       margin-left: 75%; } }
 
-#btn-certifications,
+#btn-projects,
 #btn-resume,
 #btn-visit {
   margin-left: 0;
