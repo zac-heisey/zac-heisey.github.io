@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zac Heisey | Nonprofit Web Developer
+title: Zac Heisey | Nonprofit Web Consultant
 email: zheisey@gmail.com
-description: I'm a web developer living in Baltimore, MD. I help nonprofits build and optimize websites and applications to promote their cause and affect real change.
+description: I'm a web consultant living in Baltimore, MD. I help nonprofits build and grow their online presence in order to promote their cause and affect real change.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zac_heisey
