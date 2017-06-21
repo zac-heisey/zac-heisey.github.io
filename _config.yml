@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Zac Heisey | Nonprofit Web Consultant
 email: zheisey@gmail.com
-description: I'm a web consultant living in Baltimore, MD. I help nonprofits build and grow their online presence in order to promote their cause and affect real change.
+description: I'm a nonprofit web consultant living in Baltimore, MD. I help organizations grow their digital presence and promote their cause online.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zac_heisey
