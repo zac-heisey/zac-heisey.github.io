@@ -5,23 +5,19 @@
 .footer-section {
   position: fixed;
   bottom: 0;
+  left: 0;
 	height: auto;
   width: 100%;
-	background-color: $main-background-color;
-	background-size: cover;
-	color: #fff;
-}
+	background: linear-gradient(103deg, $main-color 0%, rgba(109,189,182,0.651) 100%);
 
-.footer-section p {
-	margin-top: 10px;
-}
+  p {
+    color: $white-color;
+  	margin: 10px;
+  }
 
-.footer-section a {
-  color: $grey-color;
-  text-decoration: none;
-}
+  a:hover {
+    color: $grey-color;
+    text-decoration: none;
+  }
 
-.footer-section a:hover {
-  color: #fff;
-  text-decoration: none;
 }

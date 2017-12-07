@@ -4,32 +4,35 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt|Raleway');
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 
 // ** Variables ** //
 
 // Fonts
 $heading-font-family: 'Rock Salt', cursive;
-$heading-font-color: #fff;
 $body-font-family: 'Raleway', sans-serif;
-$body-font-color: #5F5F5F;
-$default-font-color: #fff;
 
 // Colors
 $main-color: #6DBDB6;
 $grey-color: #5F5F5F;
-$main-background-color: #6DBDB6;
-$grey-background-color: #5F5F5F;
+$white-color: #FFF;
 
 // Breakpoints
-$on-small: 600px;
-$on-medium: 768px;
-$on-large: 1050px;
+@mixin breakpoint($screen) {
+  @if $screen == small {
+    @media (min-width: 600px) { @content ; }
+  }
+  @else if $screen == medium {
+    @media (min-height: 768px) { @content ; }
+  }
+  @else if $screen == large {
+    @media (min-height: 1050px) { @content ; }
+  }
+}
 
-// Use media queries like this:
-// @include media-query($on-palm) {
+// Use media queries + breakpoint mixins like this:
+// @include breakpoint(small) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
