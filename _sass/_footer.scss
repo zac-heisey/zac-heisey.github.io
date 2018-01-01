@@ -8,11 +8,12 @@
   left: 0;
 	height: auto;
   width: 100%;
-	background: linear-gradient(103deg, $main-color 0%, rgba(109,189,182,0.651) 100%);
+	// background: linear-gradient(103deg, $main-color 0%, rgba(109,189,182,0.651) 100%);
 
   p {
     color: $white-color;
   	margin: 10px;
+    text-align: right;
   }
 
   a:hover {
