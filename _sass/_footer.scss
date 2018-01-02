@@ -8,7 +8,7 @@
   left: 0;
 	height: auto;
   width: 100%;
-	// background: linear-gradient(103deg, $main-color 0%, rgba(109,189,182,0.651) 100%);
+	z-index: 10;
 
   p {
     color: $white-color;
@@ -17,7 +17,7 @@
   }
 
   a:hover {
-    color: $grey-color;
+    color: $gray-color;
     text-decoration: none;
   }
 

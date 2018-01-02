@@ -1,3 +1,41 @@
 // Homepage Styles
 
-/* TBD */
+/* Home Content Wrapper */
+
+.home-content-wrapper {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  z-index: 1;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: linear-gradient(103deg, rgba(0,0,0,0.35) 0%, rgba(109,189,182,0.5) 100%);
+  box-shadow: 0rem 1.125rem 4.125rem 0rem rgba(0,0,0,0.451);
+}
+
+.home-content-section {
+  position: relative;
+  padding: 5rem 4rem;
+  max-width: 100%;
+  width: 35rem;
+
+  p {
+    color: $white-color;
+    text-align: left;
+  }
+
+}
+
+#intro-section {
+
+  img {
+    width: 40%;
+  }
+
+}

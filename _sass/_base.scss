@@ -1,6 +1,27 @@
 // Base Styles
 
-/* Base Font Styles */
+/* ========== Global Resets ========== */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+} /* universal box sizing > includes padding and border, but NOT margin, in total box size */
+
+html, body, div,
+ol, ul, li,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+} /* removes margin & padding from all browsers */
+
+ol, ul {
+  list-style: none;
+} /* removes bullets & numbers from all lists */
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+} /* removes underline from all link states */
+
+/* Base Background Style */
 
 body:before { // BG image styles copied from Carrd.co site
   content: '';
@@ -19,11 +40,13 @@ body:before { // BG image styles copied from Carrd.co site
   background-attachment: scroll;
 }
 
+/* Base Font Styles */
+
 h1, h2 {
   font-family: $heading-font-family;
   color: $white-color;
   margin-top: 10px;
-  text-shadow: 2px 2px $grey-color;
+  text-shadow: 2px 2px $gray-color;
 }
 
 body, h3 {
@@ -59,10 +82,23 @@ body, h3 {
 }
 
 .btn {
-  /* text-shadow: 1px 1px $grey-color; */
+  /* text-shadow: 1px 1px $gray-color; */
 
   @include breakpoint(large) {
     font-size: 24px;
   }
 
+}
+
+/* Base Wrapper Styles (default.html layout) */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding-left: 2rem;
 }
