@@ -25,6 +25,10 @@
   max-width: 100%;
   width: 40rem;
 
+  @include breakpoint(small) {
+    // margin-top: -100px;
+  }
+
   p {
     color: $white-color;
     text-align: left;
