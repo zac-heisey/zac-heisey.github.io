@@ -1,0 +1,47 @@
+// Header Styles
+
+/* Main Header Section */
+
+.header-section {
+  position: fixed;
+  top: 0;
+	height: auto;
+  width: 100%;
+	z-index: 10;
+  text-align: right;
+}
+
+/* Nav Styles */
+
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  @include breakpoint(small) {
+    margin-right: 6rem;
+  }
+
+  img {
+    width: 65%;
+    margin: 2.75rem 1rem;
+
+    @include breakpoint(small) {
+      width: 25%;
+      margin: 1rem 2rem;
+    }
+
+  }
+
+  a.nav-item {
+    color: $white-color;
+    margin: 4rem 1rem;
+
+    &:hover {
+      color: $main-color;
+      text-decoration: none;
+    }
+
+  }
+
+}
