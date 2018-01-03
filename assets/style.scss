@@ -24,10 +24,10 @@ $white-color: #FFF;
     @media (min-width: 600px) { @content ; }
   }
   @else if $screen == medium {
-    @media (min-height: 768px) { @content ; }
+    @media (min-width: 768px) { @content ; }
   }
   @else if $screen == large {
-    @media (min-height: 1050px) { @content ; }
+    @media (min-width: 1050px) { @content ; }
   }
 }
 
