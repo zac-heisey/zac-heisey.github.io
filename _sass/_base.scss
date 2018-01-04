@@ -21,6 +21,12 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 } /* removes underline from all link states */
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 /* Base Background Style */
 
 body:before { // BG image styles copied from Carrd.co site
@@ -31,9 +37,9 @@ body:before { // BG image styles copied from Carrd.co site
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 0;
+  z-index: -100;
   transform: scale(1);
-  background-image: linear-gradient(to top, rgba(255,255,255,0.29), rgba(255,255,255,0.29)), url('/assets/images/bg.jpg');
+  background-image: linear-gradient(to right, rgba(255,255,255,0.29), rgba(109,189,182,0.75)), url('/assets/images/bg.jpg');
   background-position: 0% 0%, center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -96,12 +102,12 @@ body, h3 {
 
 /* Base Wrapper Styles (default.html layout) */
 
-.wrapper {
+.page-content {
   display: flex;
   flex-direction: column;
+  flex: 1 0 auto;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   position: relative;
 
   @include breakpoint(medium) {
