@@ -6,10 +6,6 @@
   max-width: 100%;
   width: 40rem;
 
-  @include breakpoint(small) {
-    margin-top: -10%; // May need to adjust or remove this spacing
-  }
-
   p {
     color: $white-color;
     text-align: left;

@@ -107,7 +107,6 @@ body, h3 {
   flex-direction: column;
   flex: 1 0 auto;
   align-items: center;
-  justify-content: center;
   position: relative;
 
   @include breakpoint(medium) {
