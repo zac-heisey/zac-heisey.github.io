@@ -1,14 +1,8 @@
 // Footer Styles
 
-/* Main Footer Section */
-
-.footer-section {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+.site-footer {
 	height: auto;
   width: 100%;
-	z-index: 10;
 
   p {
     color: $white-color;
@@ -17,7 +11,7 @@
   }
 
   a:hover {
-    color: $gray-color;
+    color: $main-color;
     text-decoration: none;
   }
 
