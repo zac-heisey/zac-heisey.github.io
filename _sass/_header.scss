@@ -6,7 +6,6 @@
 	height: auto;
   width: 100%;
 	z-index: 10;
-  text-align: right;
 }
 
 /* Nav Styles */
@@ -14,10 +13,20 @@
 .site-nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0 4rem;
+  max-width: 100%;
 
-  @include breakpoint(small) {
-    margin-right: 6rem;
+  img {
+    width: 50%;
+    min-width: 50px;
+
+    @include breakpoint(small) {
+      width: 100%;
+    }
+
   }
 
   a.nav-item {
