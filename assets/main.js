@@ -1,29 +1,29 @@
-$('.get-in-touch').hide();
-$('.projects').hide();
+$('#about-section').hide();
+$('#work-section').hide();
 
-// Show 'About Me' Content
-$('#btn-about').click(function() {
-  if ($('.get-in-touch').is(':visible')) {
-    $('.get-in-touch, .about-me').toggle('slide', {direction: 'right'}, 800); // Toggle > Get In Touch & About Me
-  } else if ($('.projects').is(':visible')) {
-    $('.projects, .about-me').toggle('slide', {direction: 'right'}, 800); // Toggle > Get In Touch & Projects
+// Show Intro Section
+$('#nav-intro').click(function() {
+  if ($('#about-section').is(':visible')) {
+    $('#about-section, #intro-section').toggle('slide', {direction: 'right'}, 800); // Toggle > About & Intro
+  } else if ($('#work-section').is(':visible')) {
+    $('#work-section, .#intro-section').toggle('slide', {direction: 'right'}, 800); // Toggle > Work & Intro
   }
 });
 
-// Show 'Get In Touch' Content
-$('#btn-contact').click(function() {
-  if ($('.about-me').is(':visible')) {
-    $('.about-me, .get-in-touch').toggle('slide', {direction: 'right'}, 800); // Toggle > About Me & Get In Touch
-  } else if ($('.projects').is(':visible')) {
-    $('.projects, .get-in-touch').toggle('slide', {direction: 'right'}, 800); // Toggle > Projects & Get In Touch
+// Show About Section
+$('#nav-about').click(function() {
+  if ($('#intro-section').is(':visible')) {
+    $('#intro-section, #about-section').toggle('slide', {direction: 'right'}, 800); // Toggle > Intro & About
+  } else if ($('#work-section').is(':visible')) {
+    $('#work-section, #about-section').toggle('slide', {direction: 'right'}, 800); // Toggle > Work & About
   }
 });
 
-// Show 'Projects' Content
-$('#btn-projects').click(function() {
-  if ($('.about-me').is(':visible')) {
-    $('.about-me, .projects').toggle('slide', {direction: 'right'}, 800); // Toggle > About Me & projects
-  } else if ($('.get-in-touch').is(':visible')) {
-    $('.get-in-touch, .projects').toggle('slide', {direction: 'right'}, 800); // Toggle > Get In Touch & projects
+// Show Work Section
+$('#nav-work').click(function() {
+  if ($('#about-section').is(':visible')) {
+    $('#about-section, #work-section').toggle('slide', {direction: 'right'}, 800); // Toggle > About & Work
+  } else if ($('#intro-section').is(':visible')) {
+    $('#intro-section, #work-section').toggle('slide', {direction: 'right'}, 800); // Toggle > Intro & Work
   }
 });
