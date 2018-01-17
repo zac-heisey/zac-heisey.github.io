@@ -15,4 +15,19 @@
     text-decoration: none;
   }
 
+	.fa {
+		color: $white-color;
+		height: 35px;
+		width: 35px;
+		border-radius: 100%;
+		padding: 10px;
+		background-color: transparent;
+
+			&:hover {
+				color: $main-color;
+				background-color: #fff;
+		}
+
+	}
+
 }
