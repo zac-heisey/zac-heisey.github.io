@@ -6,32 +6,38 @@
 	height: auto;
   width: 100%;
 	z-index: 10;
-}
+  text-align: center;
+  margin: 1rem 0 1rem 0;
 
-/* Nav Styles */
-
-.site-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem 0;
-  padding: 0 4rem;
-  max-width: 100%;
-
-  img {
-    width: 50%;
-    min-width: 50px;
+  #zh-logo {
+    max-width: 50px;
 
     @include breakpoint(small) {
-      width: 100%;
+      max-width: 140px;
     }
 
   }
 
+}
+
+/* Nav Styles */
+
+#site-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 5rem;
+  height: 100vh;
+  background: rgba(95, 95, 95, 0.75);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 250px;
+
   a.nav-item {
     color: $white-color;
-    margin: 4rem 1rem;
+    margin: 1rem;
+    padding: 1rem;
 
     &:hover {
       color: $main-color;
