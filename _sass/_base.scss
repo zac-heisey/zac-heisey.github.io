@@ -75,39 +75,16 @@ body, h3 {
 
 /* Base Button Styles */
 
-.buttons {
-  margin-top: 100px;
-  float: right;
-}
-
-.btn-default {
-  border-radius: 0;
-  border: 2px solid $main-color;
-  background-color: rgba(255, 255, 255, 0.7);
-  color: $main-color;
-  margin-bottom: 10px;
-
-  @include breakpoint(medium) {
-    margin-left: 80%;
-  }
-
-}
-
-.btn-default:hover,
-.btn-default:active,
-.btn-default:focus {
-  border: 2px solid $main-color;
-  background-color: $white-color;
-  color: $main-color;
-}
-
-.btn {
-  /* text-shadow: 1px 1px $gray-color; */
-
-  @include breakpoint(large) {
-    font-size: 24px;
-  }
-
+button {
+  color: $white-color;
+  font-family: $body-font-family;
+  background-color: $main-color;
+  border: 1px solid $white-color;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
 }
 
 /* Base Content Container Styles (default.html layout) */

@@ -6,7 +6,7 @@ form {
 
 /* Input Field Styles */
 
-input, textarea, select, button {
+input, textarea, select {
   color: $gray-color;
   font-family: $body-font-family;
   min-width: 100%;
@@ -14,15 +14,17 @@ input, textarea, select, button {
   padding: 1rem;
   margin: 1rem;
   font-size: 1rem;
-
-  @include breakpoint(small) {
-    max-width: 70%;
-  }
-
 }
 
 textarea {
   min-height: 7rem;
+}
+
+@include breakpoint(small) {
+  // Resize contact button on larger screens
+  #contact-btn {
+    min-width: 40%;
+  }
 }
 
 /* Honeypot Field for Netlify */

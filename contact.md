@@ -10,5 +10,5 @@ layout: page
   <input type="text" name="name" placeholder="Your Name" required>
   <input type="email" name="email" placeholder="Your Email" required>
   <textarea name="message" placeholder="How Can I Help?" required></textarea>
-  <button type="submit">Get In Touch</button>
+  <button id="contact-btn" type="submit">Get In Touch</button>
 </form>
