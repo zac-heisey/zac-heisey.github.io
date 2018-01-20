@@ -6,14 +6,24 @@
 	height: auto;
   width: 100%;
 	z-index: 10;
-  text-align: center;
+  text-align: left;
   margin: 1rem 0 1rem 0;
 
   #zh-logo {
-    max-width: 50px;
+    max-width: 70px;
+    margin-left: 1rem;
+  }
 
-    @include breakpoint(small) {
-      max-width: 140px;
+}
+
+@include breakpoint(small) { // Header styles on larger screens (600px+)
+
+  .site-header {
+    text-align: center;
+
+    #zh-logo {
+      min-width: 140px;
+      margin-left: 0;
     }
 
   }
