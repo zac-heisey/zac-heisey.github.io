@@ -1,5 +1,22 @@
 // Post Styles
 
-.post, .post-header {
-  margin-left: 1em;
+.post-content-section {
+  position: relative;
+  padding: 1rem;
+  max-width: 100%;
+  width: 40rem;
+
+  h1 {
+    text-align: center;
+  }
+
+  h3.post-meta {
+    color: $gray-color;
+    margin: 2rem 0;
+  }
+
+  p {
+    text-align: left;
+  }
+
 }
