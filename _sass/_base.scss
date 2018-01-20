@@ -27,7 +27,7 @@ body {
   height: 100vh;
 }
 
-/* Base Background Style */
+/* Base Background Styles */
 
 body:before { // BG image styles copied from Carrd.co site
   content: '';
@@ -69,8 +69,9 @@ h1, h2 {
   text-shadow: 2px 2px $gray-color;
 }
 
-body, h3 {
+body, h3, p, a {
   font-family: $body-font-family;
+  color: $white-color;
 }
 
 /* Base Button Styles */
@@ -78,13 +79,21 @@ body, h3 {
 button {
   color: $white-color;
   font-family: $body-font-family;
+  text-transform: uppercase;
   background-color: $main-color;
-  border: 1px solid $white-color;
+  border: 2px solid $white-color;
   min-width: 100%;
-  max-width: 100%;
   padding: 1rem;
   margin: 1rem;
   font-size: 1rem;
+  border-radius: 10px;
+
+  &:hover {
+    color: $main-color;
+    background-color: $white-color;
+    border: 2px solid $main-color;
+  }
+
 }
 
 /* Base Content Container Styles (default.html layout) */
@@ -97,7 +106,7 @@ button {
   flex: 1 0 auto;
 
   a {
-    color: #fff;
+    color: $white-color;
     text-decoration: underline;
   }
 
