@@ -3,4 +3,5 @@ layout: page
 ---
 
 <!-- ZH Consulting Blog -->
-# AEC Marketing Tips, Trends, and Industry News
+# Marketing New, Trends, & Tips
+<h3 style="text-align:center;">For Home Improvement and AEC Companies</h3>
