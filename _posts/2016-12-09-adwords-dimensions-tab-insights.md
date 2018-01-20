@@ -1,10 +1,12 @@
 ---
-layout: post
-title:  "The Dimensions Tab: AdWords' Hidden Treasure"
-date:   2016-12-09 08:38:00 -0400
+title: "The Dimensions Tab - AdWords' Hidden Treasure"
+date: 2016-12-09 08:38:00 -0400
 categories: blog
-permalink: /:categories/:title/
+description: The AdWords 'Dimensions' tab can be a treasure trove of data and useful insights, but it can also be overwhelming. This post will help you navigate & analyze.
+layout: post
+author: Zac Heisey
 ---
+
 There are dozens of places in your AdWords account from which you can pull meaningful, actionable insights. The options available for you to slice and dice your paid search data are numerous - so much so that it can be difficult to know where to look first.
 
 One of the first places I look when I take over a new AdWords account, or I'm trying to optimize a campaign for an existing client, is the **Dimensions tab**. This section of your AdWords account can provide some crazy useful information about your PPC performance that you can't really access in other parts of your account.
