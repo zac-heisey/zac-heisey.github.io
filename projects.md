@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<!-- Work Section -->
-# My Work
+<!-- Projects Section -->
+# Past Projects
 
 Projects Coming Soon.
