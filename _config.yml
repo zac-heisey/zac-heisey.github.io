@@ -27,7 +27,7 @@ defaults:
     path: ''
     type: projects
   values:
-    url: ''
+    site: ''
     services: ''
     mockup: ''
     case-study: ''
