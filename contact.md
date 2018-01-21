@@ -3,7 +3,8 @@ layout: page
 ---
 
 <!-- Contact Form -->
-# Let's Talk
+# Ready to Get to Work?
+<h3 style="text-align:center;">Let's Talk</h3>
 
 <form name="Contact Form" netlify-honeypot="surname" action="/thank-you" netlify>
   <!-- Netlify honeypot field -->
