@@ -4,6 +4,9 @@ collections:
   posts:
     title: Posts
     output: true
+  projects:
+    title: Projects
+    output: false
 defaults:
 - scope:
     path: ''
@@ -20,10 +23,17 @@ defaults:
   values:
     layout: page
     description: ''
-
+- scope:
+    path: ''
+    type: projects
+  values:
+    url: ''
+    services: ''
+    mockup: ''
+    case-study: ''
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
-description: I'm a digital marketing consultant based in Baltimore, MD. I develop effective digital strategies for home construction, remodeling, and AEC companies. 
+description: I'm a digital marketing consultant based in Baltimore, MD. I develop effective digital strategies for home construction, remodeling, and AEC companies.
 permalinks: pretty
 include:
 - _redirects
