@@ -1,5 +1,5 @@
 ---
-title: Zac Heisey | Home Improvement Web Consulting & Digital Marketing
+title: Zac Heisey | AEC Web Design & Digital Marketing
 collections:
   posts:
     title: Posts
@@ -23,7 +23,7 @@ defaults:
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
-description: I'm a web consultant based in Baltimore, MD. I help home improvement and AEC companies craft effective digital marketing strategies to further their cause online.
+description: I'm a digital marketing consultant based in Baltimore, MD. I develop effective digital strategies for home construction, remodeling, and AEC companies. 
 permalinks: pretty
 include:
 - _redirects
