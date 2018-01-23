@@ -42,12 +42,16 @@
 
 }
 
-/* Individual Project Styles */
+/* Individual Client Project Styles */
 
 #client-project {
   padding: 1rem;
   max-width: 100%;
   width: 40rem;
+
+  img {
+    max-width: 100%;
+  }
 
   h2 {
     text-align: center;
@@ -56,4 +60,5 @@
   p {
     text-align: left;
   }
+
 }
