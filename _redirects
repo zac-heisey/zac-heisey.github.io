@@ -1,1 +1,3 @@
-# Place future URL redirects here
+### NETLIFY DEV DOMAIN REDIRECTS
+https://zac-heisey.netlify.com/*   https://www.zac-heisey.com/:splat    301!
+http://zac-heisey.netlify.com/*    https://www.zac-heisey.com/:splat    301!
