@@ -6,7 +6,7 @@ collections:
     output: true
   projects:
     title: Projects
-    output: false
+    output: true
 defaults:
 - scope:
     path: ''
@@ -27,10 +27,11 @@ defaults:
     path: ''
     type: projects
   values:
+    layout: project
     site: ''
     services: ''
     mockup: ''
-    case-study: ''
+    logo: ''
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
 description: I'm a digital marketing consultant based in Baltimore, MD. I develop effective digital strategies for home construction, remodeling, and AEC companies.
