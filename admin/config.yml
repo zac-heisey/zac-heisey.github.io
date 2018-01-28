@@ -29,12 +29,12 @@ collections:
       - {label: "Mockup", name: "mockup", widget: "image"}
       - {label: "Logo", name: "author", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-    - name: "pages"
-      label: "Pages"
-      folder: ""
-      create: true
-      slug: "{{slug}}"
-      fields:
-        - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    folder: ""
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
