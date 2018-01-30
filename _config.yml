@@ -32,12 +32,14 @@ defaults:
     services: ''
     mockup: ''
     logo: ''
-url: "https://www.zac-heisey.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.zac-heisey.com # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
 description: I'm a digital marketing consultant based in Baltimore, MD. I develop effective digital strategies for home construction, remodeling, and AEC companies.
-markdown: kramdown
-permalinks: pretty
+permalink: pretty
 include:
 - _redirects
 plugins:
 - jekyll-sitemap
+
+#Build Settings
+markdown: kramdown
