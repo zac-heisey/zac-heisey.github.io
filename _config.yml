@@ -7,14 +7,13 @@ collections:
   projects:
     title: Projects
     output: true
-defaults:
+defaults: # see admin/config.yml file for Netlify CMS front matter defaults
 - scope:
     path: ''
     type: posts
   values:
     categories: blog
     permalink: "/:categories/:title"
-    description: ''
     layout: post
     author: 'Zac Heisey'
 - scope:
@@ -22,16 +21,11 @@ defaults:
     type: pages
   values:
     layout: page
-    description: ''
 - scope:
     path: ''
     type: projects
   values:
     layout: project
-    site: ''
-    services: ''
-    mockup: ''
-    logo: ''
 url: https://www.zac-heisey.com # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
 description: I'm a digital marketing consultant based in Baltimore, MD. I develop effective digital strategies for home construction, remodeling, and AEC companies.
