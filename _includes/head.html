@@ -4,11 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ site.title | escape }}</title>
-  {% if page.description %}
-  <meta name="description" content="{{ page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  {% else %}
-  <meta name="description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  {% endif %}
+  <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "assets/style.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
