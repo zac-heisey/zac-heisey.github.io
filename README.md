@@ -1,5 +1,6 @@
 ---
 title: README
+sitemap: false
 ---
 
 # zac-heisey.com
