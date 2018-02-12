@@ -41,7 +41,7 @@ Here are some specific ways that the marketing automation process can breakdown:
 - **Not Enough Leads** marketing automation doesn't work without a steady stream of leads (MA is middle of funnel > only works when top of funnel is being addressed > _include image/breakdown of HubSpot funnel_
 - **Impatience** temptation to speed up process with purchased lead lists, etc.
 - **Spam** easy to spam lead lists with too frequent and/or irrelevant messages
-- **Focusing Only On Email** assumption that marketing automation is basically an enhanced version of email marketing > _see autopilothq for examples_
+- **Relying Only On Email** assumption that marketing automation is basically an enhanced version of email marketing > _see autopilothq for examples_
 - people tend to think of marketing automation is "set it and forget it" > leads to deterioration of effectiveness, outdated content served to stale leads, and opportunities to optimize left on the table
 
 As a result of these breakdowns, marketing automation can easily turn into a pain point among your client base, rather than a vehicle for building relationships and cultivating loyalty. Instead of delighting prospects and customers alike with personalized messages and engaging content, too many companies are employing marketing automation in ways that are completely ruining the client experience.
