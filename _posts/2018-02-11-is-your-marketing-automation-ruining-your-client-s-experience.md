@@ -33,8 +33,27 @@ In the home improvement and AEC industries, a standard marketing automation syst
 This all seems simple enough, right? Create some landing pages with forms to capture leads, segment these leads into various lists based on specific parameters, and continue to deliver personalized messages, content, and other types of engagement with the goal of nurturing these leads into delighted customers.
 
 ## Where Marketing Automation Tends to Fall Apart
- 
-_TALK ABOUT TIME & PATIENCE, INCLINATION TO OVER-CONTACT AND SPAM, ETC._
+
+Things typically start to unravel when I see home contractors, remodelers, and AEC firms fixating on the "automation" aspect of the process. Instead of viewing marketing automation as a way to cultivate client relationships over time, it's utilized as an automated quick-fix to blast irrelevant messages to unqualified contacts. No bueno.
+
+Here are some specific ways that the marketing automation process can breakdown:
+
+- **Not Enough Leads** marketing automation doesn't work without a steady stream of leads (MA is middle of funnel > only works when top of funnel is being addressed > _include image/breakdown of HubSpot funnel_
+- **Impatience** temptation to speed up process with purchased lead lists, etc.
+- **Spam** easy to spam lead lists with too frequent and/or irrelevant messages
+- **Focusing Only On Email** assumption that marketing automation is basically an enhanced version of email marketing > _see autopilothq for examples_
+- people tend to think of marketing automation is "set it and forget it" > leads to deterioration of effectiveness, outdated content served to stale leads, and opportunities to optimize left on the table
+
+As a result of these breakdowns, marketing automation can easily turn into a pain point among your client base, rather than a vehicle for building relationships and cultivating loyalty. Instead of delighting prospects and customers alike with personalized messages and engaging content, too many companies are employing marketing automation in ways that are completely ruining the client experience.
+
+Marketing automation mistakes can have far-reaching consequences for a company's image and reputation, not to mention their bottom line.
+
+## How to Ensure You Get Marketing Automation Right
+
+Now that we know some of the ways that marketing automation can get AEC businesses into trouble, let's discuss a few ways to ensure your marketing automation strategy is poised for success:
+
+- Make sure you have a lead generating strategy in place to keep the top of your funnel stocked. This is where your customized landing pages and lead capture forms can really shine.
+- 
 
 ---
 
