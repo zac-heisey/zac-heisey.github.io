@@ -21,6 +21,10 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 } /* removes underline from all link states */
 
+img {
+  max-width: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
