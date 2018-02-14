@@ -7,6 +7,8 @@ layout: page
 # AEC Marketing Resources
 <h3 style="text-align:center;">News, Trends, & Tips for AEC Companies</h3>
 
+• [Is Your Marketing Automation Ruining Your Client's Experience?](https://medium.com/@zac_heisey/is-your-marketing-automation-ruining-your-clients-experience-db26e2317393)
+
 • [It's 2016: Are We Doing Real Company Sh*t Yet?](https://medium.com/@zac_heisey/its-2016-are-we-doing-real-company-sh-t-yet-a3f995bd63ed)
 
 • [The Dimensions Tab - AdWords' Hidden Treasure](https://medium.com/@zac_heisey/the-dimensions-tab-adwords-hidden-treasure-5a1d830ace96)
