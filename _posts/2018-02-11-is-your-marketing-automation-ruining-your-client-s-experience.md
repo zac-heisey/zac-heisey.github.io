@@ -4,9 +4,7 @@ title: Is Your Marketing Automation Ruining Your Client's Experience?
 date: 2018-02-11T21:46:33.811Z
 categories: blog
 description: >-
-  Marketing automation offers the chance to streamline efforts and wow
-  customers. But getting wrong can be costly. Is your marketing automation
-  ruining your client's experience?
+  Marketing automation allows you to streamline efforts & wow customers. But getting it wrong can be costly. Here are some ways to get marketing automation right.
 author: Zac Heisey
 ---
 What comes to mind when you hear the words "marketing automation"? Over the last few years, marketing automation has become a buzzword thrown around by those discussing digital marketing strategies, much like "SEO," "Big Data," and "Mobile-First" once were. Beyond the buzz and hype, marketing automation boils down to one simple, yet fundamental business goal: cultivating client relationships.
@@ -19,7 +17,7 @@ Did you catch that last bit from HubSpot? The part about turning customers into 
 
 ## Components of a Well-Tuned Marketing Automation Machine
 
-In this post, we'll be discussing the _process_ of marketing automation, rather than a specific type of software. The process or marketing automation can take many different forms and operate across multiple mediums and channels, depending on the goals, budget, and target audience of the business implementing it. 
+In this post, we'll be discussing the _process_ of marketing automation, rather than a specific type of software. The process or marketing automation can take many different forms and operate across multiple mediums and channels, depending on the goals, budget, and target audience of the business implementing it.
 
 In the home improvement and AEC industries, a standard marketing automation system will typically incorporate the following channels and tactics:
 
