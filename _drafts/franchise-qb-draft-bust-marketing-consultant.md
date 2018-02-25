@@ -44,7 +44,7 @@ _<iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" fra
 - Think Long Term
  - Compare Ryan Leaf (out of the league in 4 years) to Peyton Manning (18 year career with 2 SB wins & 5 MVP awards)
  - Quick wins are great, but you should approach the relationship with your marketing consultant as a long term partnership geared for ongoing success. Promises of huge traffic spikes or rankings jumps in a short time span are red flags that the consultant isn't in it for the long haul with your business. Even in the digital world, building your brand, establishing relationships, and cultivating loyalty take time and effort.
- - TBD
+ - This may also mean that you as the business owner have to change your mindset about timelines and the relationship with your marketing consultant. While there are instances where project-based marketing makes more sense than a retainer model, a short-term or month-to-month engagement with an agency or marketing consultant is far less likely to help your home remodeling business or AEC company [reach its full potential](https://www.forbes.com/sites/forbesagencycouncil/2018/02/22/five-reasons-project-based-marketing-wont-help-your-company-reach-its-full-potential/#42560e422141).
 
 **CONCLUSION**  
 TBD
