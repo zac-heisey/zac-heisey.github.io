@@ -15,7 +15,6 @@ defaults: # see admin/config.yml file for Netlify CMS front matter defaults
     categories: blog
     permalink: "/:categories/:title"
     layout: post
-    author: 'Zac Heisey'
 - scope:
     path: ''
     type: pages
