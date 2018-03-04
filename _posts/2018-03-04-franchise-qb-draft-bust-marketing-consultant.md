@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Franchise QB or Draft Bust: Which is Your Marketing Consultant?
+title: 'Franchise QB or Draft Bust: Which is Your Marketing Consultant?'
 date: 2018-03-04 00:00:01 -0400
 categories: blog
 description: TBD
