@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Franchise QB or Draft Bust: Which is Your Marketing Consultant?
-date: 2018-02-22 00:00:01 -0400 # update when post is ready to publish
+date: 2018-03-04 00:00:01 -0400
 categories: blog
 description: TBD
 author: Zac Heisey
@@ -27,6 +27,8 @@ Fast forward two years, and Manziel has thrown for a grand total of 7 touchdowns
 
 ![gif of Johnny Manziel making money sign](https://media.giphy.com/media/j29c7DGtRTJdK/giphy.gif "Money Manziel")
 
+**Takeway**
+
 It can be tempting to be swayed by a consultant or agency who wows you with a slick presentation or promises of instant success. In these instances, it pays to do your due diligence and learn more before deciding to work with someone. Ask for (and actually contact!) references to get an idea not only of the work they've done, but also _how_ they are to work with. Are they transparent and communicative when you have questions? Do they provide clear and useful reporting, or is it a 10-page report filled with acronyms and graphs that are impossible to decipher?
 
 ### Make Sure They're Coachable
@@ -40,6 +42,8 @@ A few red flags that might isn't your marketing consultant isn't coachable:
 - They become defensive when performance is lacking, and don't offer much in terms of actionable insights.
 - They aren't informed about your industry, nor do they appear to understand what sets your company apart.
 
+**Takeaway**
+
 A true marketing pro will take the time to learn as much as possible about your company, your clients, and your goals, combine that with your direct input, and develop a solid strategy to build upon. When course correction is necessary, they take initiative and work with you to find the best way forward, instead of pushing back against criticism.
 
 ### Ego Metrics vs. Business Goals
@@ -52,10 +56,13 @@ But when it came to the big game, Eli was as clutch as they come. He led the New
 
 ![gif of Eli Manning David Tyree Helmet Catch](https://media.giphy.com/media/by9CllBn7ZFoA/giphy.gif "Eli Manning, David Tyree, and The Helmet Catch")
 
-- Include mention and link to _REAL COMPANY SHIT_ post on Medium
-- Remember: rankings, traffic, followers, links, etc. are _indicators_ (aka KPIs) of current and/or future success, _not_ the end goal of your digital marketing efforts.
+**Takeaway**
 
-![gif of Rod Tidwell saying 'Show Me the Money!' from Jerry Macguire](https://media.giphy.com/media/7B71Ci4KE3m0/giphy.gif "Rod Tidwell Knows What's Up")
+While gaudy numbers and "ego metrics" are nice, they aren't the reason you've decided to work with a marketing consultant. Remember: keyword rankings, traffic, followers, links, etc. are all _indicators_ (aka KPIs) of current and/or future success. They are _not_ the end goal of your digital marketing efforts.
+
+Building your brand, driving more leads, and ultimately, earning more business are the only things that should matter at the end of the day. If your marketing consultant isn't focused on helping you do ['Real Company Sh*t'](https://medium.com/@zac_heisey/its-2016-are-we-doing-real-company-sh-t-yet-a3f995bd63ed), it might be time to look elsewhere.
+
+![gif of Rod Tidwell saying 'Show Me the Money!' from Jerry Macguire](https://media.giphy.com/media/7B71Ci4KE3m0/giphy.gif "Rod Tidwell is Focused On Real Company Sh*t")
 
 ### Think Long Term
 
@@ -65,9 +72,8 @@ This point ties in with choosing dependability over flash. In the NFL, a guy who
 
 Peyton Manning enjoyed a Hall of Fame career that spanned 18 seasons and included two Super Bowl wins and 5 MVP awards. Ryan Leaf was out of the NFL within 4 years, and has struggled with legal and drug problems ever since. Of course, hindsight is 20/20 and it's safe to assume that both the Colts and the Chargers were thinking long terms when they drafted each player. But only one of these guys actually stood the test of time.
 
+**Takeaway**
+
 Quick wins are great, but you should approach the relationship with your marketing consultant as a long term partnership geared for ongoing success. Promises of huge traffic spikes or rankings jumps in a short time span are red flags that the consultant isn't in it for the long haul with your business. Even in the digital world, building your brand, establishing relationships, and cultivating loyalty take time and effort.
 
 This may also mean that you as the business owner have to change your mindset about timelines and the relationship with your marketing consultant. While there are instances where project-based marketing makes more sense than a retainer model, a short-term or month-to-month engagement with an agency or marketing consultant is far less likely to help your home remodeling business or AEC company [reach its full potential](https://www.forbes.com/sites/forbesagencycouncil/2018/02/22/five-reasons-project-based-marketing-wont-help-your-company-reach-its-full-potential/#42560e422141).
-
-**CONCLUSION**  
-TBD
