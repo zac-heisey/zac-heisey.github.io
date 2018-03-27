@@ -3,6 +3,19 @@ backend:
   branch: netlify # Branch to update (optional; defaults to master)
 media_folder: "assets/images" # Tells Netlify CMS where to upload new photos
 collections:
+  - name: "draft" # Used in routes, e.g., /admin/collections/blog
+    label: "Drafts" # Used in the UI
+    folder: "_drafts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "categories", widget: "string", default: "blog"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Author", name: "author", widget: "string", default: "Zac Heisey"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
