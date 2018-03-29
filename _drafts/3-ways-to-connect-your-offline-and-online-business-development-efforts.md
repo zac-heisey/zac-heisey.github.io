@@ -11,4 +11,4 @@ This is a draft post in progress...Leverage offline relationships into digital p
 
 2. Education (joint webinars, seminars, other client education opportunities, etc.)
 
-3. TBD
+3. Marketing (affiliate opportunities, co-op advertising, etc.)
