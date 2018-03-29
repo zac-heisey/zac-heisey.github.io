@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 3 Ways to Connect Your Offline and Online Business Development Efforts
+title: >-
+  3 Ways to Leverage Your Offline Business Relationships into Digital
+  Partnerships
 categories: blog
 description: Title and Description TBD
 author: Zac Heisey
@@ -11,4 +13,4 @@ This is a draft post in progress...Leverage offline relationships into digital p
 
 2. Education (joint webinars, seminars, other client education opportunities, etc.)
 
-3. Marketing (affiliate opportunities, co-op advertising, etc.)
+3. Marketing (affiliate opportunities, co-op advertising, partner marketing, etc.)
