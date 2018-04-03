@@ -1,10 +1,9 @@
 ---
 layout: post
-title: >-
-  3 Ways to Leverage Your Offline Business Relationships into Digital
-  Partnerships
+title: 3 Ways to Leverage Your Offline Business Relationships into Digital Partnerships
+date: 2018-04-03 00:00:01 -0400
 categories: blog
-description: Title and Description TBD
+description: We share three ways to leverage those hard-earned offline business relationships into fruitful digital partnerships that benefit everyone involved.
 author: Zac Heisey
 ---
 When you boil it down, business success hinges on one thing: **relationships**. Whether it's with vendors and suppliers, industry partners and peers, staff members, clients, or prospects, relationships serve as the foundation upon which every business is built.
