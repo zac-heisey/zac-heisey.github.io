@@ -3,17 +3,17 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="top">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P57K9C"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
   {% include header.html %}
-    <!-- Content Container -->
-    <main class="content-container" aria-label="Content">
+    <!-- Main Content Container -->
+    <div id="main">
       {{ content }}
-    </main>
+    </div>
 
     {% include footer.html %}
 
