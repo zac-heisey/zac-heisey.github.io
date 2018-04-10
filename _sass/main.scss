@@ -2,7 +2,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import url('font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Raleway');
 
 /*
 	Strata by HTML5 UP
@@ -903,7 +903,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('../../images/bg-2.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -928,6 +928,10 @@
 
 		strong, b {
 			color: _palette(accent2, fg-bold);
+
+			&.rock-salt {
+				font-family: _font(rock-salt);
+			}
 		}
 
 		h2, h3, h4, h5, h6 {

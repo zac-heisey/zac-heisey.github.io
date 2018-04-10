@@ -3,9 +3,9 @@ title: Blog
 layout: page
 ---
 
-<!-- ZH Consulting Blog -->
-# AEC Marketing Resources
-<h3 style="text-align:center;">News, Trends, & Tips for AEC Companies</h3>
+# ZH Consulting Blog
+
+### News, Trends, & Tips for AEC Companies
 
 • [Is Your Marketing Automation Ruining Your Client's Experience?](https://medium.com/@zac_heisey/is-your-marketing-automation-ruining-your-clients-experience-db26e2317393)
 
