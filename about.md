@@ -10,7 +10,7 @@ My name is Zac Heisey and I'm the guy behind ZH Consulting. Since 2007, I've bee
 I work with home builders, architects, contractors, and construction companies to build better websites and launch effective digital marketing campaigns that get results. If you're a company in the home improvement or AEC industry in need of a digital renovation, I'd love to hear from. Take a look at [my services](/services) to see if we're a good fit and [get in touch](/contact)!
 
 <!-- Featured Projects Section -->
-<section id="lightbox">
+<!-- <section id="lightbox">
 	<h3>Featured Projects</h3>
 	<div class="row">
 		<article class="6u 12u$(xsmall) work-item">
@@ -24,4 +24,4 @@ I work with home builders, architects, contractors, and construction companies t
 			<p>Business Development | On-Site Training</p>
 		</article>
 	</div>
-</section>
+</section> -->
