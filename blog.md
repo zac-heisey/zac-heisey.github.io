@@ -11,13 +11,3 @@ layout: default
   [{{ post.title }}]({{ post.url }})  
   {{ post.date | date: "%b %-d, %Y" }}
 {% endfor %}
-
-<!-- • [Is Your Marketing Automation Ruining Your Client's Experience?](https://medium.com/@zac_heisey/is-your-marketing-automation-ruining-your-clients-experience-db26e2317393)
-
-• [It's 2016: Are We Doing Real Company Sh*t Yet?](https://medium.com/@zac_heisey/its-2016-are-we-doing-real-company-sh-t-yet-a3f995bd63ed)
-
-• [The Dimensions Tab - AdWords' Hidden Treasure](https://medium.com/@zac_heisey/the-dimensions-tab-adwords-hidden-treasure-5a1d830ace96)
-
-• [What Your Website is Telling Visitors About Your Brand](https://medium.com/@zac_heisey/what-your-website-is-telling-visitors-about-your-brand-143a87de2096)
-
-• [Why Pay-for-Performance SEM Doesn't Make Sense](https://medium.com/@zac_heisey/why-pay-for-performance-sem-doesnt-make-sense-d2206052b94f) -->
