@@ -3,7 +3,6 @@ title: Thank You
 layout: page
 ---
 
-<!-- Thank You Page -->
 # Thanks for Reaching Out!
 
 I'll be in touch ASAP to learn more about your business and AEC marketing goals.

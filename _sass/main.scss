@@ -72,7 +72,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent1, bg) !important;
+			color: _palette(accent1, bg);
 			text-decoration: none;
 		}
 	}
@@ -901,9 +901,9 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent2, bg);
+		background-color:		_palette(accent1, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../../images/bg-2.jpg');
+		background-image: linear-gradient(to top, #6DBDB6, rgba(255, 255, 255, 0.15)), url('../../images/bg-2.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -927,7 +927,7 @@
 		}
 
 		strong, b {
-			color: _palette(accent2, fg-bold);
+			color: _palette(fg-bold);
 
 			&.rock-salt {
 				font-family: _font(rock-salt);
@@ -939,7 +939,7 @@
 		}
 
 		h1 {
-			color: _palette(accent2, fg);
+			color: _palette(fg);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -958,12 +958,16 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
-				color: _palette(accent2, fg-light);
+				color: _palette(accent2, fg);
+
+				&:hover {
+					color: _palette(bg)
+				}
 			}
 		}
 
 		.copyright {
-			color: _palette(accent2, fg-light);
+			color: _palette(accent2, fg);
 			font-size: 0.8em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
@@ -983,7 +987,11 @@
 				}
 
 				a {
-					color: inherit;
+					color: _palette(accent2, fg);
+
+					&:hover {
+						color: _palette(bg)
+					}
 				}
 			}
 		}
