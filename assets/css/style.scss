@@ -6,3 +6,8 @@
 
 // Import main.scss from _sass directory
 @import 'main';
+
+// Hide Netlify honeypot field
+p.hidden {
+  display: none;
+}
