@@ -7,6 +7,6 @@ layout: default
 
 I'll be in touch ASAP to learn more about your business and AEC marketing goals.
 
-In the meantime, check out some of my [previous client work](/projects), or read through a few [blog posts](/blog) to get an idea of the work I can do for you.
+In the meantime, check out some of my [blog posts](/blog), browse through some [free resources](#), or sign up for an [online course](#).
 
-I look forward to connecting with you soon!
+I look forward to working with you soon!
