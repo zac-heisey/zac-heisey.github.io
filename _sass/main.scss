@@ -1079,7 +1079,7 @@
 			width: 50%;
 
 			&:before {
-				color: #fff;
+				color: _palette(accent1, bg);
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -1113,7 +1113,7 @@
 			@include icon;
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
 			-webkit-tap-highlight-color: rgba(255,255,255,0);
-			color: #fff;
+			color: _palette(accent1, bg);
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -1127,7 +1127,7 @@
 			&:before {
 				@include vendor('box-sizing', 'content-box');
 				border-radius: 100%;
-				border: solid 3px rgba(255,255,255,0.5);
+				border: solid 3px _palette(border2);
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
