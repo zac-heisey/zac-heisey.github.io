@@ -1,6 +1,6 @@
 ---
 title: Services
-layout: page
+layout: default
 ---
 
 # Digital Consulting Services

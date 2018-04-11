@@ -1,5 +1,6 @@
 ---
 title: README
+layout: default
 sitemap: false
 ---
 

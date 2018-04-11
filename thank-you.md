@@ -1,6 +1,6 @@
 ---
 title: Thank You
-layout: page
+layout: default
 ---
 
 # Thanks for Reaching Out!
