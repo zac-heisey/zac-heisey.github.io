@@ -452,7 +452,6 @@
 
 		&:before {
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
-			background: url('images/overlay.png');
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
@@ -494,8 +493,8 @@
 				}
 
 				&:before {
-					background: url('images/overlay.png'), url('images/overlay.png');
-					opacity: 1.0;
+					background: _palette(accent1, bg);
+					opacity: 0.85;
 				}
 			}
 		}
