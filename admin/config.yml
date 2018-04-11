@@ -28,19 +28,6 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Author", name: "author", widget: "string", default: "Zac Heisey"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "projects"
-    label: "Projects"
-    folder: "_projects"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Site", name: "site", widget: "string"}
-      - {label: "Services", name: "services", widget: "list"}
-      - {label: "Mockup", name: "mockup", widget: "image"}
-      - {label: "Logo", name: "logo", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     folder: "/"
