@@ -46,7 +46,7 @@
 /* Basic */
 
 	body {
-		background: _palette(bg);
+		background: _palette(white);
 
 		&.is-loading {
 			*, *:before, *:after {
@@ -57,7 +57,7 @@
 	}
 
 	body, input, select, textarea {
-		color: _palette(fg);
+		color: _palette(gray);
 		font-family: _font(family);
 		font-size: 16pt;
 		font-weight: _font(weight);
@@ -67,18 +67,18 @@
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		border-bottom: dotted 1px;
-		color: _palette(accent1, bg);
+		color: _palette(accent);
 		text-decoration: none;
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent1, bg);
+			color: _palette(accent);
 			text-decoration: none;
 		}
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
+		color: _palette(heavy-gray);
 		font-weight: _font(weight-bold);
 	}
 
@@ -91,7 +91,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
+		color: _palette(heavy-gray);
 		font-weight: _font(weight-bold);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -146,7 +146,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px _palette(border);
+		border-bottom: solid 2px _palette(light-gray-1);
 
 		// This is the *only* instance where we need to rely on margin collapse.
 		margin: _size(element-margin) 0;
@@ -157,16 +157,16 @@
 	}
 
 	blockquote {
-		border-left: solid 6px _palette(border);
+		border-left: solid 6px _palette(light-gray-1);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
 	code {
-		background: _palette(border-bg);
+		background: _palette(light-gray-2);
 		border-radius: _size(border-radius);
-		border: solid 2px _palette(border);
+		border: solid 2px _palette(light-gray-1);
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -209,7 +209,7 @@
 
 	header {
 		p {
-			color: _palette(fg-light);
+			color: _palette(gray);
 			position: relative;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 		}
@@ -248,7 +248,7 @@
 	}
 
 	label {
-		color: _palette(fg-bold);
+		color: _palette(heavy-gray);
 		display: block;
 		font-size: 0.9em;
 		font-weight: _font(weight-bold);
@@ -261,7 +261,7 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
+		background: _palette(light-gray-2);
 		border-radius: _size(border-radius);
 		border: solid 2px transparent;
 		color: inherit;
@@ -276,7 +276,7 @@
 		}
 
 		&:focus {
-			border-color: _palette(accent1, bg);
+			border-color: _palette(accent);
 		}
 	}
 
@@ -286,7 +286,7 @@
 		position: relative;
 
 		&:before {
-			color: _palette(border2);
+			color: _palette(light-gray-1);
 			content: '\f078';
 			display: block;
 			height: _size(element-height);
@@ -327,7 +327,7 @@
 
 		& + label {
 			@include icon;
-			color: _palette(fg);
+			color: _palette(gray);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -337,7 +337,7 @@
 			position: relative;
 
 			&:before {
-				background: _palette(border-bg);
+				background: _palette(light-gray-2);
 				border-radius: _size(border-radius);
 				border: solid 2px transparent;
 				content: '';
@@ -354,16 +354,16 @@
 
 		&:checked + label {
 			&:before {
-				background: _palette(fg-bold);
-				border-color: _palette(fg-bold);
-				color: _palette(bg);
+				background: _palette(heavy-gray);
+				border-color: _palette(heavy-gray);
+				color: _palette(white);
 				content: '\f00c';
 			}
 		}
 
 		&:focus + label {
 			&:before {
-				border-color: _palette(accent1, bg);
+				border-color: _palette(accent);
 			}
 		}
 	}
@@ -385,27 +385,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(gray) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(gray) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(gray) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(gray) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(gray) !important;
 		opacity: 1.0;
 	}
 
@@ -413,7 +413,7 @@
 
 	.box {
 		border-radius: _size(border-radius);
-		border: solid 2px _palette(border);
+		border: solid 2px _palette(light-gray-1);
 		margin-bottom: _size(element-margin);
 		padding: 1.5em;
 
@@ -493,7 +493,7 @@
 				}
 
 				&:before {
-					background: _palette(accent1, bg);
+					background: _palette(accent);
 					opacity: 0.85;
 				}
 			}
@@ -575,7 +575,7 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid 2px _palette(border);
+				border-top: solid 2px _palette(light-gray-1);
 				padding: 0.5em 0;
 
 				&:first-child {
@@ -698,7 +698,7 @@
 				}
 
 				h3 {
-					color: _palette(fg-light);
+					color: _palette(gray);
 					left: 0;
 					position: absolute;
 					text-align: center;
@@ -726,12 +726,12 @@
 
 		tbody {
 			tr {
-				border: solid 1px _palette(border);
+				border: solid 1px _palette(light-gray-1);
 				border-left: 0;
 				border-right: 0;
 
 				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
+					background-color: _palette(light-gray-2);
 				}
 			}
 		}
@@ -741,7 +741,7 @@
 		}
 
 		th {
-			color: _palette(fg-bold);
+			color: _palette(heavy-gray);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
 			padding: 0 0.75em 0.75em 0.75em;
@@ -749,11 +749,11 @@
 		}
 
 		thead {
-			border-bottom: solid 2px _palette(border);
+			border-bottom: solid 2px _palette(light-gray-1);
 		}
 
 		tfoot {
-			border-top: solid 2px _palette(border);
+			border-top: solid 2px _palette(light-gray-1);
 		}
 
 		&.alt {
@@ -762,7 +762,7 @@
 			tbody {
 				tr {
 					td {
-						border: solid 2px _palette(border);
+						border: solid 2px _palette(light-gray-1);
 						border-left-width: 0;
 						border-top-width: 0;
 
@@ -799,8 +799,8 @@
 		@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		background-color: transparent;
 		border-radius: _size(border-radius);
-		border: solid 3px _palette(border);
-		color: _palette(fg-bold) !important;
+		border: solid 3px _palette(light-gray-1);
+		color: _palette(heavy-gray) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: _font(weight-bold);
@@ -814,14 +814,14 @@
 		white-space: nowrap;
 
 		&:hover {
-			border-color: _palette(accent1, bg);
-			color: _palette(accent1, bg) !important;
+			border-color: _palette(accent);
+			color: _palette(accent) !important;
 		}
 
 		&:active {
-			background-color: transparentize(_palette(accent1, bg), 0.9);
-			border-color: _palette(accent1, bg);
-			color: _palette(accent1, bg) !important;
+			background-color: transparentize(_palette(accent), 0.9);
+			border-color: _palette(accent);
+			color: _palette(accent) !important;
 		}
 
 		&.icon {
@@ -848,26 +848,26 @@
 		}
 
 		&.special {
-			background-color: _palette(accent1, bg);
-			border-color: _palette(accent1, bg);
-			color: _palette(accent1, fg-bold) !important;
+			background-color: _palette(accent);
+			border-color: _palette(accent);
+			color: _palette(white) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent1, bg), 5);
-				border-color: lighten(_palette(accent1, bg), 5);
+				background-color: lighten(_palette(accent), 5);
+				border-color: lighten(_palette(accent), 5);
 			}
 
 			&:active {
-				background-color: darken(_palette(accent1, bg), 5);
-				border-color: darken(_palette(accent1, bg), 5);
+				background-color: darken(_palette(accent), 5);
+				border-color: darken(_palette(accent), 5);
 			}
 		}
 
 		&.disabled,
 		&:disabled {
-			background-color: _palette(border2-bg) !important;
-			border-color: _palette(border2-bg) !important;
-			color: _palette(fg-light) !important;
+			background-color: _palette(light-gray-2) !important;
+			border-color: _palette(light-gray-2) !important;
+			color: _palette(gray) !important;
 			cursor: default;
 		}
 	}
@@ -900,13 +900,13 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent1, bg);
+		background-color:		_palette(accent);
 		background-attachment:	scroll,								fixed;
 		background-image: linear-gradient(to top, #6DBDB6, rgba(255, 255, 255, 0.15)), url('../../images/bg-2.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
-		color: _palette(accent2, fg);
+		color: _palette(light-gray-2);
 		height: 100%;
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
@@ -926,7 +926,7 @@
 		}
 
 		strong, b {
-			color: _palette(fg-bold);
+			color: _palette(heavy-gray);
 
 			&.rock-salt {
 				font-family: _font(rock-salt);
@@ -934,11 +934,11 @@
 		}
 
 		h2, h3, h4, h5, h6 {
-			color: _palette(accent2, fg-bold);
+			color: _palette(white);
 		}
 
 		h1 {
-			color: _palette(fg);
+			color: _palette(gray);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -957,23 +957,25 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
-				color: _palette(accent2, fg);
+				color: _palette(light-gray-2);
+				opacity: 0.5;
 
 				&:hover {
-					color: _palette(bg)
+					color: _palette(white);
+					opacity: 1;
 				}
 			}
 		}
 
 		.copyright {
-			color: _palette(accent2, fg);
+			color: _palette(light-gray-2);
 			font-size: 0.8em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 			padding: 0;
 
 			li {
-				border-left: solid 1px _palette(accent2, border);
+				border-left: solid 1px _palette(light-gray-2);
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 0.75em;
@@ -986,10 +988,12 @@
 				}
 
 				a {
-					color: _palette(accent2, fg);
+					color: _palette(light-gray-2);
+					opacity: 0.5;
 
 					&:hover {
-						color: _palette(bg)
+						color: _palette(white);
+						opacity: 1;
 					}
 				}
 			}
@@ -1005,7 +1009,7 @@
 		width: calc(100% - #{$size-header-width});
 
 		> section {
-			border-top: solid 2px _palette(border);
+			border-top: solid 2px _palette(light-gray-1);
 			margin: $size-header-pad 0 0 0;
 			padding: $size-header-pad 0 0 0;
 
@@ -1078,7 +1082,7 @@
 			width: 50%;
 
 			&:before {
-				color: _palette(accent1, bg);
+				color: _palette(accent);
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -1112,7 +1116,7 @@
 			@include icon;
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
 			-webkit-tap-highlight-color: rgba(255,255,255,0);
-			color: _palette(accent1, bg);
+			color: _palette(accent);
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -1126,7 +1130,7 @@
 			&:before {
 				@include vendor('box-sizing', 'content-box');
 				border-radius: 100%;
-				border: solid 3px _palette(border2);
+				border: solid 3px _palette(light-gray-1);
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
@@ -1303,7 +1307,7 @@
 
 			#footer {
 				background-attachment:	scroll;
-				background-color:		_palette(accent2, bg);
+				background-color:		_palette(light-gray-2);
 				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
 				background-position:	top left,						bottom center;
 				background-repeat:		repeat,							no-repeat;
