@@ -1,11 +1,9 @@
 ---
 layout: post
-title: 'Focus On Solutions, Not Services'
+title: Focus On Solutions, Not Services
+date: 2018-05-29 00:00:01 -0400
 categories: blog
-description: >-
-  Are you hiring outside help to deliver individual services or practical
-  solutions? Knowing the difference can have a major impact on the outcome of
-  your project.
+description: Are you hiring outside help to deliver individual services or practical solutions? Knowing the difference can have a major impact on the outcome of your project.
 author: Zac Heisey
 ---
 Something that's often overlooked during the selection process of an outside web developer, marketing agency, or business consultant is the prioritization of solutions over services. While it might seem like an argument over semantics, working with a solutions-focused provider can be the difference between realizing your company's goal(s), and simply receiving a stack of deliverables.
