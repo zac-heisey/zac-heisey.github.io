@@ -26,13 +26,12 @@ So, do you want a website (service), or better way to attract, nurture, and conv
 
 The gap between **Services** and **Solutions** is **Strategy**. As we've discussed, the commoditization of many digital services means it's easier than ever for non-developers to build their own website, cheap SEO services & online marketing "gurus" are a dime a dozen, and free web-based tools like [Canva](https://www.canva.com/) and [Piktochart](https://piktochart.com/) can turn anyone into a decent graphic designer.
 
-The key to ensuring these services evolve into solutions depends on a sound strategy that outlines _why_ certain services are necessary, _when_ they should be implemented, and _how_ they should be executed.
+The key to ensuring that services evolve into solutions depends on a sound strategy that outlines _why_ certain services are necessary, _when_ they should be implemented, and _how_ they should be executed.
 
+Going back to our standard website example, this means having a complete understanding of who a company's ideal customers are, how they interact with content on the web, what path(s) they are likely to take as they navigate a website, and ultimately, what user experience needs to be created in order for visitors to become customers.
 
+## Wrapping Up
 
+Thankfully, there are a lot of folks in consulting (particularly in the digital space) who understand the value of prioritizing solutions over services. In a post from last November, SEO Consultant John Locke beautifully outlines the benefits of [selling solutions, not services](https://www.lockedownseo.com/sell-solutions-not-services/), and why the distinction is so critical:
 
-
-
-
-
-
+> "Bottom line, is your client’s problem going to go away if they hire you? Just like the accountant makes the auditor go away, the lawyer makes jail time go away, and the doctor makes health problems go away — **your value lies in how consistently and efficiently you make business problems go away**.
