@@ -7,21 +7,8 @@ layout: default
 
 My name is Zac Heisey and I'm the guy behind ZH Consulting. Since 2007, I've been helping companies build and optimize their websites, establish and grow their digital brands, and earn more business online.
 
-I work with home builders, architects, contractors, and construction companies to build better websites and launch effective digital marketing campaigns that get results. If you're a company in the home improvement or AEC industry in need of a digital renovation, I'd love to hear from. Take a look at [my services](/services) to see if we're a good fit and [get in touch](/#contact)!
+After working on dozens of websites struggling with security issues, outdated plugins, slow load times, and code bloat, I decided to go a different route. Dynamic CMSs like WordPress, Joomla, Drupal, Squarespace, Wix, etc. can be great - when they're the best tool for the job. For most small businesses, startups, and nonprofits, a big, complex CMS like WordPress is overkill.
 
-<!-- Featured Projects Section -->
-<!-- <section id="lightbox">
-	<h3>Featured Projects</h3>
-	<div class="row">
-		<article class="6u 12u$(xsmall) work-item">
-			<a href="/images/fulls/mldbr-screenshot.png" class="image fit thumb"><img src="/images/thumbs/mldbr-logo.png" alt="" /></a>
-			<h3>Murray Lampert Design, Build, Remodel</h3>
-			<p>Website | Digital Strategy | Online Marketing</p>
-		</article>
-		<article class="6u$ 12u$(xsmall) work-item">
-			<a href="/images/fulls/02.jpg" class="image fit thumb"><img src="/images/thumbs/02.jpg" alt="" /></a>
-			<h3>Client 2</h3>
-			<p>Business Development | On-Site Training</p>
-		</article>
-	</div>
-</section> -->
+At ZH Consulting, we specialize in static web development using [Jekyll](https://jekyllrb.com/) and [Hugo](https://gohugo.io/). With these [Static Site Generators (SSGs)](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/), we're able to build super-fast, super-secure websites with an intuitive, client-friendly UI that works wonderfully for both developers and content creators.
+
+No plugins. No databases. No security flaws. Just rock-solid websites that look great and work even better. Ready to get your website built? Take a look at [my work](/work) to see if we're a good fit and [get in touch](/#contact)!

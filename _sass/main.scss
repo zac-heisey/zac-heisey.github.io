@@ -82,6 +82,10 @@
 		font-weight: _font(weight-bold);
 	}
 
+	.rock-salt {
+		font-family: _font(rock-salt);
+	}
+
 	em, i {
 		font-style: italic;
 	}
@@ -900,12 +904,12 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent);
-		background-attachment:	scroll,								fixed;
-		background-image: linear-gradient(to top, #6DBDB6, rgba(255, 255, 255, 0.15)), url('../../images/bg-2.jpg');
-		background-position:	top left,							top left;
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								auto 100%;
+		background-color: _palette(accent);
+		background-attachment: scroll, fixed;
+		background-image: linear-gradient(to top, #6DBDB6, rgba(255, 255, 255, 0.15)), url('../../images/header-bg-1.jpg');
+		background-position: top left, top left;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, auto 100%;
 		color: _palette(light-gray-2);
 		height: 100%;
 		left: 0;
@@ -923,14 +927,6 @@
 		> .inner {
 			@include vendor('flex-grow', '1');
 			margin: 0 0 ($size-header-pad * 0.5) 0;
-		}
-
-		strong, b {
-			color: _palette(heavy-gray);
-
-			&.rock-salt {
-				font-family: _font(rock-salt);
-			}
 		}
 
 		h2, h3, h4, h5, h6 {
