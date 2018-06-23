@@ -3,9 +3,9 @@ title: Blog
 layout: default
 ---
 
-# AEC Marketing Blog
+# My Blog
 
-### Marketing News, Trends, & Tips for AEC Companies
+### Web Design, Digital Consulting, and More
 
 {% for post in site.posts %}
   [{{ post.title }}]({{ post.url }})  
