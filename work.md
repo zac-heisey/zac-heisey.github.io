@@ -5,7 +5,7 @@ layout: default
 
 # My Work
 
-Below are a few sample of my work from featured web design projects.
+Below are a few sample of featured web design projects I've done.
 
 <!-- Featured Projects Section -->
 <section id="lightbox">
