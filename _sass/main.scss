@@ -908,8 +908,8 @@
 		background-attachment: scroll, fixed;
 		background-image: linear-gradient(to top, #6DBDB6, rgba(255, 255, 255, 0.15)), url('../../images/header-bg-1.jpg');
 		background-position: top left, top left;
-		background-repeat: repeat, no-repeat;
-		background-size: 35%, contain; // was auto, auto 100%
+		// background-repeat: repeat, no-repeat;
+		background-size: 35%; // was auto, auto 100%
 		color: _palette(light-gray-2);
 		height: 100%;
 		left: 0;
