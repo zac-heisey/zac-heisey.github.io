@@ -1,11 +1,14 @@
 ---
-title: My Work
 layout: default
+title: My Work
+description: >-
+  Freelance web design & development project portfolio by Zac Heisey. Check out
+  my work and get in touch to start your web project with me.
 ---
 
 # My Work
 
-Below are a few sample of featured web design projects I've done.
+Below are a few samples of web design & development projects I've worked on.
 
 <!-- Featured Projects Section -->
 <section id="lightbox">
