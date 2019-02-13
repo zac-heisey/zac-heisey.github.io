@@ -7,6 +7,8 @@ description: Are you hiring outside help to deliver individual services or pract
 author: Zac Heisey
 ---
 
+$API_KEY
+
 Something that's often overlooked during the selection process of an outside web developer, marketing agency, or business consultant is the prioritization of solutions over services. While it might seem like an argument over semantics, working with a solutions-focused provider can be the difference between realizing your company's goal(s), and simply receiving a stack of deliverables.
 
 Reaching an acceptable solution to a defined problem should _always_ be the goal of any consulting engagement, with services being the means of working towards solutions. It's a much better idea to hire a consultant to help you solve a specific business problem or achieve a desired goal (e.g. earning more web traffic), and work backwards from there, rather than try to pre-determine the services you _think_ your company needs, find a provider, and hope that will help you solve your problem or reach your business objective.
