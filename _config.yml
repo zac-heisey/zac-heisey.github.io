@@ -1,5 +1,5 @@
 ---
-title: Freelance Web Design & Development | Zac Heisey
+title: Freelance Web Developer & Instructor
 collections:
   posts:
     title: Posts
@@ -19,7 +19,7 @@ defaults: # see admin/config.yml file for Netlify CMS front matter defaults
     layout: page
 url: https://www.zac-heisey.com # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
-description: I'm a freelance web designer with 10+ years of digital industry experience. I build clean, simple websites for startups, small businesses, and nonprofit organizations using Jekyll and Hugo.
+description: I'm a freelance web developer and instructor with a passion for vanilla JavaScript, nonprofits, teaching, travel, and JAMstack web development.
 permalink: pretty
 include:
 - _redirects
