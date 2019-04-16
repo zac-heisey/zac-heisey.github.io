@@ -1,7 +1,3 @@
 ### NETLIFY DEV DOMAIN REDIRECTS
 https://zac-heisey.netlify.com/*   https://www.zac-heisey.com/:splat    301!
 http://zac-heisey.netlify.com/*    https://www.zac-heisey.com/:splat    301!
-
-### GATED CONTENT TESTING
-/test/* 200! Role=admin
-/test/ / 404
