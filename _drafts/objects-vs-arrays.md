@@ -13,25 +13,43 @@ Both objects and arrays are considered "special" in JavaScript. Objects represen
 ## Objects
 
 **When to Use Them**  
-Objects are used to represent a "thing." That could be a person, a car, a building, a book, a character in a game - basically anything that is made up or can be defined by a set of characteristics. In objects, these characteristics are called `properties` that consist of a `key` and a `value`.
+Objects are used to represent a "thing" in your code. That could be a person, a car, a building, a book, a character in a game - basically anything that is made up or can be defined by a set of characteristics. In objects, these characteristics are called `properties` that consist of a `key` and a `value`.
 
 ```js
+// Basic object syntax
 var object = {
   key: 'value'
 };
+
+// Example 'person' object
+var person = {
+  name: 'Zac',
+  age: 33,
+  likesCoding: true
+};
 ```
 
+**Access, Add, and Remove Items**  
+Properties in objects can accessed, added, removed, and changed by using either **dot** or **bracket** notation. To get the value of the `age` key in our `person` object with both dot and bracket notation, we'd write:
 
+```js
+// Dot notation
+person.age // returns 33
 
+// Bracket notation
+person['age'] // returns 33
+```
 
+Say we wanted to change the value of `likesCoding` to false. We can do that with dot notation like this:
 
+```js
+person.likesCoding = false;
+```
 
+And if we wanted to add a new property to our `person` object, we could accomplish that with dot notation as well:
 
+```js
+person.hobbies = ['hiking', 'travel', 'reading'];
+```
 
-
-
-
-
-
-
-
+[Check out this post](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781) on the difference between dot and bracket notation, and when to use each.
