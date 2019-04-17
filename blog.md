@@ -3,7 +3,9 @@ title: Blog
 layout: default
 ---
 
-# My Blog
+<header>
+  <h1>My Blog</h1>
+</header>
 
 {% for post in site.posts %}
   [{{ post.title }}]({{ post.url }})  
