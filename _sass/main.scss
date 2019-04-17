@@ -1,3 +1,6 @@
+/* Syntax Highlighting Import */
+@import 'syntax-highlighting';
+
 /* ===== Global Resets ===== */
 
 /* Universal box sizing > includes padding and border,
@@ -81,6 +84,3 @@ footer {
   display: block;
   margin-bottom: 10px;
 }
-
-/* Syntax Highlighting Import */
-@import 'syntax-highlighting';
