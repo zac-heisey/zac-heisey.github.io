@@ -4,6 +4,10 @@ layout: default
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
+    <nav>
+      <a href="/">Home</a> //
+      <a href="/blog/">Blog</a>
+    </nav>
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <h3>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</span>
