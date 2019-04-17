@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Removes underline from all link states */
-a:visited,{
+a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
@@ -27,10 +27,7 @@ body {
 	color: #282C34;
 	width: 60%;
 	margin: 5% auto;
-}
-
-header {
-	text-align: center;
+  line-height: 1.5;
 }
 
 h1 {
@@ -42,16 +39,25 @@ p, a, ul, ol {
 }
 
 a {
-	text-decoration: underline #C578DD;
+	color: #6DBDB6;
+
+  &:hover {
+    color: #282C34;
+    border-bottom: 3px solid #6DBDB6;
+    padding-bottom: 1px;
+    transition: 0.2s ease;
+  }
+
 }
 
-a:hover {
-	color: #C578DD;
+.intro {
+	text-align: center;
 }
 
-img {
+#hero-img {
 	height: auto;
 	border-radius: 50%;
 	width: 30%;
 	min-width: 250px;
+  margin-bottom: 2rem;
 }
