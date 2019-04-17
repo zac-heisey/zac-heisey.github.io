@@ -20,18 +20,28 @@ a:link, a:visited, a:hover, a:active {
 
 /* ===== Custom Styles ===== */
 
-/* Homepage */
-
 body {
 	font-family: monospace;
 	color: #282C34;
 	width: 60%;
-	margin: 5% auto;
+	margin: 0 auto;
   line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  margin-top: 3rem;
 }
 
 h1 {
 	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 1.65rem;
 }
 
 p, a, ul, ol {
@@ -50,14 +60,24 @@ a {
 
 }
 
-.intro {
-	text-align: center;
-}
-
 #hero-img {
 	height: auto;
 	border-radius: 50%;
 	width: 30%;
 	min-width: 250px;
   margin-bottom: 2rem;
+}
+
+footer {
+  margin: 1rem 0;
+}
+
+#copyright a {
+  font-size: 1em;
+}
+
+#footer-logo {
+  max-width: 30px;
+  display: block;
+  margin-bottom: 10px;
 }
