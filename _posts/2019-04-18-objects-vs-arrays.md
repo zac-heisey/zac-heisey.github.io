@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Objects vs. Arrays
+date: 2019-04-18 00:00:01 -0400
 categories: blog
 description: >-
   Objects and arrays allow us to store and access data in more advanced ways
@@ -30,7 +31,7 @@ var person = {
 ```
 
 **Access, Add, and Remove Items from Objects**  
-Properties in objects can accessed, added, removed, and changed by using either **dot** or **bracket** notation. To get the value of the `age` key in our `person` object with both dot and bracket notation, we'd write:
+Properties in objects can be accessed, added, changed, and removed by using either **dot** or **bracket** notation. To get the value of the `age` key in our `person` object with both dot and bracket notation, we'd write:
 
 ```js
 // Dot notation
@@ -40,7 +41,7 @@ person.age // returns 33
 person['age'] // returns 33
 ```
 
-Say we wanted to change the value of `likesCoding` to false. We can do that with dot notation like this:
+Say we wanted to change the value of `likesCoding` to **false**. We can do that with dot notation like this:
 
 ```js
 person.likesCoding = false;
@@ -61,7 +62,7 @@ delete person.age;
 [Check out this post](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781) on the difference between dot and bracket notation, and when to use each.
 
 **Iterating Through Objects**  
-The most common way to loop through properties in an object is with a **for...in** loop"
+The most common way to loop through properties in an object is with a **for...in** loop:
 
 ```js
 for (var key in myObject) {
@@ -82,7 +83,7 @@ Object.keys(myObject).forEach(function(key) {
 ## Arrays
 
 **When to Use Arrays**  
-We use arrays whenever we want to create and store a list of multiple items in a single variable. Arrays are especially useful when creating **ordered collections** where items in the collection can be accessed by their numerical position in the list. Just as object properties can store a value of any [primitive data type](https://javascript.info/types) (as well as an array or another object), so too can arrays consist of strings, numbers, booleans, objects, or even other arrays.
+We use arrays whenever we want to create and store a list of multiple items in a single variable. Arrays are especially useful when creating **ordered collections** where items in the collection can be accessed by their numerical position in the list. Just as object properties can store values of any [primitive data type](https://javascript.info/types) (as well as an array or another object), so too can arrays consist of strings, numbers, booleans, objects, or even other arrays.
 
 **Access, Add, and Remove Items from Arrays**  
 Arrays use [zero-based indexing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Accessing_array_elements), so the first item in an array has an index of 0, the second item an index of 1, and so on. For instance, let's say we wanted to access the third item ('Mexico City') in the following array:
@@ -122,7 +123,7 @@ for (var i = 0; i < myArray.length; i++) {
 }
 ```
 
-There's also the for...of loop:
+There's also the **for...of** loop:
 
 ```js
 for (var item of myArray) {
@@ -130,7 +131,7 @@ for (var item of myArray) {
 }
 ```
 
-We can also utilize the **forEach()** method:
+Or we can utilize the **forEach()** method:
 
 ```js
 myArray.forEach(item) {
@@ -138,8 +139,8 @@ myArray.forEach(item) {
 });
 ```
 
-Again, the commonalities between iteration techniques of objects and arrays can make things confusing. Here's a [helpful article](https://bitsofco.de/for-in-vs-for-of/) to clear things up.
+Again, the similarities between iteration techniques of objects and arrays can make things confusing. Here's a [helpful article](https://bitsofco.de/for-in-vs-for-of/) to clear things up.
 
 ## Wrapping Up
 
-We use objects to represent "things" in our code, and we use arrays to create and store lists of data in a single variable. Both dot and bracket notation will allow us to access, add, change, and remove items from an object, while we have zero-index notation and a variety of built-in methods to access and alter items in an array. Finally, we can iterate over the object properties and array items using various types of loops (e.g. for, for...in, for...of, forEach()).
+Objects represent "things" with characteristics (aka properties), while arrays create and store lists of data in a single variable. Both dot and bracket notation allow us to access, add, change, and remove items from an object, while zero-based indexing and a variety of built-in methods let us access and alter items in an array. Finally, we can iterate over object properties and array items using various loops (e.g. for, for...in, for...of, forEach()).
