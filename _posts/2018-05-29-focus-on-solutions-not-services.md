@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Focus On Solutions, Not Services
-date: 2018-05-29 00:00:01 -0400
+title: 'Focus On Solutions, Not Services'
+date: '2018-05-29 00:00:01 -0400'
 categories: blog
-description: Are you hiring outside help to deliver individual services or practical solutions? Knowing the difference can have a major impact on the outcome of your project.
+description: >-
+  Are you hiring outside help to deliver individual services or practical
+  solutions? Knowing the difference can have a major impact on the outcome of
+  your project.
 author: Zac Heisey
 ---
 
@@ -17,9 +20,9 @@ For better or worse, **Services** like web development, content creation, SEO, g
 
 **Solutions**, on the other hand, get to the root of a company's pain points to remedy real, long-standing issues or achieve fundamental change within an organization. And because they go beyond the surface level of deliverables, solutions can only be secured through a deep understanding of a company's history, needs, goals, market, customer base, culture, etc.
 
-Take a standard website, for example. As a service, a website is nothing more than a collection of words, images, code, and other digital content delivered to a client for an agreed upon price. As a solution, a website reflects the best aspects of a company in ways that establish rapport, communicate a brand's identity, and hopefully convinces visitors to make a buying decision.
+Take a standard website, for example. As a service, a website is nothing more than a collection of words, images, code, and other digital content delivered to a client for an agreed upon price. As a solution, a website reflects the best aspects of a company in order to establish rapport, communicate a brand's identity, and hopefully convince visitors to make a buying decision.
 
-So, do you want a website (service), or better way to attract, nurture, and convert new customers online (solution).
+So, do you want a website (service), or a better way to attract, nurture, and convert new customers online (solution).
 
 ## The Strategy Gap
 
