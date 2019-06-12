@@ -90,6 +90,7 @@ figure.highlight {
   .c {
     /* Comment */
     color: $base04;
+    font-style: italic;
   }
   .err {
     /* Error */
@@ -118,18 +119,22 @@ figure.highlight {
   .cm {
     /* Comment.Multiline */
     color: $base04;
+    font-style: italic;
   }
   .cp {
     /* Comment.Preproc */
     color: $base04;
+    font-style: italic;
   }
   .c1 {
     /* Comment.Single */
     color: $base04;
+    font-style: italic;
   }
   .cs {
     /* Comment.Special */
     color: $base04;
+    font-style: italic;
   }
   .gd {
     /* Generic.Deleted */
@@ -248,7 +253,7 @@ figure.highlight {
   }
   .nt {
     /* Name.Tag */
-    color: $base0c;
+    color: #6DBDB6; // previously $base0c
   }
   .nv {
     /* Name.Variable */
