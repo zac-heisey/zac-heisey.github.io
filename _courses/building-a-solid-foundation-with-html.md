@@ -1,7 +1,7 @@
 ---
 title: Lesson 1 - Building a Solid Foundation with HTML 🏗️
 layout: course
-description: Structure your HTML with semantic markup, learn about tags, elements, and attributes, as well as forms, links, images, and other advanced elements. 
+description: Structure your HTML with semantic markup, learn about tags, elements, and attributes, as well as forms, links, images, and other advanced elements.
 ---
 
 Nearly every project built for the web relies on Hypertext Markup Language, or HTML, as its foundation. HTML is the standard markup language for all websites and web apps, and, when paired with CSS and JavaScript, make up the fundamental technologies of the web as we know it.
@@ -10,11 +10,11 @@ If we think of a website or web application as a physical building, HTML would r
 
 When HTML is combined with content — text, images, video, etc. — browsers are able interpret and render our web pages to users.
 
-![](https://cdn-images-1.medium.com/max/1600/0*ia7tTHoVISfPVQhe)
+![HTML Structure is like a Building Frame](https://cdn-images-1.medium.com/max/1600/0*ia7tTHoVISfPVQhe "house frame representing HTML structure")
 
 Below we’ll take a look at the building blocks of HTML (tags, elements, attributes, etc.), as well as explore some more advanced elements like `<form>`, `<link>`, and `<img>`. Once we’ve gotten a handle on basic HTML syntax, we’ll work on properly structuring our HTML document to ensure our markup is properly rendered by browsers.
 
-### Tags and Elements
+## Tags and Elements
 
 Tags are the primary building blocks of HTML. They allow us to provide [semantic meaning](https://www.lifewire.com/why-use-semantic-html-3468271) to our content and indicate to browsers how our web pages should be interpreted and rendered.
 
@@ -24,21 +24,35 @@ There are _tons_ of HTML tags to choose from, which can make choosing the right 
 
 If you’re unsure of which types of tags to use in your markup, you can reference [this list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) on MDN web docs, or check out the handy periodic table of HTML elements below:
 
-![](https://cdn-images-1.medium.com/max/1600/1*-ZLQ3rUOVj1RoJGbCmAoUQ.png)
+![periodic table of HTML elements](https://cdn-images-1.medium.com/max/1600/1*-ZLQ3rUOVj1RoJGbCmAoUQ.png "periodic table of HTML elements")
 
 Most HTML elements consist of an opening tag and closing tag. In between these opening and closing tags is where we place our content, be it text, an image, etc. Opening tags are comprised of left and right brackets `(<>)`, while closing tags feature a forward slash `(</>)` like so:
 
-![](https://cdn-images-1.medium.com/max/1600/1*DOx2P7Fwk6CO4H0OBpfPJw.png)
+```html
+<h1>This is a standard heading element.</h1>
+
+<p>This is a standard paragraph element.</p>
+
+<div>Between div tags we can include content without adding any semantic meaning.</div>
+```
 
 Although the terms _tag_ and _element_ are often used interchangeably, there is a difference. The term _element_ refers to the opening tag, closing tag, and any attributes or content contained in between, while _tags_ refer only to the opening and closing tags of an element.
 
-![](https://cdn-images-1.medium.com/max/1600/1*oS7DT4SiHC24rQeMv6_unw.jpeg)A typical HTML element consists of an opening tag, content, and closing tag | Image: [htmlandcssbook.com](http://www.htmlandcssbook.com)
+![typical HTML element](https://cdn-images-1.medium.com/max/1600/1*oS7DT4SiHC24rQeMv6_unw.jpeg "typical HTML element")
+
+The image above shoes a typical HTML element consisting of an opening tag, content, and closing tag (Image: [htmlandcssbook.com](http://www.htmlandcssbook.com)).
 
 A handful of tags in HTML are _self-closing_. This means that they don’t have a corresponding closing tag to match their opening tag. `<img>` tags are a common example of self-closing tags that you’ll come across as you read and write HTML.
 
-![](https://cdn-images-1.medium.com/max/1600/1*dqmfN8RwTJmvxNsoahJrMg.png)
+```html
+<!-- Incorrect use of self-closing tag -->
+<img src="sunset.jpg" alt="beautiful sunset"></img>
 
-#### Block and Inline Elements
+<!-- Correct use of self-closing tag -->
+<img src="sunset.jpg" alt="beautiful sunset">
+```
+
+**Block and Inline Elements**
 
 By default, nearly all HTML elements are organized into one of two categories: block and inline. Block elements begin on a new line and take up the full width of the page. The standard block element is the `<div>`. Other common block elements include:
 
@@ -53,7 +67,7 @@ Inline elements work within the flow of the surrounding content, rather than bre
 * `<img>`
 * `<input>`
 
-#### Element Attributes
+**Element Attributes**
 
 Attributes add meaning and functionality to our HTML elements. We include attributes as part of the opening tag of a given element, with most attributes written as name-value pairs in the following format: `attribute="value"`.
 
@@ -63,11 +77,24 @@ Two attributes we’ll use _a lot_ in HTML are `id` and `class`. These attribute
 
 ![](https://cdn-images-1.medium.com/max/1600/1*CpsUQHuObz7e_g5foHdDFQ.png)
 
-### Forms
+## Forms
 
 Forms are the primary way we send and receive user information on the web. We use the `<form>` element to define a form in HTML, along with some attributes and additional elements to build out the fields of our HTML form:
 
-![](https://cdn-images-1.medium.com/max/1600/1*VUWIaiYORfoyXnQdiVDqqA.png)
+```html
+<!-- A typical contact form might look something like this -->
+
+<form action="/thank-you" method="POST" name="contact-form">
+  <!-- Text input asking for user's name -->
+  <label for="name">Enter Your Name:</label>
+  <input type="text" name="user-name" placeholder="John Doe" id="name">
+  <!-- Email input asking for user's email address -->
+  <label for="email">Enter Your Email:</label>
+  <input type="email" name="user-email" placeholder="johndoe@hotmail.com" id="email">
+  <!-- Submit input defining a button to send form data -->
+  <input type="submit" value="Submit">
+</form>
+```
 
 Let’s break down the different parts of the above `<form>` element. Our opening `<form>` tag includes three attributes:
 
@@ -78,13 +105,19 @@ Let’s break down the different parts of the above `<form>` element. Our openin
 Next, we have `<label>` and `<input>` form elements, which represent the actual fields a user will interact with when they enter their information in our form.
 
 * The `<label>` tags provide descriptive labels for our `<input>` tags. Notice that `for` attribute value matches the `id` attribute value of the corresponding `<input>` tag. This ensures the `<label>` is bound to its associated `<input>`.
-* `<input>` tags define fields where users can enter different types of data to be submitted with the form. There are many [types of](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) `[<input>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)` [tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) we can use, depending on the type of data we want to collect (e.g. emails, phone numbers, passwords, short messages, multiple choices, etc.). The `type` attribute is used to indicate the type of input field we want to use, and we can also give a name to the data entered in a given field by entering a value for the `name` attribute.
+* `<input>` tags define fields where users can enter different types of data to be submitted with the form. There are many [types of `<input>` tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) we can use, depending on the type of data we want to collect (e.g. emails, phone numbers, passwords, short messages, multiple choices, etc.). The `type` attribute is used to indicate the type of input field we want to use, and we can also give a name to the data entered in a given field by entering a value for the `name` attribute.
 
 When rendered in the browser, the markup for our form would appear like so:
 
-![](https://cdn-images-1.medium.com/max/1600/1*jVOhye_tuFkLDk9ecC0Rvg.png)Our HTML form markup rendered in the browser (without any styling)
+<label for="name">Enter Your Name:</label>
+<input type="name" name="user-name" placeholder="John Doe" id="name">
 
-### Links
+<label for="email">Enter Your Email:</label>
+<input type="email" name="user-email" placeholder="johndoe@hotmail.com" id="email">
+
+<input type="submit" value="Submit">
+
+## Links
 
 Hyperlinks — or just simply, links — are a foundational element of the World Wide Web. In its earliest days, the internet was basically just a collection of HTML documents strung together with links.
 
@@ -98,7 +131,7 @@ We create links in HTML using the _anchor_ element, which consists of:
 
 Note that hyperlinks (written with the `<a>` element) are different from `<link>` elements, which are used to refer to an external resource (usually a CSS stylesheet). `<link>` elements will be most often be found in the `<head>` section of an HTML document, which we’ll talk more about later in this lesson.
 
-### Images
+## Images
 
 What would the web be without cat pics and memes? Images make up a key component of the web and come in a variety of format types (jpg, png, gif, and svg). The `<img>` tag is how we embed images into HTML documents:
 
@@ -109,7 +142,7 @@ The `<img>` element has two required attributes:
 * `src` provides the location ([relative or absolute URL](https://www.seoclarity.net/resources/knowledgebase/difference-relative-absolute-url-15325/)) of the image we want to reference.
 * `alt` provides an alternative text description of the referenced image for screen readers, search engines, etc.
 
-### Lists
+## Lists
 
 Another HTML tag utilized frequently is the`<li>`, which represents a list item. We use `<li>` tags to write out bulleted and numbered lists, and it is also commonly used to craft navigation items for a website and application.
 
@@ -121,19 +154,19 @@ The markup for these two types of lists would appear like this in the browser:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*hupMMEs_u4JSfJk4vPoKZA.png)
 
-When using `<li>` elements as navigation items, we wrap the parent `<ul>` or `<ol>` element with a navigation, or `[<nav>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)` [element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav).
+When using `<li>` elements as navigation items, we wrap the parent `<ul>` or `<ol>` element with a navigation, or [`<nav>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav).
 
 ![](https://cdn-images-1.medium.com/max/1600/1*VFsJ2lOujUNixeD83mnldg.png)
 
 The markup above would be rendered just like the previous `<ul>` element. We can then use CSS to style it as a set of navigation items (e.g. horizontally aligned, without bullet points, etc.).
 
-### HTML Document Structure
+## HTML Document Structure
 
 Now that we’ve gotten a feel for using tags and creating elements in HTML, it’s time to learn how put that knowledge to use by first exploring how to properly structure an HTML document.
 
 Just as the design and structure of a physical building’s frame is critical to its strength and longevity, so too is the structure of our HTML documents to the functionality and extendability of our websites and web apps.
 
-#### <!DOCTYPE> Declaration and the <html> Tag
+**<!DOCTYPE> Declaration and the <html> Tag**
 
 Before we write any HTML code in our document, we first need to add a doctype declaration like so:
 
@@ -151,7 +184,7 @@ At this point, the markup for our HTML document should like this:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*nNeZzljZst-HP67mF6sq6g.png)
 
-#### Head
+**Head**
 
 The first element placed inside of our `<html>` element is the `<head>` element. This is where we place all of our document’s metadata — basically, stuff that gets read and interpreted by machines (browsers, computers, etc.) instead of humans. As such, **code that we write inside of the** `**<head>**` **element does not get rendered in the browser window**.
 
@@ -166,7 +199,7 @@ Adding a `<head>` and associated elements, our HTML document structure should no
 
 ![](https://cdn-images-1.medium.com/max/1600/1*uF5JHk-Eu1wMg8zPJdc1yQ.png)
 
-#### Body
+**Body**
 
 The next required element in our HTML document is the `<body>` element. Any markup or content we want to display to end users should be written within this element. **Anything we write between inside the** `**<body>**` **element will be interpreted and rendered by the browser**.
 
@@ -180,11 +213,11 @@ There’s a lot going on above — let’s break down what we’ve written i
 * Next we include a `<main>` element with an id attribute (`id="main-content"`). This element indicates to browsers, screen readers, and other assistive technologies that this is where the primary content of the page is located.
 * Inside of the `<main>` element we have two `<section>` elements — one containing the About Me content (`id="about-me"`), and the other containing a contact form (`id="contact-me"`). We use elements like `<main>` and `<section>` to segment our content into thematically related groupings.
 
-#### Relationships and Nesting
+**Relationships and Nesting**
 
 A key concept of HTML document structure has to do with the relationships between various elements in our markup. A diagram showing the basic structure of an HTML document looks a bit like an upside down family tree:
 
-![](https://cdn-images-1.medium.com/max/1600/1*LA6AXbzvC0IQ_d2H8v3NCw.gif)Basic HTML document structure
+![Basic HTML document structure](https://cdn-images-1.medium.com/max/1600/1*LA6AXbzvC0IQ_d2H8v3NCw.gif "Basic HTML document structure")
 
 We use the same vocabulary to indicate the relationship between HTML elements as we do with a family tree:
 
@@ -202,7 +235,7 @@ Consider the two HTML code blocks below, both of which will be interpreted and r
 
 It’s much easier to see that the `<h1>` and `<p>` elements are siblings of each other and children of the `<body>` element in the nested code block than it is to visualize those relationships in the code block without proper nesting.
 
-#### Comments
+**Comments**
 
 You’ve probably noticed in the various code block examples in this lesson some lines that look like this:
 
@@ -216,13 +249,13 @@ The syntax for HTML comments begins with `<!--` and ends with `-->`. Anything be
 
 * * *
 
-### Exercises
+## Exercises
 
 * [Element Jumble Exercise](https://codepen.io/zheisey/pen/qvVXZo?editors=1100)
 * [Article Markup Exercise](https://codepen.io/zheisey/pen/KEXgaW?editors=1100)
 * [Form Builder Exercise](https://codepen.io/zheisey/pen/LaeJPL?editors=1100)
 
-### Resources
+## Resources
 
 * [**htmlreference.io**](https://htmlreference.io/): Super useful guide that you’ll definitely want to bookmark. You can sort HTML elements by type (self-closing, inline, block, etc.), and you can also get specifics on each element like proper structure, required and optional attributes, etc.
 * [**HTML5 Doctor**](http://html5doctor.com/): Another prime bookmark candidate. It provides a really handy index of HTML5 elements that you can use to write more semantic markup and [avoid the dreaded “div soup.”](https://medium.com/web-dev-basics/7-alternatives-to-the-div-html-tag-7c888c7b5036)
