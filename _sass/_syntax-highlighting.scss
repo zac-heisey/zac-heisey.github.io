@@ -35,7 +35,7 @@ figure.highlight {
   margin-bottom: 1rem;
   background: $base00;
   color: $base05;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   line-height: 1.8;
   border-radius: 4px;
 
@@ -90,6 +90,7 @@ figure.highlight {
   .c {
     /* Comment */
     color: $base04;
+    opacity: 0.5;
     font-style: italic;
   }
   .err {
