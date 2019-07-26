@@ -415,8 +415,6 @@ The syntax for HTML comments begins with `<!--` and ends with `-->`. Anything be
 </body>
 ```
 
-![](https://cdn-images-1.medium.com/max/1600/1*jrTYEZVsSuNQDyKmbD4w_g.png)
-
 ---
 
 ## Exercises
