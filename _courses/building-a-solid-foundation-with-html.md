@@ -75,7 +75,21 @@ Just as there are tons of HTML elements at our disposal, there are [dozens of di
 
 Two attributes we’ll use _a lot_ in HTML are `id` and `class`. These attributes act primarily as “hooks” for our future CSS styles and JavaScript functionality. For now, the important think to know is that we can apply the same `class` to multiple elements in our markup, but individual `id` attributes can only be used _once_ within an HTML document.
 
-![](https://cdn-images-1.medium.com/max/1600/1*CpsUQHuObz7e_g5foHdDFQ.png)
+```html
+<!-- The class and id attributes are primarily used for styling (via CSS) and interactivity (via JavaScript) -->
+<main id="main-content">
+  <h1 class="header-text">My Super Important Heading</h1>
+</main>
+
+<!-- The href attribute is mainly used with <a> and <link> tags. It provides the URL of the linked resource -->
+<a href="https://www.zac-heisey.com/web-dev-101/">Learn Web Dev</a>
+<link rel="stylesheet" href="/style.css">
+
+<!-- The required attribute is often used with form elements. It indicates that a given field is required in
+order to submit the form. Note that a value isn't necessary with this attribute -->
+<input type="text" name="user-name" id="name" required>
+<textarea name="user-message" id="message" required></textarea>
+```
 
 ## Forms
 
@@ -83,16 +97,19 @@ Forms are the primary way we send and receive user information on the web. We us
 
 ```html
 <!-- A typical contact form might look something like this -->
-
 <form action="/thank-you" method="POST" name="contact-form">
+
   <!-- Text input asking for user's name -->
   <label for="name">Enter Your Name:</label>
   <input type="text" name="user-name" placeholder="John Doe" id="name">
+
   <!-- Email input asking for user's email address -->
   <label for="email">Enter Your Email:</label>
   <input type="email" name="user-email" placeholder="johndoe@hotmail.com" id="email">
+
   <!-- Submit input defining a button to send form data -->
   <input type="submit" value="Submit">
+
 </form>
 ```
 
@@ -109,13 +126,15 @@ Next, we have `<label>` and `<input>` form elements, which represent the actual 
 
 When rendered in the browser, the markup for our form would appear like so:
 
-<label for="name">Enter Your Name:</label>
-<input type="name" name="user-name" placeholder="John Doe" id="name">
+<div class="rendered-example">
+  <label for="name">Enter Your Name:</label>
+  <input type="name" name="user-name" placeholder="John Doe" id="name">
 
-<label for="email">Enter Your Email:</label>
-<input type="email" name="user-email" placeholder="johndoe@hotmail.com" id="email">
+  <label for="email">Enter Your Email:</label>
+  <input type="email" name="user-email" placeholder="johndoe@hotmail.com" id="email">
 
-<input type="submit" value="Submit">
+  <input type="submit" value="Submit">
+</div>
 
 ## Links
 
@@ -125,9 +144,15 @@ We create links in HTML using the _anchor_ element, which consists of:
 
 * Opening `(<a>)` and closing `(</a>)` tags.
 * A required `href` attribute that most often takes a URL as its value.
-* An optional but commonly used `target` attribute to define where the link should be opened when clicks. Typically you’ll use `target="_blank"` to open up a link in a new browser tab.
+* An optional but commonly used `target` attribute to define where the link should be opened when clicked. Typically you’ll use `target="_blank"` to open up a link in a new browser tab.
 
-![](https://cdn-images-1.medium.com/max/1600/1*PmnfET4eAhv3U4jEMK1mlw.png)
+```html
+<!-- We create links in HTML using anchor tags like so -->
+<a href="https://www.zac-heisey.com">Visit My Awesome Website!</a>
+
+<!-- This link will open in a new tab when clicked -->
+<a href="https://www.google.com/" target="_blank">Search On Google.com</a>
+```
 
 Note that hyperlinks (written with the `<a>` element) are different from `<link>` elements, which are used to refer to an external resource (usually a CSS stylesheet). `<link>` elements will be most often be found in the `<head>` section of an HTML document, which we’ll talk more about later in this lesson.
 
@@ -135,7 +160,10 @@ Note that hyperlinks (written with the `<a>` element) are different from `<link>
 
 What would the web be without cat pics and memes? Images make up a key component of the web and come in a variety of format types (jpg, png, gif, and svg). The `<img>` tag is how we embed images into HTML documents:
 
-![](https://cdn-images-1.medium.com/max/1600/1*qeYkAjzf3gwvKVGuBeRPiQ.png)
+```html
+<!-- We add images to HTML documents with the <img> tag -->
+<img src="/images/mountains.jpg" alt="picture of mountains">
+```
 
 The `<img>` element has two required attributes:
 
@@ -144,21 +172,58 @@ The `<img>` element has two required attributes:
 
 ## Lists
 
-Another HTML tag utilized frequently is the`<li>`, which represents a list item. We use `<li>` tags to write out bulleted and numbered lists, and it is also commonly used to craft navigation items for a website and application.
+Another HTML tag utilized frequently is the `<li>`, which represents a list item. We use `<li>` tags to write out bulleted and numbered lists, and it is also commonly used to craft navigation items for a website and application.
 
 `<li>` elements _must_ be contained inside a parent element, which most often will either be a `<ul>` (unordered list) or `<ol>` (ordered list) element.
 
-![](https://cdn-images-1.medium.com/max/1600/1*FCp4pOU-5vGFuxWb6n4uyw.png)
+```html
+<!-- <li> tags in a <ul> element create an unordered list -->
+<ul id="unordered-list">
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+</ul>
+
+<!-- <li> tags in a <ol> element create an ordered list -->
+<ol id="ordered-list">
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+</ol>
+```
 
 The markup for these two types of lists would appear like this in the browser:
 
-![](https://cdn-images-1.medium.com/max/1600/1*hupMMEs_u4JSfJk4vPoKZA.png)
+<div class="rendered-example">
+  <p>Unordered List</p>
+  <ul id="unordered-list">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+  </ul>
+
+  <p>Ordered List</p>
+  <ol id="ordered-list">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+  </ol>
+</div>
 
 When using `<li>` elements as navigation items, we wrap the parent `<ul>` or `<ol>` element with a navigation, or [`<nav>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav).
 
-![](https://cdn-images-1.medium.com/max/1600/1*VFsJ2lOujUNixeD83mnldg.png)
+```html
+<!-- Wrapping <ul> or <ol> elements with <nav> tags creates a semantic navigation element in our markup -->
+<nav id="site-nav">
+  <ul id="nav-items">
+    <li>Nav Item 1</li>
+    <li>Nav Item 2</li>
+    <li>Nav Item 3</li>
+  </ul>
+</nav>
+```
 
-The markup above would be rendered just like the previous `<ul>` element. We can then use CSS to style it as a set of navigation items (e.g. horizontally aligned, without bullet points, etc.).
+The markup above would be rendered just like the previous `<ul>` element. We can then use CSS to style it as a set of navigation items (e.g. horizontally aligned, remove bullet points, etc.).
 
 ## HTML Document Structure
 
@@ -174,7 +239,7 @@ Before we write any HTML code in our document, we first need to add a doctype de
 
 This declaration, written as the first line of code in any HTML document, indicates to the browser how the document should be rendered. MDN web docs [provides a solid explanation](https://developer.mozilla.org/en-US/docs/Glossary/Doctype):
 
-> “In HTML, the doctype is the required “`<!DOCTYPE html>`" preamble found at the top of all documents. Its sole purpose is to prevent a browser from switching into so-called [“quirks mode”](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)when rendering a document; that is, the "`<!DOCTYPE html>`" doctype ensures that the browser makes a best-effort attempt at following the relevant specifications, rather than using a different rendering mode that is incompatible with some specifications.”
+> “In HTML, the doctype is the required “<!DOCTYPE html>" preamble found at the top of all documents. Its sole purpose is to prevent a browser from switching into so-called [“quirks mode”](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) when rendering a document; that is, the "<!DOCTYPE html>" doctype ensures that the browser makes a best-effort attempt at following the relevant specifications, rather than using a different rendering mode that is incompatible with some specifications.”
 
 Once we’ve declared to the browser the type of document to be rendered with `<!DOCTYPE html>`, we use the `<html>` tag to define the _root element_ of our markup. Sometimes referred to as the _main root_, the `<html>` element is top-level element in our markup, meaning all other elements are descendants of the `<html>` element.
 
@@ -182,7 +247,13 @@ In other words, all of our HTML code will be written inside of the `<html>` elem
 
 At this point, the markup for our HTML document should like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*nNeZzljZst-HP67mF6sq6g.png)
+```html
+<!-- Basic HTML document structure -->
+<!DOCTYPE html>
+<html>
+  <!-- All of our HTML code will be written here -->
+</html>
+```
 
 **Head**
 
@@ -197,15 +268,76 @@ A typical `<head>` element may include:
 
 Adding a `<head>` and associated elements, our HTML document structure should now look something like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*uF5JHk-Eu1wMg8zPJdc1yQ.png)
+```html
+<!-- Basic HTML document structure -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Declares the document's character encoding -->
+    <meta charset="utf-8">
+    <!-- Displays document properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of the document -->
+    <title>My First HTML Document</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Reference to external JavaScript file -->
+    <script src="/js/main.js" charset="utf-8"></script>
+  </head>
+
+</html>
+```
 
 **Body**
 
-The next required element in our HTML document is the `<body>` element. Any markup or content we want to display to end users should be written within this element. **Anything we write between inside the** `**<body>**` **element will be interpreted and rendered by the browser**.
+The next required element in our HTML document is the `<body>` element. Any markup or content we want to display to end users should be written within this element. **Anything we write between inside the `<body>` element will be interpreted and rendered by the browser**.
 
 Most of the tags and elements we’ve learned about so far should be placed inside the `<body>` element. Building on our HTML document structure example, including a `<body>` element might look like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*XUnuTgsNMPaw42K2ta48IA.png)
+```html
+<!-- Basic HTML document structure -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Declares the document's character encoding -->
+    <meta charset="utf-8">
+    <!-- Displays document properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of the document -->
+    <title>My First HTML Document</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Reference to external JavaScript file -->
+    <script src="/js/main.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <nav id="site-nav">
+      <ul id="nav-items">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+    <main id="main-content">
+      <section id="about-me">
+        <h1>About Me</h1>
+        <p>My name is Zac. I like code and coffee!</p>
+      </section>
+      <section id="contact-me">
+        <h1>Contact Me</h1>
+        <form action="/thank-you" method="POST" name="contact-form">
+          <label for="name">Enter Your Name:</label>
+          <input type="text" name="user-name" placeholder="John Doe" id="name">
+          <label for="email">Enter Your Email:</label>
+          <input type="email" name="user-email" placeholder="johndoe@hotmail.com" id="email">
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>
+```
 
 There’s a lot going on above — let’s break down what we’ve written in the `<body>` element:
 
@@ -231,7 +363,33 @@ To help indicate these relationships and make our code more readable, we use a t
 
 Consider the two HTML code blocks below, both of which will be interpreted and rendered exactly the same in the browser:
 
-![](https://cdn-images-1.medium.com/max/1600/1*R0qyXA3W09ffe2IMdoH8Ig.png)
+```html
+<!-- Without Nesting = Hard to read, hard to debug 😩 -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Title</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<h1>My Heading</h1>
+<p>My paragraph content.</p>
+</body>
+</html>
+
+<!-- With Nesting = Easy to read, easy to debug 😌 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Title</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>My Heading</h1>
+    <p>My paragraph content.</p>
+  </body>
+</html>
+```
 
 It’s much easier to see that the `<h1>` and `<p>` elements are siblings of each other and children of the `<body>` element in the nested code block than it is to visualize those relationships in the code block without proper nesting.
 
@@ -239,15 +397,27 @@ It’s much easier to see that the `<h1>` and `<p>` elements are siblings of eac
 
 You’ve probably noticed in the various code block examples in this lesson some lines that look like this:
 
-`<!-- This is a comment in HTML. It will NOT be rendered in the browser, even it it's inside the <body> element -->`
+```html
+<!-- This is a comment in HTML. It will NOT be rendered in the browser, even when inside the <body> element -->
+```
 
-_Comments_ in our HTML code can help make our markup easier to understand (both for ourselves and other developers), or can be used disable portions of our code from being rendered in the browser. Well commented code is the mark of an organized and considerate developer 🙌.
+_Comments_ in our HTML code can help make our markup easier to understand (both for ourselves and other developers), or can be used disable portions of our code from being rendered in the browser. Well-commented code is the mark of an organized and considerate developer 🙌.
 
 The syntax for HTML comments begins with `<!--` and ends with `-->`. Anything between those characters will NOT be rendered in the browser:
 
+```html
+<body>
+  <!-- This comment won't show up on the screen -->
+  <p>But this content sure will!</p>
+
+  <!-- This comment wraps around the paragraph element below...
+  <p>So I'll be hidden from view!</p> -->
+</body>
+```
+
 ![](https://cdn-images-1.medium.com/max/1600/1*jrTYEZVsSuNQDyKmbD4w_g.png)
 
-* * *
+---
 
 ## Exercises
 
