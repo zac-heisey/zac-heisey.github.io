@@ -1,6 +1,6 @@
 ---
 title: Lesson 2 - Lookin’ Good with CSS 😍
-layout: course
+layout: lesson
 description: Learn about CSS syntax, cascade, and inheritance, how to use CSS selectors, and applying style to our markup with CSS.
 ---
 

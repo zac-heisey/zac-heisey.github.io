@@ -1,6 +1,6 @@
 ---
 title: Lesson 1 - Building a Solid Foundation with HTML 🏗️
-layout: course
+layout: lesson
 description: Structure your HTML with semantic markup, learn about tags, elements, and attributes, as well as forms, links, images, and other advanced elements.
 ---
 

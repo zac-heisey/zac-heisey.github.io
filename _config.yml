@@ -4,8 +4,8 @@ collections:
   posts:
     title: Posts
     output: true
-  courses:
-    title: Courses
+  lessons:
+    title: Lessons
     output: true
     permalink: "/web-dev-101/:path/"
 defaults: # see admin/config.yml file for Netlify CMS front matter defaults
@@ -23,9 +23,9 @@ defaults: # see admin/config.yml file for Netlify CMS front matter defaults
     layout: page
 - scope:
     path: ''
-    type: courses
+    type: lessons
   values:
-    layout: course
+    layout: lesson
 url: https://www.zac-heisey.com # the base hostname & protocol for your site, e.g. http://example.com
 email: zheisey@gmail.com
 description: I'm a freelance web developer and instructor with a passion for vanilla JavaScript, nonprofits, teaching, travel, and JAMstack web development.
