@@ -38,13 +38,13 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "courses"
-    label: "Courses"
-    folder: "_courses"
+  - name: "lessons"
+    label: "Lessons"
+    folder: "_lessons"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "course"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "lesson"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
