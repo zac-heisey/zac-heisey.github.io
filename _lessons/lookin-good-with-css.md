@@ -8,9 +8,9 @@ Continuing with the physical building analogy from [Lesson 1](/web-dev-basics/bu
 
 CSS stands for Cascading Style Sheets and represents the presentational layer in the web development stack. It allows us to customize how our HTML markup is styled and displayed by browsers. With CSS we can determine color, layout, typography, and other aspects of how our web projects appear.
 
-![](https://cdn-images-1.medium.com/max/1600/0*BxtbJvTr8Kreo5js)CSS is the presentational layer to our HTML structure | Photo by [russn_fckr](https://unsplash.com/@russn_fckr?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+![image of different color paint in paint cans](https://cdn-images-1.medium.com/max/1600/0*BxtbJvTr8Kreo5js "CSS is the presentational layer to our HTML structure")
 
-### CSS Syntax
+## CSS Syntax
 
 The basic syntax of CSS is fairly straightforward, but can become increasingly complex as our project requires. This is the good and bad of CSS — it’s relatively easy to get started and grasp basic concepts, but its flexibility and power make it equally difficult to fully grasp. The deeper your knowledge of CSS grows, the more you realize there is to learn.
 
@@ -20,9 +20,18 @@ CSS syntax begins with a **selector**, which represents the element or elements 
 
 After choosing a selector for our styles, we create a **code block** using opening and closing curly braces like this: `{}`. Inside of the code block, we write a **declaration**, which consists of a **property-value** pair ending in a semicolon. Each property-value pair is responsible for styling a specific part of our markup (e.g. text size, image width, content layout, background color, etc.).
 
-All of these parts together — selector, code block, and declaration — make up a **CSS rule**.
+All of these parts together — selector, code block, and declaration — make up a **CSS rule**. CSS rules are typically written on multiple lines, but can also be written as a single line:
 
-![](https://cdn-images-1.medium.com/max/1600/1*oH3S3ZJNhm83kJzMyfhh6w.png)CSS rules are typically written on multiple lines, but can also be written as a single line
+```css
+/* A basic CSS rule with typical space & indentation */
+h1#main-heading {
+  font-size: 30px;
+  color: blue;
+}
+
+/* Same rule from above written as a single line */
+h1#main-heading {font-size: 30px;color: blue;}
+```
 
 Let’s take a look at each part of the above CSS rule in further detail:
 
@@ -31,19 +40,37 @@ Let’s take a look at each part of the above CSS rule in further detail:
 
 Here’s a diagram of a basic CSS rule with the each bit of the syntax labeled:
 
-![](https://cdn-images-1.medium.com/max/1600/1*ZIUP8HcbIS6k9IcGvqPUzA.jpeg)Basic CSS rule syntax: selector, code black, declaration (property and value) | Image: [Treehouse](https://blog.teamtreehouse.com/getting-started-with-css-part-1)
+![diagram showing basic css rule syntax](https://cdn-images-1.medium.com/max/1600/1*ZIUP8HcbIS6k9IcGvqPUzA.jpeg "Basic CSS rule syntax: selector, code black, declaration (property and value)")
 
-### CSS Selectors
+## CSS Selectors
 
 As mentioned earlier, CSS selectors allow us to target the element or elements in our HTML markup to be styled. The most basic selectors (aka “simple selectors”) generally fall into one of three categories, each with varying levels of specificity (we’ll talk more about specificity later on in this lesson):
 
-#### Type Selectors
+**Type Selectors**
 
 Type selectors include tag/element selectors (like `h1`, `p`, or `body`), as well as pseudo-elements (like `::before` and `::after`), which we won’t go into in this lesson. Type selectors have the lowest level of specificity among simple selectors.
 
 We use type selectors to match _all_ elements of a given type within our markup. For example, if we wanted to make the `<h2>` headings blue in the following HTML markup:
 
-![](https://cdn-images-1.medium.com/max/1600/1*fj3RxWQXB8xGqeH98fECgQ.png)All the cool kids ride skateboards 😎🛹
+```html
+<body>
+  <h1 id="main-heading">Skateboards</h1>
+  <p>Skateboarding is how the cool kids get around 😎</p>
+
+  <article class="article" id="article-1">
+    <h2>Longboards</h2>
+    <p>Longboards are a type of skateboard with a longer wheelbase and
+      larger, softer wheels.</p>
+  </article>
+
+  <article class="article" id="article-2">
+    <h2>Electric Skateboard</h2>
+    <p>These no longer require the propelling of the skateboard be means
+      of the feet; rather an electric motor propels the board, fed by an
+      electric battery.</p>
+  </article>
+</body>
+```
 
 Our CSS would look like this:
 
