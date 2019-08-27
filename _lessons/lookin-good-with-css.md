@@ -50,7 +50,7 @@ As mentioned earlier, CSS selectors allow us to target the element or elements i
 
 Type selectors include tag/element selectors (like `h1`, `p`, or `body`), as well as pseudo-elements (like `::before` and `::after`), which we won’t go into in this lesson. Type selectors have the lowest level of specificity among simple selectors.
 
-We use type selectors to match _all_ elements of a given type within our markup. For example, if we wanted to make the `<h2>` headings blue in the following HTML markup:
+We use type selectors to match _all_ elements of a given type within our markup. Type selector syntax simply uses the tag name itself as the selector (e.g. **h2**). For example, if we wanted to make the `<h2>` headings blue in the following HTML markup:
 
 ```html
 <body>
@@ -74,35 +74,40 @@ We use type selectors to match _all_ elements of a given type within our markup.
 
 Our CSS would look like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*TzRWUMX1QKTQFEh-Z3vP4A.png)Type selector syntax simply uses the tag name itself as the selector (e.g. **h2**)
+```css
+/* This rule targets ALL <h2> elements */
+h2 {
+  color: blue;
+}
+```
 
-#### Class Selectors
+**Class Selectors**
 
-Class selectors match elements based on the `class` attribute value. They are more specific than Type selectors, but less specific than ID selectors. If we wanted to update the background color and font size of both `<article>` elements in our example markup, we’d write the following rule in our CSS:
+Class selectors match elements based on the `class` attribute value. They are more specific than Type selectors, but less specific than ID selectors. Class selector syntax is characterized by adding a dot before the class name (e.g. **.article**). If we wanted to update the background color and font size of both `<article>` elements in our example markup, we’d write the following rule in our CSS:
 
-![](https://cdn-images-1.medium.com/max/1600/1*jWinRNcNTpHoSTRC8FyUMQ.png)Class selector syntax is characterized by adding a dot before the class name (e.g. **.article**)
+![](https://cdn-images-1.medium.com/max/1600/1*jWinRNcNTpHoSTRC8FyUMQ.png)
 
-#### ID Selectors
+**ID Selectors**
 
-ID selectors have the highest level of specificity among the simple selector types we’ve discussed. They match elements based on the value of `id` attributes. Going back to our example markup, to change the font family in the second `<article>` element to Raleway, we’d write the following CSS rule:
+ID selectors have the highest level of specificity among the simple selector types we’ve discussed. They match elements based on the value of `id` attributes. ID selector syntax prefixes a hash/pound sign before the ID name (e.g. **#article-2**). Going back to our example markup, to change the font family in the second `<article>` element to Raleway, we’d write the following CSS rule:
 
-![](https://cdn-images-1.medium.com/max/1600/1*kyFdE7mSrZqJDPvnt7RlYw.png)ID selector syntax prefixes a hash/pound sign before the ID name (e.g. **#article-2**)
+![](https://cdn-images-1.medium.com/max/1600/1*kyFdE7mSrZqJDPvnt7RlYw.png)
 
-#### Child and Descendant Selectors
+**Child and Descendant Selectors**
 
 In addition to the three main categories of selector types outlined above, there are **combinators** that allow us to combine simple selectors in order to target elements with even greater specificity.
 
 The two types of combinators we’ll focus on are _Child_ and _Descendant_ selectors. Both of these selectors tap into the structural relationships between elements in our HTML markup that we discussed in [Week 1](https://medium.com/web-dev-basics/week-1-building-a-solid-foundation-with-html-f485669097f0) (_Relationships and Nesting_).
 
-**Child selectors** target the _direct child elements_ nested inside of a given element using the `>` symbol. For example, if we wanted to change the text color of the `<p>` elements of both `<article>` elements in our example markup, we’d use the child selector like this:
+**Child selectors** target the _direct child elements_ nested inside of a given element using the `>` symbol. Child selector syntax uses the greater than symbol (>) to target an element’s children. For example, if we wanted to change the text color of the `<p>` elements of both `<article>` elements in our example markup, we’d use the child selector like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*djZPF7ANQCV82wkXmcZj8w.png)Child selector syntax uses the greater than symbol (>) to target an element’s children
+![](https://cdn-images-1.medium.com/max/1600/1*djZPF7ANQCV82wkXmcZj8w.png)
 
-**Descendant selectors** operate in a similar way, except that they select _all elements that are descendants_ (i.e. nested inside) of a given element. Rather than a `>` symbol like we use for child selectors, descendant selectors simply use a space to indicate the intended target relationship in CSS.
+**Descendant selectors** operate in a similar way, except that they select _all elements that are descendants_ (i.e. nested inside) of a given element. Rather than a `>` symbol like we use for child selectors, descendant selector syntax uses a space to separate the ancestor (e.g. **body**) from its descendants (e.g. **p**).
 
 Say we wanted to set all of the `<p>` elements in our example markup to bold. With the descendant selector, our CSS would be:
 
-![](https://cdn-images-1.medium.com/max/1600/1*9HMf4IBndaiRjOPuYLdcFw.png)Descendant selector syntax uses a space to separate the ancestor (e.g. **body**) from its descendants (e.g. **p**)
+![](https://cdn-images-1.medium.com/max/1600/1*9HMf4IBndaiRjOPuYLdcFw.png)
 
 To help stay on top of the different CSS selector types, freeCodeCamp has a handy [CSS Selector Cheat Sheet](https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/). Another good resource is [MDN’s comprehensive list of CSS Selectors](https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/). It’s conveniently organized by selector types (simple selectors, combinators, pseudo-classes, etc.). I highly recommend bookmarking both of these!
 
