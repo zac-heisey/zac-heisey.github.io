@@ -12,17 +12,17 @@ When HTML is combined with content — text, images, video, etc. — bro
 
 ![HTML Structure is like a Building Frame](https://cdn-images-1.medium.com/max/1600/0*ia7tTHoVISfPVQhe "house frame representing HTML structure")
 
-Below we’ll take a look at the building blocks of HTML (tags, elements, attributes, etc.), as well as explore some more advanced elements like `<form>`, `<link>`, and `<img>`. Once we’ve gotten a handle on basic HTML syntax, we’ll work on properly structuring our HTML document to ensure our markup is properly rendered by browsers.
+Below we'll take a look at the building blocks of HTML (tags, elements, attributes, etc.), as well as explore some more advanced elements like `<form>`, `<link>`, and `<img>`. Once we've gotten a handle on basic HTML syntax, we'll work on properly structuring our HTML document to ensure our markup is properly rendered by browsers.
 
 ## Tags and Elements
 
 Tags are the primary building blocks of HTML. They allow us to provide [semantic meaning](https://www.lifewire.com/why-use-semantic-html-3468271) to our content and indicate to browsers how our web pages should be interpreted and rendered.
 
-The specific HTML tags we use will depend primarily on the type of content we’re marking up. When marking up paragraphs of text, for example, we use `<p>` tags. For heading content, we might use an `<h1>` tag.
+The specific HTML tags we use will depend primarily on the type of content we're marking up. When marking up paragraphs of text, for example, we use `<p>` tags. For heading content, we might use an `<h1>` tag.
 
-There are _tons_ of HTML tags to choose from, which can make choosing the right one difficult. Don’t worry too much in the beginning about picking the most semantically appropriate tag — it’s more important that you become comfortable with reading and writing HTML syntax first.
+There are _tons_ of HTML tags to choose from, which can make choosing the right one difficult. Don't worry too much in the beginning about picking the most semantically appropriate tag — it's more important that you become comfortable with reading and writing HTML syntax first.
 
-If you’re unsure of which types of tags to use in your markup, you can reference [this list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) on MDN web docs, or check out the handy periodic table of HTML elements below:
+If you're unsure of which types of tags to use in your markup, you can reference [this list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) on MDN web docs, or check out the handy periodic table of HTML elements below:
 
 ![periodic table of HTML elements](https://cdn-images-1.medium.com/max/1600/1*-ZLQ3rUOVj1RoJGbCmAoUQ.png "periodic table of HTML elements")
 
@@ -42,7 +42,7 @@ Although the terms _tag_ and _element_ are often used interchangeably, there is 
 
 The image above shoes a typical HTML element consisting of an opening tag, content, and closing tag (Image: [htmlandcssbook.com](http://www.htmlandcssbook.com)).
 
-A handful of tags in HTML are _self-closing_. This means that they don’t have a corresponding closing tag to match their opening tag. `<img>` tags are a common example of self-closing tags that you’ll come across as you read and write HTML.
+A handful of tags in HTML are _self-closing_. This means that they don't have a corresponding closing tag to match their opening tag. `<img>` tags are a common example of self-closing tags that you'll come across as you read and write HTML.
 
 ```html
 <!-- Incorrect use of self-closing tag -->
@@ -71,9 +71,9 @@ Inline elements work within the flow of the surrounding content, rather than bre
 
 Attributes add meaning and functionality to our HTML elements. We include attributes as part of the opening tag of a given element, with most attributes written as name-value pairs in the following format: `attribute="value"`.
 
-Just as there are tons of HTML elements at our disposal, there are [dozens of different attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) we can apply depending on the element being used and functionality we’re after.
+Just as there are tons of HTML elements at our disposal, there are [dozens of different attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) we can apply depending on the element being used and functionality we're after.
 
-Two attributes we’ll use _a lot_ in HTML are `id` and `class`. These attributes act primarily as “hooks” for our future CSS styles and JavaScript functionality. For now, the important think to know is that we can apply the same `class` to multiple elements in our markup, but individual `id` attributes can only be used _once_ within an HTML document.
+Two attributes we'll use _a lot_ in HTML are `id` and `class`. These attributes act primarily as “hooks” for our future CSS styles and JavaScript functionality. For now, the important think to know is that we can apply the same `class` to multiple elements in our markup, but individual `id` attributes can only be used _once_ within an HTML document.
 
 ```html
 <!-- The class and id attributes are primarily used for styling (via CSS) and interactivity (via JavaScript) -->
@@ -113,11 +113,11 @@ Forms are the primary way we send and receive user information on the web. We us
 </form>
 ```
 
-Let’s break down the different parts of the above `<form>` element. Our opening `<form>` tag includes three attributes:
+Let's break down the different parts of the above `<form>` element. Our opening `<form>` tag includes three attributes:
 
 * `action="/thank-you"` defines the location where our form data will be submitted to.
-* `method="POST"` references the HTTP method used to process our form. The `method` value will usually be either `POST` or `GET`. For most contact forms, we’ll use `POST`.
-* `name="contact-form"` gives our form a name when it’s sent to the server.
+* `method="POST"` references the HTTP method used to process our form. The `method` value will usually be either `POST` or `GET`. For most contact forms, we'll use `POST`.
+* `name="contact-form"` gives our form a name when it's sent to the server.
 
 Next, we have `<label>` and `<input>` form elements, which represent the actual fields a user will interact with when they enter their information in our form.
 
@@ -144,7 +144,7 @@ We create links in HTML using the _anchor_ element, which consists of:
 
 * Opening `(<a>)` and closing `(</a>)` tags.
 * A required `href` attribute that most often takes a URL as its value.
-* An optional but commonly used `target` attribute to define where the link should be opened when clicked. Typically you’ll use `target="_blank"` to open up a link in a new browser tab.
+* An optional but commonly used `target` attribute to define where the link should be opened when clicked. Typically you'll use `target="_blank"` to open up a link in a new browser tab.
 
 ```html
 <!-- We create links in HTML using anchor tags like so -->
@@ -154,7 +154,7 @@ We create links in HTML using the _anchor_ element, which consists of:
 <a href="https://www.google.com/" target="_blank">Search On Google.com</a>
 ```
 
-Note that hyperlinks (written with the `<a>` element) are different from `<link>` elements, which are used to refer to an external resource (usually a CSS stylesheet). `<link>` elements will be most often be found in the `<head>` section of an HTML document, which we’ll talk more about later in this lesson.
+Note that hyperlinks (written with the `<a>` element) are different from `<link>` elements, which are used to refer to an external resource (usually a CSS stylesheet). `<link>` elements will be most often be found in the `<head>` section of an HTML document, which we'll talk more about later in this lesson.
 
 ## Images
 
@@ -227,9 +227,9 @@ The markup above would be rendered just like the previous `<ul>` element. We can
 
 ## HTML Document Structure
 
-Now that we’ve gotten a feel for using tags and creating elements in HTML, it’s time to learn how put that knowledge to use by first exploring how to properly structure an HTML document.
+Now that we've gotten a feel for using tags and creating elements in HTML, it's time to learn how put that knowledge to use by first exploring how to properly structure an HTML document.
 
-Just as the design and structure of a physical building’s frame is critical to its strength and longevity, so too is the structure of our HTML documents to the functionality and extendability of our websites and web apps.
+Just as the design and structure of a physical building's frame is critical to its strength and longevity, so too is the structure of our HTML documents to the functionality and extendability of our websites and web apps.
 
 **<!DOCTYPE> Declaration and the <html> Tag**
 
@@ -241,7 +241,7 @@ This declaration, written as the first line of code in any HTML document, indica
 
 > “In HTML, the doctype is the required “<!DOCTYPE html>" preamble found at the top of all documents. Its sole purpose is to prevent a browser from switching into so-called [“quirks mode”](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) when rendering a document; that is, the "<!DOCTYPE html>" doctype ensures that the browser makes a best-effort attempt at following the relevant specifications, rather than using a different rendering mode that is incompatible with some specifications.”
 
-Once we’ve declared to the browser the type of document to be rendered with `<!DOCTYPE html>`, we use the `<html>` tag to define the _root element_ of our markup. Sometimes referred to as the _main root_, the `<html>` element is top-level element in our markup, meaning all other elements are descendants of the `<html>` element.
+Once we've declared to the browser the type of document to be rendered with `<!DOCTYPE html>`, we use the `<html>` tag to define the _root element_ of our markup. Sometimes referred to as the _main root_, the `<html>` element is top-level element in our markup, meaning all other elements are descendants of the `<html>` element.
 
 In other words, all of our HTML code will be written inside of the `<html>` element.
 
@@ -257,7 +257,7 @@ At this point, the markup for our HTML document should like this:
 
 **Head**
 
-The first element placed inside of our `<html>` element is the `<head>` element. This is where we place all of our document’s metadata — basically, stuff that gets read and interpreted by machines (browsers, computers, etc.) instead of humans. As such, **code that we write inside of the** `**<head>**` **element does not get rendered in the browser window**.
+The first element placed inside of our `<html>` element is the `<head>` element. This is where we place all of our document's metadata — basically, stuff that gets read and interpreted by machines (browsers, computers, etc.) instead of humans. As such, **code that we write inside of the** `**<head>**` **element does not get rendered in the browser window**.
 
 A typical `<head>` element may include:
 
@@ -292,7 +292,7 @@ Adding a `<head>` and associated elements, our HTML document structure should no
 
 The next required element in our HTML document is the `<body>` element. Any markup or content we want to display to end users should be written within this element. **Anything we write between inside the `<body>` element will be interpreted and rendered by the browser**.
 
-Most of the tags and elements we’ve learned about so far should be placed inside the `<body>` element. Building on our HTML document structure example, including a `<body>` element might look like this:
+Most of the tags and elements we've learned about so far should be placed inside the `<body>` element. Building on our HTML document structure example, including a `<body>` element might look like this:
 
 ```html
 <!-- Basic HTML document structure -->
@@ -339,7 +339,7 @@ Most of the tags and elements we’ve learned about so far should be placed insi
 </html>
 ```
 
-There’s a lot going on above — let’s break down what we’ve written in the `<body>` element:
+There's a lot going on above — let's break down what we've written in the `<body>` element:
 
 * Our body section begins with a `<nav>` element and two navigation items (as `<li>` elements) that include anchor (`<a>`)tags linking to the _About Me_ and _Contact Me_ sections in the markup.
 * Next we include a `<main>` element with an id attribute (`id="main-content"`). This element indicates to browsers, screen readers, and other assistive technologies that this is where the primary content of the page is located.
@@ -391,11 +391,11 @@ Consider the two HTML code blocks below, both of which will be interpreted and r
 </html>
 ```
 
-It’s much easier to see that the `<h1>` and `<p>` elements are siblings of each other and children of the `<body>` element in the nested code block than it is to visualize those relationships in the code block without proper nesting.
+It's much easier to see that the `<h1>` and `<p>` elements are siblings of each other and children of the `<body>` element in the nested code block than it is to visualize those relationships in the code block without proper nesting.
 
 **Comments**
 
-You’ve probably noticed in the various code block examples in this lesson some lines that look like this:
+You've probably noticed in the various code block examples in this lesson some lines that look like this:
 
 ```html
 <!-- This is a comment in HTML. It will NOT be rendered in the browser, even when inside the <body> element -->
@@ -425,8 +425,8 @@ The syntax for HTML comments begins with `<!--` and ends with `-->`. Anything be
 
 ## Resources
 
-* [**htmlreference.io**](https://htmlreference.io/): Super useful guide that you’ll definitely want to bookmark. You can sort HTML elements by type (self-closing, inline, block, etc.), and you can also get specifics on each element like proper structure, required and optional attributes, etc.
+* [**htmlreference.io**](https://htmlreference.io/): Super useful guide that you'll definitely want to bookmark. You can sort HTML elements by type (self-closing, inline, block, etc.), and you can also get specifics on each element like proper structure, required and optional attributes, etc.
 * [**HTML5 Doctor**](http://html5doctor.com/): Another prime bookmark candidate. It provides a really handy index of HTML5 elements that you can use to write more semantic markup and [avoid the dreaded “div soup.”](https://medium.com/web-dev-basics/7-alternatives-to-the-div-html-tag-7c888c7b5036)
 * [**HTML Element Reference**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element): MDN web docs is an amazing resources for all things web development, and this comprehensive list of HTML elements is no exception.
-* [**HTML Attribute Reference**](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes): As we’ve discussed there are lots of attributes that can be applied to the various HTML elements in our markup depending on the type of element being used, our goal for using a particular attribute, etc. This extensive list of available HTML attributes is a great reference for knowing which attributes can be used with which elements, and what their purpose is.
+* [**HTML Attribute Reference**](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes): As we've discussed there are lots of attributes that can be applied to the various HTML elements in our markup depending on the type of element being used, our goal for using a particular attribute, etc. This extensive list of available HTML attributes is a great reference for knowing which attributes can be used with which elements, and what their purpose is.
 * [**HTML Content Categories**](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories): Another really useful resource from MDN web docs. This page gives a thorough breakdown of the main content categories, along with a list of specific elements belonging to each category.
