@@ -140,7 +140,14 @@ There are three main ways to write CSS and apply styles to our HTML markup: inli
 
 Inline CSS is written _inside_ of our markup, with styles being applied directly to individual HTML elements using the `style` attribute. Here's an example of styling HTML with inline CSS:
 
-![](https://cdn-images-1.medium.com/max/1600/1*vMDthM9qBLsONvClseM_ew.png)Notice that standard CSS declaration syntax (i.e. **property: value;**) is used with inline CSS styles
+```html
+<!-- Inline CSS Styles -->
+<h1 style="font-weight: bold; font-size: 42px;">I will be bold and 42 pixels!</h1>
+
+<p style="color: blue;">I will be blue!</p>
+```
+
+Notice that standard CSS declaration syntax (i.e. **property: value;**) is used with inline CSS styles.
 
 While technically valid, this method of applying CSS styles to our markup is not preferred and is generally considered bad practice. For starters, it contradicts the [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns#HTML,_CSS,_JavaScript) principle of computer science, which basically states that computer programs should be divided into distinct sections that handle unique responsibilities. In our case, that means separating the structural layer (HTML) from the presentational (CSS) and behavioral (JavaScript) layers.
 
@@ -152,23 +159,82 @@ Another way to apply styles to HTML markup is by writing internal CSS. These sty
 
 Rather than adding `style` attributes to individual elements, the CSS rules we write inside of the `<style></style>` tags will be applied to _every matching element on the page_. Check out the example below of internal CSS:
 
-![](https://cdn-images-1.medium.com/max/1600/1*FUtSmeRbiNcTEz9f3xu1MQ.png)The CSS rules between the <style> tags will be applied to corresponding elements of the same HTML file
+```html
+<!-- Internal CSS Stylesheet -->
+<head>
+  <style>
+    h1 {
+      color: red;
+      font-size: 50px;
+    }
 
-Internal CSS styles are preferred over inline styles because they take advantage of inheritance and make our code more flexible. However, we're still not separating our concerns with internal CSS, which makes it less than ideal. Also, since internal styles only apply to HTML elements on the same page, it means we have to re-write the same styles for _every page_ of markup in a web project. Again, not very scalable at all.
+    p.paragraph-text {
+      color: #000;
+      font-family: 'Lato';
+    }
+  </style>
+  <body>
+    <h1 id="heading-1">This heading will be red and 50 pixels.</h1>
+    <p class="paragraph-text">This paragraph will be black (#000) and have a font of Lato.</p>
+
+    <h1 id="heading-2">This heading will ALSO be red and 50 pixels!</h1>
+    <p>This paragraph will have default color and font family set by the browser
+      (since it does not have the "paragraph-text" class).</p>
+  </body>
+</head>
+```
+
+The CSS rules between the `<style>` tags will be applied to _all_ corresponding elements of the same HTML file.
+
+Internal CSS styles are preferred over inline styles because they take advantage of inheritance and make our code more flexible. However, we're still not separating our concerns with internal CSS, which makes it less than ideal. Also, since internal styles only apply to HTML elements on the same page, it means we have to re-write the same styles for _every page_ of markup in a web project. Again, not very scalable.
 
 **External CSS**
 
 Finally, we have external CSS. This is the preferred way to style HTML markup, as it separates structure (HTML) from presentation (CSS) and makes our code much more flexible and easier to maintain.
 
-With external CSS, we write our styles _once_ in a separate stylesheet (e.g. `style.css`) and link to this external stylesheet in the `head` section of any HTML document in our project using the `[<link>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)` element.
+With external CSS, we write our styles _once_ in a separate stylesheet (e.g. `style.css`) and link to this external stylesheet in the `head` section of any HTML document in our project using the [`<link>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link).
 
 For example, if we have the following markup in an HTML document:
 
-![](https://cdn-images-1.medium.com/max/1600/1*BZuqFDB0QWE0PCLJCd8cmg.png)The <link> element in the head section “tells” the HTML document which CSS stylesheet(s) to reference
+```html
+<!-- HTML Document Linking to External CSS File -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Links to external stylesheet named style.css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="heading-1">This heading will be yellow.</h1>
+    <p class="paragraph-text">This paragraph will have white text (#fff) and be underlined.</p>
+
+    <h1 id="heading-2">This heading will be purple.</h1>
+    <p class="paragraph-text">This paragraph will also be white and underlined.</p>
+  </body>
+</html>
+```
+
+The `<link>` element in the head section tells the HTML document which CSS stylesheet(s) to reference.
 
 Then our `style.css` stylesheet might look like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*J1qT2jIaj-AqsuhyIqcPbQ.png)The CSS rules in our style.css file would be applied to **any** HTML document with a referring <link> tag
+```css
+/* External CSS Styles (in style.css file) */
+h1#heading-1 {
+  color: yellow;
+}
+
+h1#heading-2 {
+  color: purple;
+}
+
+p.paragraph-text {
+  color: #fff;
+  text-decoration: underline;
+}
+```
+
+The CSS rules in our `style.css` file would be applied to _any_ HTML document with a referring `<link>` tag
 
 ## Inheritance, Specificity, and Cascade
 
@@ -180,7 +246,33 @@ The concept of inheritance refers to the passing on of CSS styles from parent to
 
 Take a look at the example CSS below. Here we are applying some font styles to the `<body>` element that will be inherited by all its descendant elements unless we specify otherwise.
 
-![](https://cdn-images-1.medium.com/max/1600/1*r9OdWsuFIzhEyn8qFD0B9w.png)
+```css
+/* CSS Inheritance */
+body {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h1.main-heading {
+  color: blue;
+  font-weight: bold;
+  /* Inherited from body:
+  font-family: sans-serif;
+  font-size: 16px;
+  */
+}
+
+p {
+  font-size: 12px;
+  /* Inherited from body:
+  color: #000;
+  font-family: sans-serif;
+  font-weight: normal;
+  */
+}
+```
 
 Because we've written alternative declarations for `<h1>` elements with a `class` of `main-heading`, as well as all `<p>` elements, those rules will only inherit the CSS declarations from our `body` rule that have not been explicitly overridden. For example, both the `h1.main-heading` and `p` rules will inherit the `font-family: sans-serif;` declaration, with the `p` rule also inheriting the `color` and `font-weight` declarations from `body`.
 
@@ -194,11 +286,35 @@ Specificity is another important concept in understanding _which_ CSS rules are 
 
 So, if we had the following `<p>` element in our markup:
 
-![](https://cdn-images-1.medium.com/max/1600/1*Nk9O_5M76x3ibYT1TIdD4g.png)
+```html
+<p class="my-class" id="my-id">Hello World!</p>
+```
 
 And our stylesheet contained these CSS rules:
 
-![](https://cdn-images-1.medium.com/max/1600/1*j7MC0RUR29iHhwGBZa4qXw.png)
+```css
+/* CSS Specificity */
+
+/* Type Selector (selects all <p> elements) */
+p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+/* Class Selector (selects all <p> elements with class of "my-class") */
+p.my-class {
+  color: #000;
+  font-family: 'Oswald';
+}
+
+/* ID Selector (selects all <p> elements with id of "my-id") */
+p#my-id {
+  color: green;
+  font-size: 18px;
+}
+```
 
 Our “Hello World!” sentence would have:
 
@@ -209,16 +325,37 @@ Our “Hello World!” sentence would have:
 
 **Cascade**
 
-It shouldn't come as a surprise that the cascade is a key concept of CSS —it represents the “C” in the acronym! The cascade is all about the _order_ in which CSS rules are applied to our markup. CSS rules will be applied in a cascading, top-down fashion in the following order:
+It shouldn't come as a surprise that the cascade is a key concept of CSS — it represents the “C” in the acronym! The cascade is all about the _order_ in which CSS rules are applied to our markup. CSS rules will be applied in a cascading, top-down fashion in the following order:
 
 * **Importance**: Any declarations marked as `!important` will _always_ win out over any other conflicting declarations. Best practice is to use `!important` sparingly, if at all, in your CSS rules.
 
-![](https://cdn-images-1.medium.com/max/1600/1*hrGqv9-JcYLx2W8_lnMD7A.png)
+```css
+/* CSS Cascade - Importance */
+
+/* This rule will win out, even though the id selector below has a higher level of specificity */
+section {
+  width: 600px !important;
+}
+
+section#about-section {
+  width: 1000px;
+}
+```
 
 * **Specificity**: Once declarations marked as !important have been applied, CSS will look next to specificity to in applying styles. As we know, CSS selectors have varying degrees of specificity. If conflicting CSS rules exist for a given element or set of elements, the more specific selectors will win out (i.e. have their styles applied) over less specific ones.
 * **Source Order**: Finally, if there are multiple CSS rules with the same importance _and_ degree of specificity, the winning rule will be the one that is declared last in the source order of the CSS stylesheet. In other words, when all else is equal, the CSS cascade will select the last rule declared.
 
-![](https://cdn-images-1.medium.com/max/1600/1*nr_N2qHWGGQ2WFljZsdyzA.png)
+```css
+/* CSS Cascade - Source Order */
+p {
+  color: red;
+}
+
+/* This rule will win out over the one above */
+p {
+  color: blue;
+}
+```
 
 ## Size, Spacing, and The Box Model
 
@@ -234,11 +371,23 @@ We set the value of an element's `width` and `height` properties in either absol
 
 For example, if we had the following CSS:
 
-![](https://cdn-images-1.medium.com/max/1600/1*0rpZMh1cEmw8A4qS92lEig.png)
+```css
+/* CSS Width and Height */
+div#blue-box {
+  color: #fff;
+  background-color: blue;
+  width: 50%;
+  height: 200px;
+}
+```
 
 We'd see something like this rendered in the browser:
 
-![](https://cdn-images-1.medium.com/max/2400/1*RGWsXnam5s6WezPiKbhAcg.png)The blue box has a height of 200 pixels and takes up 50% of the available width
+<div style="width: 100%;border:1px solid red;">
+  <div id="blue-box" style="color: #fff;background-color: blue;width: 50%;height: 200px;">I'm a blue box with a width of 50%</div>
+</div>
+
+The blue box has a height of 200 pixels and takes up 50% of the available width.
 
 **Margin, Border, Padding**
 
@@ -246,21 +395,78 @@ Spacing outside, inside, and between given elements can be declared with the `ma
 
 Each of these properties can be set independently of each other, and can also be declared on one, some, or all sides of an element. Additionally, depending on the property and value, shorthand declarations can sometimes be used to add margin, border, or padding to an element:
 
-![](https://cdn-images-1.medium.com/max/1600/1*X0hrXKqUc4lzdjGhz8rOjA.png)Both the long and shorthand declarations above will result in the same rendered output
+```css
+/* CSS Margin, Border, and Padding (long and shorthand examples for each property) */
+
+.margin-examples {
+  /* Long Version - Declaration for Each Side */
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  /* Short Version - Four Values for Each Side (applied clockwise starting from the top) */
+  margin: 10px 10px 10px 10px;
+
+  /* Shortest Version - One Value for All Four Sides (same value will be applied to all sides) */
+  margin: 10px;
+}
+
+.border-examples {
+  /* Long Version - Declarations for Each Property */
+  border-width: 4px;
+  border-style: solid;
+  border-color: green;
+
+  /* Shortest Version - Three Values for Each Property (border-width, border-style, and border-color) */
+  border: 4px solid green;
+}
+
+.padding-examples {
+  /* Long Version - Declarations for Each Side */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  /* Short Version - Four Values for Each Side (applied clockwise starting from the top) */
+  padding: 10px 10px 10px 10px;
+
+  /* Shortest Version - One Value for All Four Sides (same value will be applied to all sides) */
+  padding: 10px;
+}
+```
+
+Both the long and shorthand declarations above will result in the same rendered output.
 
 Going back to our blue box example, if we update our stylesheet to include declarations for margin, border, and padding like so:
 
-![](https://cdn-images-1.medium.com/max/1600/1*DyWnyyAO1pzdPx7a7-KEUA.png)
+```css
+/* CSS Margin, Border, and Padding */
+div#blue-box {
+  color: #fff;
+  background-color: blue;
+  width: 50%;
+  height: 200px;
+  margin-left: 50px;
+  border: 10px solid yellow;
+  padding: 25px;
+}
+```
 
 Our rendered markup would now look like this:
 
-![](https://cdn-images-1.medium.com/max/2400/1*C28aoaanrMwsKhM_1_i-zw.png)The blue box has moved 50 pixels from the left, has a yellow border 10 pixels wide, and 25 pixels of padding on each side of the box
+<div style="width: 100%;border:1px solid red;">
+  <div id="blue-box" style="color: #fff;background-color: blue;width: 50%;height: 200px;margin-left: 50px;border: 10px solid yellow;padding: 25px;">I'm a blue box with a width of 50%</div>
+</div>
+
+The blue box has moved 50 pixels from the left, has a yellow border 10 pixels wide, and 25 pixels of padding on each side of the box.
 
 **The Box Model**
 
 Grouped together, the properties above make up the [CSS box model](https://www.w3schools.com/csS/css_boxmodel.asp). The box model is a representation of how CSS declarations for margin, border, padding, and the actual content will ultimately be rendered in the browser.
 
-![](https://cdn-images-1.medium.com/max/1600/1*7qqR-jXp35fOjOIIfHVUHA.png)Basic diagram of the CSS box model | Image: [Torquemag.io](https://torquemag.io/2018/06/css-box-model/)
+![Basic diagram of the CSS box model via torquemag.io](https://cdn-images-1.medium.com/max/1600/1*7qqR-jXp35fOjOIIfHVUHA.png "Basic diagram of the CSS box model via torquemag.io")
 
 The key thing to understand about the box model is how the total width and height of an element are calculated according to the `[box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)` property. By default, the `box-sizing` property has a value of `content-box`. This means that any values for border or padding will be calculated _in addition to_ the total height and width of the content. Conversely, setting the `box-sizing` property to `border-box` ensures values for border or padding are calculated _along with_ the values for the content's width and height.
 
@@ -272,9 +478,9 @@ Box 2 has its `box-sizing` property set to `border-box`. This means that regardl
 
 MDN provides a good explanation of `content-box` and `border-box`:
 
-> “`content-box` gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width.
+> “**content-box** gives you the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width.
 
-> `border-box` tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. **This typically makes it much easier to size elements.**”
+> **border-box** tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. **This typically makes it much easier to size elements.**”
 
 Spend some time playing around with this [Box Model Diagram on CodePen](https://codepen.io/carolineartz/full/ogVXZj) to see how the rendered size of elements changes between `content-box` and `border-box`.
 
