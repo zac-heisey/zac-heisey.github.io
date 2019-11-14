@@ -10,7 +10,7 @@ If we think of a website or web application as a physical building, HTML would r
 
 When HTML is combined with content — text, images, video, etc. — browsers are able interpret and render our web pages to users.
 
-![HTML Structure is like a Building Frame](https://cdn-images-1.medium.com/max/1600/0*ia7tTHoVISfPVQhe "house frame representing HTML structure")
+![HTML Structure is like a Building Frame](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769310/zac-heisey.com/lessons/html-structure-building-frame.jpg "house frame representing HTML structure")
 
 Below we'll take a look at the building blocks of HTML (tags, elements, attributes, etc.), as well as explore some more advanced elements like `<form>`, `<link>`, and `<img>`. Once we've gotten a handle on basic HTML syntax, we'll work on properly structuring our HTML document to ensure our markup is properly rendered by browsers.
 
@@ -24,7 +24,7 @@ There are _tons_ of HTML tags to choose from, which can make choosing the right 
 
 If you're unsure of which types of tags to use in your markup, you can reference [this list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) on MDN web docs, or check out the handy periodic table of HTML elements below:
 
-![periodic table of HTML elements](https://cdn-images-1.medium.com/max/1600/1*-ZLQ3rUOVj1RoJGbCmAoUQ.png "periodic table of HTML elements")
+![periodic table of HTML elements](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769310/zac-heisey.com/lessons/html-element-syntax.jpg "periodic table of HTML elements")
 
 Most HTML elements consist of an opening tag and closing tag. In between these opening and closing tags is where we place our content, be it text, an image, etc. Opening tags are comprised of left and right brackets `(<>)`, while closing tags feature a forward slash `(</>)` like so:
 
@@ -38,7 +38,7 @@ Most HTML elements consist of an opening tag and closing tag. In between these o
 
 Although the terms _tag_ and _element_ are often used interchangeably, there is a difference. The term _element_ refers to the opening tag, closing tag, and any attributes or content contained in between, while _tags_ refer only to the opening and closing tags of an element.
 
-![typical HTML element](https://cdn-images-1.medium.com/max/1600/1*oS7DT4SiHC24rQeMv6_unw.jpeg "typical HTML element")
+![typical HTML element](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769310/zac-heisey.com/lessons/html-element-syntax.jpg "typical HTML element")
 
 The image above shoes a typical HTML element consisting of an opening tag, content, and closing tag (Image: [htmlandcssbook.com](http://www.htmlandcssbook.com)).
 
@@ -349,7 +349,7 @@ There's a lot going on above — let's break down what we've written in the 
 
 A key concept of HTML document structure has to do with the relationships between various elements in our markup. A diagram showing the basic structure of an HTML document looks a bit like an upside down family tree:
 
-![Basic HTML document structure](https://cdn-images-1.medium.com/max/1600/1*LA6AXbzvC0IQ_d2H8v3NCw.gif "Basic HTML document structure")
+![Basic HTML document structure](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769310/zac-heisey.com/lessons/basic-html-doc-structure.gif "Basic HTML document structure")
 
 We use the same vocabulary to indicate the relationship between HTML elements as we do with a family tree:
 

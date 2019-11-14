@@ -8,7 +8,7 @@ Continuing with the physical building analogy from [Lesson 1](/web-dev-basics/bu
 
 CSS stands for Cascading Style Sheets and represents the presentational layer in the web development stack. It allows us to customize how our HTML markup is styled and displayed by browsers. With CSS we can determine color, layout, typography, and other aspects of how our web projects appear.
 
-![image of different color paint in paint cans](https://cdn-images-1.medium.com/max/1600/0*BxtbJvTr8Kreo5js "CSS is the presentational layer to our HTML structure")
+![image of different color paint in paint cans](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769867/zac-heisey.com/lessons/css-paint-cans.jpg "CSS is the presentational layer to our HTML structure")
 
 ## CSS Syntax
 
@@ -40,7 +40,7 @@ Let's take a look at each part of the above CSS rule in further detail:
 
 Here's a diagram of a basic CSS rule with the each bit of the syntax labeled:
 
-![diagram showing basic css rule syntax](https://cdn-images-1.medium.com/max/1600/1*ZIUP8HcbIS6k9IcGvqPUzA.jpeg "Basic CSS rule syntax: selector, code black, declaration (property and value)")
+![diagram showing basic css rule syntax](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769867/zac-heisey.com/lessons/css-rule-syntax.jpg "Basic CSS rule syntax: selector, code black, declaration (property and value)")
 
 ## CSS Selectors
 
@@ -466,7 +466,7 @@ The blue box has moved 50 pixels from the left, has a yellow border 10 pixels wi
 
 Grouped together, the properties above make up the [CSS box model](https://www.w3schools.com/csS/css_boxmodel.asp). The box model is a representation of how CSS declarations for margin, border, padding, and the actual content will ultimately be rendered in the browser.
 
-![Basic diagram of the CSS box model via torquemag.io](https://cdn-images-1.medium.com/max/1600/1*7qqR-jXp35fOjOIIfHVUHA.png "Basic diagram of the CSS box model via torquemag.io")
+![Basic diagram of the CSS box model via torquemag.io](https://res.cloudinary.com/zheisey/image/upload/f_auto/v1573769867/zac-heisey.com/lessons/css-box-model.png "Basic diagram of the CSS box model via torquemag.io")
 
 The key thing to understand about the box model is how the total width and height of an element are calculated according to the `[box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)` property. By default, the `box-sizing` property has a value of `content-box`. This means that any values for border or padding will be calculated _in addition to_ the total height and width of the content. Conversely, setting the `box-sizing` property to `border-box` ensures values for border or padding are calculated _along with_ the values for the content's width and height.
 
