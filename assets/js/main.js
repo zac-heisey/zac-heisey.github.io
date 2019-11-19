@@ -7,5 +7,7 @@ dateEl.innerText = currentYear;
 
 
 // Test Netlify environment variable
-var enVar = process.env.MY_VAR;
+require("dotenv").config({
+  path: `.env.${process.env.MY_VAR}`,
+});
 console.log(enVar);
