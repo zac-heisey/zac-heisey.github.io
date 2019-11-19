@@ -4,10 +4,3 @@ var date = new Date();
 var currentYear = date.getFullYear();
 
 dateEl.innerText = currentYear;
-
-
-// Test Netlify environment variable
-require("dotenv").config({
-  path: `.env.${process.env.MY_VAR}`,
-});
-console.log(enVar);
