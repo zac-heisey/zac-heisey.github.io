@@ -474,7 +474,22 @@ Take a look at the example below. Both Box 1 and Box 2 have the same width (250p
 
 Box 2 has its `box-sizing` property set to `border-box`. This means that regardless of the border and padding values set, the element will only ever be as wide or as tall as the values of the `width` and `height` properties. In this case, the actual width of Box 2 matches the `width` property value of 250 pixels.
 
-![](https://cdn-images-1.medium.com/max/1600/1*iv3121RENLZ2VApQ4S8q5A.png)
+<div id="box-1" style="box-sizing: content-box;border: 5px solid blue;width: 250px;padding: 40px;display: inline-block;margin: 0 1rem 1rem 0;">
+  <p>Box #1</p>
+  <p>box-sizing: content-box;</p>
+  <p>border: 5px solid blue;</p>
+  <p>width: 250px;</p>
+  <p>padding: 40px;</p>
+  <p style="font-weight: bold">ACTUAL WIDTH: 340px</p>
+</div>
+<div id="box-2" style="box-sizing: border-box;border: 5px solid red;width: 250px;padding: 40px;display: inline-block;">
+  <p>Box #2</p>
+  <p>box-sizing: border-box;</p>
+  <p>border: 5px solid blue;</p>
+  <p>width: 250px;</p>
+  <p>padding: 40px;</p>
+  <p style="font-weight: bold">ACTUAL WIDTH: 250px</p>
+</div>
 
 MDN provides a good explanation of `content-box` and `border-box`:
 
