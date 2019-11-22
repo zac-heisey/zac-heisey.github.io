@@ -501,7 +501,14 @@ Spend some time playing around with this [Box Model Diagram on CodePen](https://
 
 To make our lives easier when working with the box model (and decrease the amount of math we have to do), the best practice is to declare `box-sizing: border-box;` for _all_ elements in our project using the [universal selector](https://css-tricks.com/almanac/selectors/u/universal/) (`*`) like so:
 
-![](https://cdn-images-1.medium.com/max/1600/1*kCcW8rD2FKoZx2KLkTneBA.png)The universal selector rule above will apply **box-sizing: border-box;** to ALL elements
+```css
+/* CSS Box Model and Universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+```
+
+The universal selector rule above will apply **box-sizing: border-box;** to ALL elements
 
 ## Display and Positioning
 
@@ -511,11 +518,33 @@ The `display` and `position` properties allow us to move elements around and con
 
 Layout in CSS starts with the `display` property. In [Week 1](https://medium.com/web-dev-basics/week-1-building-a-solid-foundation-with-html-f485669097f0) we learned that most HTML elements are divided into two categories: `block` and `inline`. Block elements (e.g. `<div>`, `<body>`, `<p>`, etc.) begin on a new line and take up the full width available. Inline elements (e.g. `<span>`, `<a>`, `<img>`, etc.) work within the flow of the surrounding content and only take up the required width.
 
-![](https://cdn-images-1.medium.com/max/1600/1*ROA14tfE13IQb2ZRTzH3-A.png)
+```css
+/* CSS Display - Block & Inline Elements */
+div {
+  display: block;
+  outline: 2px solid red;
+  padding: 1rem; /* 1rem = 16px */
+  font-size: 1rem;
+  background-color: palegreen;
+}
+
+span, a {
+  display: inline;
+  outline: 2px solid red;
+  font-size: 1rem;
+  background-color: palegreen;
+}
+```
 
 Here's what the rendered markup would look like for the block and inline styles above:
 
-![](https://cdn-images-1.medium.com/max/1600/1*ZqqTO8W2ASkaCeLjLLMqoQ.png)
+<div style="outline: 2px solid red;padding: 1rem;font-size: 1rem; background-color: palegreen;">
+  <p>This content exists inside of a div, which is a block element. It takes up the entire width available, which in this case extends to the edge of the content body.</p>
+</div>
+
+<div style="padding: 1rem;">
+  <p>This content features a <span style="outline: 2px solid red;font-size: 1rem; background-color: palegreen;">span element</span> and an <a style="outline: 2px solid red;font-size: 1rem; background-color: palegreen;">anchor element</a>, both of which are inline elements. They only take up the width required by their content.</p>
+</div>
 
 There are [several other display values](https://developer.mozilla.org/en-US/docs/Web/CSS/display) besides the default `block` and `inline`, although the only other one you're likely to work with is `display: none;`. This declaration hides the element and removes it completely from the flow document.
 
