@@ -94,9 +94,25 @@ footer {
   margin-bottom: 10px;
 }
 
+#css-positioning-img {
+  display: none;
+}
+
 /* ===== Media Queries ===== */
 
-@media only screen and (max-width: 450px) {
+@media (max-width: 1000px) {
+
+  #css-positioning {
+    display: none;
+  }
+
+  #css-positioning-img {
+    display: block;
+  }
+
+}
+
+@media (max-width: 450px) {
 
   body {
     width: 85%;

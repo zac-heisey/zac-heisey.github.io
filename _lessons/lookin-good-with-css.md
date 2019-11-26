@@ -557,9 +557,37 @@ Next up we have the `position` property, which as you probably guessed, establis
 * `position: absolute;` is the trickiest of the four to understand. Elements with `position; absolute;` can take advantage of the same `top`, `right`, `bottom`, and `left` properties, but setting values will move the element **relative to its nearest positioned ancestor**. If there aren't any positioned ancestors, then absolutely positioned elements will adjust their position relative to the document body (i.e. the `<body>` element).
 * `position: fixed;` elements are pretty straight forward. They are positioned relative to the viewport using the `top`, `right`, `bottom`, and `left` properties, and will remain fixed in place during scrolling.
 
-Let's take a look at what all of this might look like when rendered in the browser:
+Let's take a look at what all of this might look like when rendered in the browser (the blue outline denotes the **<body>** element):
 
-![](https://cdn-images-1.medium.com/max/1600/1*Kq7EaoVOqP3DpgwGt-EpLw.png)The blue outline denotes the **<body>** element
+<div id="css-positioning" style="position: relative; border: 2px solid blue; height: 1000px;">
+  <!-- position: static box -->
+  <div style="position: static; border: 2px solid tomato; padding: 1rem; background-color: palegoldenrod; width: 60%;">
+    <p>I'm an element set to <br><strong>position: static;</strong></p>
+    <p>I'm in my normal position in the flow of the markup, and I'm considered "not positioned."</p>
+  </div>
+  <!-- position: absolute box -->
+  <div style="position: absolute; border: 2px solid tomato; padding: 1rem;  background-color: palevioletred; width: 250px; top: 50px; right: 100px; z-index: 1000;">
+    <p>I'm an element set to <br><strong>position: absolute;</strong></p>
+    <p>Because I have no positioned ancestors, my adjusted position is relative to the document body:</p>
+    <p><strong>top: 50px;<br>right: 100px;</strong></p>
+  </div>
+  <!-- position: relative box -->
+  <div style="position: relative; border: 2px solid tomato; padding: 1rem;  background-color: palegreen; width: 75%; top: 5rem; left: 3rem;">
+    <p>I'm an element set to <br><strong>position: relative;</strong></p>
+    <p>I've moved from my normal position<br> using the following declarations:</p>
+    <p><strong>top: 5rem;<br>right: 3rem;</strong></p>
+  </div>
+  <!-- position: fixed box -->
+  <div style="position: absolute; border: 2px solid tomato; padding: 1rem;  background-color: paleturquoise; width: 35%; bottom: 0; right: 0;">
+    <p>I'm an element set to <br><strong>position: fixed;</strong></p>
+    <p>I'm way down here based on the following declarations:</p>
+    <p><strong>bottom: 0;<br>right: 0;</strong></p>
+  </div>
+</div>
+
+<div id="css-positioning-img">
+  <img src="https://res.cloudinary.com/zheisey/image/upload/f_auto/v1574794249/zac-heisey.com/lessons/css-positioning.png" alt="example of css positioned elements">
+</div>
 
 ---
 
