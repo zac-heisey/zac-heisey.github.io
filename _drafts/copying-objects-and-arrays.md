@@ -8,5 +8,13 @@ description: >-
 author: Zac Heisey
 ---
 - Mutable vs. Immutable data structures
+- Creating immutable copies of arrays and objects in JavaScript
+  - Arrays:
+    - `Array.slice()`
+    - `Array.from()`
+    - Spread operator
+  - Objects:
+    - `JSON.parse(JSON.stringify(obj))`
+    - `Object.assign()`
+    - Spread operator
 - Deep vs. Shallow copies
-- Techniques for copying arrays and objects in JavaScript
