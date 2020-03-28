@@ -206,7 +206,7 @@ The above methods work great for most cases in which we need to create an immuta
 
 This means that if we use any of these methods to copy an object or array that _includes_ an object or an array, **those nested objects or arrays are mutable**.
 
-Take a look at the example below. Let's say we wanted to create a copy of our previous `usmnt` object and then update the list of rivals, as well as add a `nickname` property, to our copy:
+Take a look at the example below. Let's say we wanted to create a copy of our previous `usmnt` object and then update the list of rivals, as well as add a `nickname` property to our copy:
 
 ```js
 var usmnt = {
@@ -232,4 +232,4 @@ As you can see, adding the new `nickname` property to our immutable `usmntUpdate
 **Creating Deep Copies**  
 [Chris Ferdinandi](https://twitter.com/ChrisFerdinandi) has a super useful helper function that makes deep, immutable copies of both objects and arrays using plain 'ol vanilla JavaScript.
 
-Here's a full breakdown of Chris's `copy.js` helper function: https://gomakethings.com/a-better-way-to-create-an-immutable-copy-of-an-array-or-object-with-vanilla-js/
+Here's a full breakdown of Chris's `copy.js` helper function: [https://gomakethings.com/a-better-way-to-create-an-immutable-copy-of-an-array-or-object-with-vanilla-js/](https://gomakethings.com/a-better-way-to-create-an-immutable-copy-of-an-array-or-object-with-vanilla-js/)
