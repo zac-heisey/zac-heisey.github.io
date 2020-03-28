@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Copying Objects and Arrays
+date: 2020-03-28 00:00:01 -0400
 categories: blog
 description: >-
   Examining different ways of copying objects and arrays in JavaScript, shallow
-  vs. deep copies, and mutable vs. immutable copies 
+  vs. deep copies, and mutable vs. immutable copies
 author: Zac Heisey
 ---
 In my previous post, I outlined some of the [differences between objects and arrays](/blog/objects-vs-arrays) in JavaScript. We talked about when to use an object versus when to use an array, as well as how to add, remove, and iterate through items stored in each.
