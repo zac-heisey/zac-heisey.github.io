@@ -7,7 +7,7 @@ layout: default
 <nav>
   <a href="/">Home</a>
 </nav>
-  <h1>{{ title }}</h1>
+  <h1>{{ page.title }}</h1>
 </header>
 
 Coming soon!
