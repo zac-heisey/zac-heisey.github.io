@@ -6,5 +6,5 @@ layout: default
 <!-- Homepage Intro -->
 {% include intro.html %}
 
-<!-- Social Links -->
+<!-- Internal Links -->
 {% include links.html %}

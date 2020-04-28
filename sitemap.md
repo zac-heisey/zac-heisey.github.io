@@ -15,7 +15,7 @@ layout: default
 
 ### Blog
 
-- [AEC Marketing Blog]({{ site.url }}/blog)
+- [Main Blog Page]({{ site.url }}/blog)
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | prepend: site.url }})
 {% endfor %}

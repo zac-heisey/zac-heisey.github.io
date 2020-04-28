@@ -7,9 +7,8 @@ layout: default
 <nav>
   <a href="/">Home</a>
 </nav>
+  <h1>Welcome to {{ title }}!</h1>
 </header>
-
-# Welcome to Web Dev 101!
 
 If you've never written a line of code, but always wanted to learn, these lessons are for you! We'll learn proper code structure, syntax, and other foundational principles for each of the web's core languages - HTML, CSS, and JavaScript.
 

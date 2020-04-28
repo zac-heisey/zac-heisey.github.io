@@ -7,7 +7,7 @@ layout: default
 <nav>
   <a href="/">Home</a>
 </nav>
-  <h1>My Blog</h1>
+  <h1>{{ title }}</h1>
 </header>
 
 {% for post in site.posts %}
