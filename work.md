@@ -4,10 +4,13 @@ layout: default
 ---
 
 <header>
-<nav>
-  <a href="/">Home</a>
-</nav>
+  
+  <nav>
+    <a href="/">Home</a>
+  </nav>
+  
   <h1>{{ page.title }}</h1>
+  
 </header>
 
 Coming soon!
@@ -20,6 +23,7 @@ FEATURED PROJECTS
 - FGR Eco Park (concept)
 - IDF Fitness App (concept)
 - WYPR.org redesign (concept)
+- Re-Imagining Baltimore's Inner Harbor (concept)
 
 ORGS I'VE WORKED WITH (logos)
 ---
