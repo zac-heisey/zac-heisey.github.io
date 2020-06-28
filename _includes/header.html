@@ -1,0 +1,20 @@
+<header>
+
+  {% if page.url == '/' %}
+
+  <img src="/assets/images/zh-headshot.jpg" alt="zac heisey web developer" id="hero-img">
+
+  {% else %}
+
+  <nav>
+    <a href="/">Home</a> //
+    <a href="/about/">About</a> //
+    <a href="/work/">Work</a> //
+    <a href="/contact/">Contact</a>
+  </nav>
+
+  <h1>{{ page.title }}</h1>
+
+  {% endif %}
+
+</header>

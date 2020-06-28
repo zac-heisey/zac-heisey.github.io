@@ -1,19 +1,38 @@
 <!DOCTYPE html>
+
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  <!-- Head Include -->
   {% include head.html %}
 
   <body>
 
-    <section id="main-content">
-      {{ content }}
-    </section>
+    <div class="lock">
 
-    {% include footer.html %}
+      <section>
+
+        <!-- Header Include -->
+        {% include header.html %}
+
+        <main>
+
+          <!-- Page Content -->
+          {{ content }}
+
+        </main>
+
+      </section>
+
+      <!-- Footer Include -->
+      {% include footer.html %}
+
+    </div>
 
     <!-- Netlify CMS Snippet -->
     <script>
+
       if (window.netlifyIdentity) {
+
         window.netlifyIdentity.on("init", user => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {
@@ -21,7 +40,9 @@
             });
           }
         });
+
       }
+
     </script>
 
   </body>
