@@ -3,17 +3,21 @@ title: My Work
 layout: default
 ---
 
-<header>
-  
-  <nav>
-    <a href="/">Home</a>
-  </nav>
-  
-  <h1>{{ page.title }}</h1>
-  
-</header>
+{% for project in site.projects %}
 
-Coming soon!
+  <section class="project">
+
+    <img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1592860654/zac-heisey.com/projects/eco-park.png" alt="{{ project.title }} featured image">
+
+    <div class="content">
+      <p>{{ project.title }}</p>
+      <p>{{ project.sub-heading }}</p>
+      <a href="{{ project.url }}">View Project</a>    
+    </div>
+
+  </section>
+
+{% endfor %}
 
 <!--
 
