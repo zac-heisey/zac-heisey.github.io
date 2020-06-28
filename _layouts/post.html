@@ -4,9 +4,9 @@ layout: default
 
 <article>
 
-  <p class="byline">
+  <small>
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time> • {{ page.author }}
-  </p>
+  </small>
 
   {{ content }}
 

@@ -9,10 +9,10 @@ layout: default
 
     <img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1592860654/zac-heisey.com/projects/eco-park.png" alt="{{ project.title }} featured image">
 
-    <div class="content">
-      <p>{{ project.title }}</p>
-      <p>{{ project.sub-heading }}</p>
-      <a href="{{ project.url }}">View Project</a>    
+    <div class="intro">
+      <small>{{ project.title }}</small>
+      <h2>{{ project.sub-heading }}</h2>
+      <a href="{{ project.url }}">View Project</a>
     </div>
 
   </section>

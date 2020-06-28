@@ -66,6 +66,14 @@ p, a, ul, ol {
 
 }
 
+small {
+
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+
+}
+
 a {
 
 	color: #6DBDB6;
@@ -122,35 +130,36 @@ div.lock {
 
 }
 
-/* Footer */
+/* Projects */
 
-footer {
+.project {
+
+  position: relative;
+
+}
+
+.project img {
+
+  object-fit: cover;
+  height: 300px;
+  opacity: 0.6;
+
+}
+
+.project .intro small {
+
+  position: absolute;
+  top: 268px;
+  left: -8px;
+  color: #fff;
+  background-color: #6dbdb6;
+  padding: 8px;
+
+}
+
+.project .intro h2 {
 
   margin: 1rem 0;
-
-}
-
-#copyright a {
-
-  font-size: 1em;
-
-}
-
-#footer-logo {
-
-  max-width: 30px;
-  display: block;
-  margin-bottom: 10px;
-
-}
-
-/* Blog */
-
-.byline {
-
-  font-size: 1rem;
-  font-weight: bold;
-  margin: 0;
 
 }
 
@@ -187,5 +196,27 @@ footer {
     display: none;
 
   }
+
+}
+
+/* Footer */
+
+footer {
+
+  margin: 1rem 0;
+
+}
+
+#copyright a {
+
+  font-size: 1em;
+
+}
+
+#footer-logo {
+
+  max-width: 30px;
+  display: block;
+  margin-bottom: 10px;
 
 }
