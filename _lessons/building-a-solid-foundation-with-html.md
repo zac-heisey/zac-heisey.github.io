@@ -162,7 +162,7 @@ What would the web be without cat pics and memes? Images make up a key component
 
 ```html
 <!-- We add images to HTML documents with the <img> tag -->
-<img src="/images/mountains.jpg" alt="picture of mountains">
+<img src="/assets/images/mountains.jpg" alt="picture of mountains">
 ```
 
 The `<img>` element has two required attributes:
