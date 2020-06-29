@@ -25,9 +25,9 @@ Outdoor advertisements (shops, metro stops, etc.) will be placed throughout Nail
 Users will be able to virtually navigate and explore the exterior, interior, seating areas, and pitch of Eco Park on match day. This advanced level of immersion and engagement will build excitement among FGR supporters and provide a more tangible, "real world" connection with Eco Park ahead of its construction. The progressive web app will also include features allowing users to reserve seating in various sections, access more information about Eco Park, and more.
 
 <!-- FGR Flows & Wireframes -->
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440722/zac-heisey.com/projects/fgr-flows.png" alt="User Flows for Forest Green Rovers FC" loading="lazy">
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593463622/zac-heisey.com/projects/fgr-flows.png" alt="User Flows for Forest Green Rovers FC" loading="lazy">
 
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440721/zac-heisey.com/projects/fgr-wireframes.png" alt="Wireframes for Forest Green Rovers FC" loading="lazy">
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593464879/zac-heisey.com/projects/fgr-wireframes.png" alt="Wireframes for Forest Green Rovers FC" loading="lazy">
 
 ## The Outcome
 
@@ -38,11 +38,6 @@ Two versions of outdoor advertisement mockups were created, along with several s
 A clickable prototype was also created based on the screen designs to show what a basic working demo of the AR experience might be like.
 
 <!-- FGR Mockups -->
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440722/zac-heisey.com/projects/fgr-outdoor-ads.png" alt="Outdoor Advert Mockups for Forest Green Rovers FC" loading="lazy">
-
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440722/zac-heisey.com/projects/fgr-ar-screens.png" alt="AR Screen Mockups for Forest Green Rovers FC" loading="lazy">
-
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440721/zac-heisey.com/projects/fgr-seating-screens.png" alt="Seating Screen Mockups for Forest Green Rovers FC" loading="lazy">
 
 <!-- FGR Protoype Embed -->
-<iframe class="prototype" style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYLrm3bWMm5QkeRBSL7EPSj%2FExperience-Match-Day-at-Eco-Park%3Fnode-id%3D27096%253A16%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen loading="lazy"></iframe>
+<iframe class="prototype" style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYLrm3bWMm5QkeRBSL7EPSj%2FExperience-Match-Day-at-Eco-Park%3Fnode-id%3D27096%253A16%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
