@@ -135,6 +135,7 @@ div.lock {
 .project {
 
   position: relative;
+  margin: 2rem 0;
 
 }
 
@@ -160,6 +161,16 @@ div.lock {
 .project .intro h2 {
 
   margin: 1rem 0;
+
+}
+
+@media ( min-width: 500px ) {
+
+  .prototype {
+
+    height: 700px;
+
+  }
 
 }
 
