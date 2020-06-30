@@ -28,8 +28,9 @@
 
     </div>
 
+    {% if page.url == "/" %}
     <!-- Netlify CMS Snippet -->
-    <script>
+    <script async defer>
 
       if (window.netlifyIdentity) {
 
@@ -44,6 +45,7 @@
       }
 
     </script>
+    {% endif %}
 
   </body>
 

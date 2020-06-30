@@ -43,5 +43,5 @@ Two versions of outdoor advertisements were created, along with several screens 
 
 A clickable prototype was also created to demonstrate what a basic version of the Match Day AR experience might be like.
 
-<!-- FGR Protoype Embed -->
-<iframe class="prototype" style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYLrm3bWMm5QkeRBSL7EPSj%2FExperience-Match-Day-at-Eco-Park%3Fnode-id%3D27096%253A16%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+<!-- FGR Protoype link -->
+<a href="https://www.figma.com/proto/YLrm3bWMm5QkeRBSL7EPSj/Experience-Match-Day-at-Eco-Park?node-id=27096%3A16&scaling=scale-down" rel="noopener noreferrer" target="_blank">View Project</a>

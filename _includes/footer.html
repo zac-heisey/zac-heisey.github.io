@@ -5,13 +5,22 @@
 		<img src="/assets/images/zh-logo.png" alt="zac heisey logo" id="footer-logo" loading="lazy">
 		© Zac Heisey <span id="date"></span> //
 		<a href="/sitemap">Sitemap</a> //
-		<a href="https://github.com/zac-heisey" target="_blank">GitHub</a> //
-	  <a href="https://twitter.com/zac_heisey" target="_blank">Twitter</a> //
+		<a href="https://github.com/zac-heisey" rel="noopener noreferrer" target="_blank">GitHub</a> //
+	  <a href="https://twitter.com/zac_heisey" rel="noopener noreferrer" target="_blank">Twitter</a> //
 		<a href="/blog/">Blog</a>
 
 	</section>
 
 	<!-- Scripts -->
-	<script src="{{ '/assets/js/main.js' | prepend: site.url }}"></script>
+	<script type="text/javascript">
+
+		// Update copyright year in footer
+		var dateEl = document.querySelector('#date');
+		var date = new Date();
+		var currentYear = date.getFullYear();
+
+		dateEl.innerText = currentYear;
+
+	</script>
 
 </footer>
