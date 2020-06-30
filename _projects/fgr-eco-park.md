@@ -2,7 +2,7 @@
 layout: default
 title: Forest Green Rovers FC
 sub-heading: Experience Match Day at the World's Greenest Football Stadium
-featured-img: https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1592860654/zac-heisey.com/projects/eco-park.png
+featured-img: https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1592860654/zac-heisey.com/projects/fgr-eco-park.png
 ---
 
 Forest Green Rovers FC (FGR) are considered to be the greenest football club in the world. Led by Chairman and "green energy" industrialist Dale Vince, the FGR became the first and only football club in the world to be 100% vegan. FGR is also the first club to be certified as carbon neutral by the United Nations.
@@ -24,20 +24,24 @@ Outdoor advertisements (shops, metro stops, etc.) will be placed throughout Nail
 
 Users will be able to virtually navigate and explore the exterior, interior, seating areas, and pitch of Eco Park on match day. This advanced level of immersion and engagement will build excitement among FGR supporters and provide a more tangible, "real world" connection with Eco Park ahead of its construction. The progressive web app will also include features allowing users to reserve seating in various sections, access more information about Eco Park, and more.
 
-<!-- FGR Flows & Wireframes -->
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593463622/zac-heisey.com/projects/fgr-flows.png" alt="User Flows for Forest Green Rovers FC" loading="lazy">
-
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593464879/zac-heisey.com/projects/fgr-wireframes.png" alt="Wireframes for Forest Green Rovers FC" loading="lazy">
-
 ## The Outcome
 
 Initial flows and wireframes were created to map out the user journey from initial engagement through to the AR experience of match day at Eco Park.
 
+<!-- FGR Flows & Wireframes -->
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593531785/zac-heisey.com/projects/fgr-flows.png" alt="User Flows for Forest Green Rovers FC" loading="lazy">
+
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750//v1593526822/zac-heisey.com/projects/fgr-wireframes.png" alt="Wireframes for Forest Green Rovers FC" loading="lazy">
+
 Two versions of outdoor advertisement mockups were created, along with several screens depicting the immersive, web-based AR experience that users would be able to navigate via smartphone.
 
-A clickable prototype was also created based on the screen designs to show what a basic working demo of the AR experience might be like.
+<!-- FGR Outdoor Ads -->
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593524636/zac-heisey.com/projects/fgr-outdoor-ads.png" alt="Outdoor Ad Mockups for Forest Green Rovers FC" loading="lazy">
 
-<!-- FGR Mockups -->
+<!-- FGR Screens -->
+<img style="background-color: #99cc3380" src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593524627/zac-heisey.com/projects/fgr-screens.png" alt="Screen Mockups for Forest Green Rovers FC" loading="lazy">
+
+A clickable prototype was also created based on the screen designs to show what a basic version of the Match Day AR experience might be like.
 
 <!-- FGR Protoype Embed -->
 <iframe class="prototype" style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYLrm3bWMm5QkeRBSL7EPSj%2FExperience-Match-Day-at-Eco-Park%3Fnode-id%3D27096%253A16%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
