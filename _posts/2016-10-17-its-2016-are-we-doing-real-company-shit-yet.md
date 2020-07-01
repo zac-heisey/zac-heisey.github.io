@@ -42,4 +42,4 @@ Digital marketers and SEOs, whatever you do, please - FOR THE LOVE OF GOD - stop
 
 I'll leave you with this short video of Wil giving us a nice overview of what RCS means in the context of his own company, [SEER Interactive](http://www.seerinteractive.com/).
 
-[RCS SEER VIDEO HERE] https://www.youtube.com/watch?v=u2Z8w8bATy8
+👉 [Check out Wil explaining RCS](https://www.youtube.com/watch?v=u2Z8w8bATy8)

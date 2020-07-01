@@ -38,7 +38,7 @@ Here are some specific ways that the marketing automation process can breakdown:
 
 - **Not Enough Leads** - Marketing automation is a middle-of-funnel strategy that requires a steady stream of leads to deliver results. Without a solid top-of-funnel strategy in place, your marketing automation process won't have the incoming leads necessary to support a healthy, effective lead nurturing program.
 
-![image of marketing and sales funnel stages](http://www.endocreative.com/wp-content/uploads/2016/02/HubSpot-Marketing-and-Sales-Funnel_Fotor.jpg "Marketing & Sales Funnel")
+![image of marketing and sales funnel stages](https://www.endocreative.com/wp-content/uploads/2016/02/HubSpot-Marketing-and-Sales-Funnel_Fotor.jpg "Marketing & Sales Funnel")
 `Image Source: Endocreative.com`
 
 - **Impatience** - It can take time to develop a steady flow of incoming leads, and the temptation to speed up the marketing automation process can cause some businesses to cut corners and buy lead lists. At best, these lists are tangentially relevant to your business, and more often than not, are nothing like your ideal customer.
