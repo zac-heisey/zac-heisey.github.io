@@ -2,7 +2,7 @@
 layout: default
 title: Experience Match Day at the World's Greenest Football Stadium
 client: Forest Green Rovers FC
-featured-img: https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1592860654/zac-heisey.com/projects/fgr-eco-park.png
+featured-img: fgr-eco-park.png
 ---
 
 Forest Green Rovers FC (FGR) are considered to be the greenest football club in the world. Led by Chairman and "green energy" industrialist Dale Vince, FGR became the first and only football club in the world to be 100% vegan. FGR is also the first club to be certified as carbon neutral by the United Nations.
