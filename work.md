@@ -28,6 +28,8 @@ FEATURED PROJECTS
 - IDF Fitness App (concept)
 - WYPR.org redesign (concept)
 - Re-Imagining Baltimore's Inner Harbor (concept)
+- Re-Imagining Baltimore's Highway to Nowhere (concept)
+- Turning Abondoned Row Homes into Community Spaces (concept)
 
 ORGS I'VE WORKED WITH (logos)
 ---
