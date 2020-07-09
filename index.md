@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-<h1 id="greetings">Hi, I'm Zac <span>👋</span></h1>
+# Hi, I'm Zac 🤙
 
 I help purpose-driven brands and organizations solve problems through strategy, design, and technology.
 

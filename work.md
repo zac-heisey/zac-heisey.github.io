@@ -7,7 +7,7 @@ layout: default
 
   <section class="project">
 
-    <img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/zac-heisey.com/projects/{{ project.featured-img }}" alt="{{ project.title }} featured image">
+    <img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/zac-heisey.com/projects/{{ project.featured-img }}" alt="{{ project.title }} featured image" width="750" height="30" loading="lazy">
 
     <div class="intro">
       <small>{{ project.client }}</small>

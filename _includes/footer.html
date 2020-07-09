@@ -2,7 +2,7 @@
 
 	<section id="copyright">
 
-		<img src="/assets/images/zh-logo.png" alt="zac heisey logo" id="footer-logo" loading="lazy">
+		<img src="/assets/images/zh-logo.png" alt="zac heisey logo" id="footer-logo" width="30" height="30" loading="lazy">
 		© Zac Heisey <span id="date"></span> //
 		<a href="/sitemap">Sitemap</a> //
 		<a href="https://github.com/zac-heisey" rel="noopener noreferrer" target="_blank">GitHub</a> //
@@ -15,10 +15,9 @@
 	<script type="text/javascript">
 
 		// Update copyright year in footer
-		var dateEl = document.querySelector('#date');
-		var date = new Date();
-		var currentYear = date.getFullYear();
-
+		let dateEl = document.querySelector( '#date' );
+		let date = new Date();
+		let currentYear = date.getFullYear();
 		dateEl.innerText = currentYear;
 
 	</script>

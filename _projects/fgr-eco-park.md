@@ -16,7 +16,7 @@ Delays and setbacks in the approval process for Eco Park have led to waning enth
 FGR is looking for way to revitalize excitement and provide a useful reference guide for the new stadium in order to build support among fans and the local community ahead of an anticipated 2022 opening of Eco Park.
 
 <!-- FGR Mood Board -->
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440724/zac-heisey.com/projects/fgr-mood-board.png" alt="Mood Board for Forest Green Rovers FC" loading="lazy">
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593440724/zac-heisey.com/projects/fgr-mood-board.png" alt="Mood Board for Forest Green Rovers FC" width="750" height="500" loading="lazy">
 
 ## The Concept
 
@@ -29,17 +29,17 @@ Users will be able to virtually navigate and explore the exterior, interior, sea
 Initial flows and wireframes were created to map out the user journey from initial engagement through the AR experience of match day at Eco Park.
 
 <!-- FGR Flows & Wireframes -->
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593531785/zac-heisey.com/projects/fgr-flows.png" alt="User Flows for Forest Green Rovers FC" loading="lazy">
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593531785/zac-heisey.com/projects/fgr-flows.png" alt="User Flows for Forest Green Rovers FC" width="750" height="894" loading="lazy">
 
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750//v1593526822/zac-heisey.com/projects/fgr-wireframes.png" alt="Wireframes for Forest Green Rovers FC" loading="lazy">
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750//v1593526822/zac-heisey.com/projects/fgr-wireframes.png" alt="Wireframes for Forest Green Rovers FC" width="750" height="910" loading="lazy">
 
 Two versions of outdoor advertisements were created, along with several screens depicting the immersive, web-based AR experience that users would be able to navigate via smartphone.
 
 <!-- FGR Outdoor Ads -->
-<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593524636/zac-heisey.com/projects/fgr-outdoor-ads.png" alt="Outdoor Ad Mockups for Forest Green Rovers FC" loading="lazy">
+<img src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593524636/zac-heisey.com/projects/fgr-outdoor-ads.png" alt="Outdoor Ad Mockups for Forest Green Rovers FC" width="750" height="518" loading="lazy">
 
 <!-- FGR Screens -->
-<img style="background-color: #99cc3380" src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593524627/zac-heisey.com/projects/fgr-screens.png" alt="Screen Mockups for Forest Green Rovers FC" loading="lazy">
+<img style="background-color: #99cc3380" src="https://res.cloudinary.com/zheisey/image/upload/c_scale,f_auto,q_auto,w_750/v1593524627/zac-heisey.com/projects/fgr-screens.png" alt="Screen Mockups for Forest Green Rovers FC" width="750" height="518" loading="lazy">
 
 A clickable prototype was also created to demonstrate what a basic version of the Match Day AR experience might be like.
 
