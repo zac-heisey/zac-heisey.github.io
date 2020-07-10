@@ -39,5 +39,6 @@ ORGS I'VE WORKED WITH (logos)
 - Rethink Baltimore
 - GA Ballet
 - Baltimore Green Space
+- AIMS
 
 -->
