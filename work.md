@@ -12,7 +12,7 @@ layout: default
     <div class="intro">
       <small>{{ project.client }}</small>
       <h2>{{ project.title }}</h2>
-      <a href="{{ project.url }}">View Project</a>
+      <a href="{{ project.url }}" onclick="gtag('event', 'click', { 'event_category' : 'button', 'event_label' : 'View Project'});">View Project</a>
     </div>
 
   </section>
