@@ -5,7 +5,7 @@ layout: default
 
 # Hi, I'm Zac 🤙
 
-I help purpose-driven brands and organizations solve problems through strategy, design, and technology.
+I help purpose-driven brands and organizations solve problems through strategy, design, and collaboration.
 
 <nav>
   <a href="/about/">About Me</a> //
